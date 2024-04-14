@@ -1,4 +1,4 @@
-from .login import login_to_cbsnooper_and_transfer_session
+from login.login import login_to_cbsnooper_and_transfer_session
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
@@ -62,6 +62,7 @@ def parse_data_requests_with_retry(session, url, max_retries=3, sleep_interval=1
 def parse_all_pages_requests(session, base_url, max_pages=3):
     all_products = pd.DataFrame()
     page_number = 1
+    pages_processed = 0  # Contador para as páginas processadas
     #while True:
     while page_number <= max_pages:
         current_url = f"{base_url}?page={page_number}"
@@ -71,6 +72,7 @@ def parse_all_pages_requests(session, base_url, max_pages=3):
             print(f"Nenhum produto encontrado na página {page_number}, terminando a extração.")
             break
         all_products = pd.concat([all_products, current_page_products], ignore_index=True)
+        pages_processed += 1
         page_number += 1
 
-    return all_products
+    return all_products, pages_processed
