@@ -12,6 +12,10 @@ app = Flask(__name__)
 session = login_to_cbsnooper_and_transfer_session()
 URL = "https://cbsnooper.com/reports/top-clickbank-products"
 
+@app.route('/', methods=['GET'])
+def index():
+    print("App Ninja Click")   
+
 @app.route('/scrape', methods=['GET'])
 def scrape_data():
     max_pages = request.args.get('max_pages', default=3, type=int)
