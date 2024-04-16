@@ -21,26 +21,26 @@ def scrape_data():
     max_pages = request.args.get('max_pages', default=3, type=int)
     
     def do_scrape():
-        global data, pages_processed
         try:
             data, pages_processed = parse_all_pages_requests(session, URL, max_pages=max_pages)
             print(f"Total de páginas processadas: {pages_processed}")
             print(f"Total de produtos extraídos: {len(data)}")
+            return data, pages_processed
         except Exception as e:
             print(f"Erro durante o scraping: {e}")
-            data = pd.DataFrame()
-            pages_processed = 0
+            return pd.DataFrame(), 0
 
     thread = Thread(target=do_scrape)
     thread.start()
     thread.join()
     
+    result_data, result_pages_processed = do_scrape()
     result = {
-        'data': data.to_dict(orient='records'),
-        'pages_processed': pages_processed,
-        'products_count': len(data)
+        'data': result_data.to_dict(orient='records'),
+        'pages_processed': result_pages_processed,
+        'products_count': len(result_data)
     }
     return jsonify(result)
 
 if __name__ == '__main__':
-    app.run
+    app.run()
