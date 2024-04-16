@@ -4,9 +4,6 @@ import pandas as pd
 import requests
 import time
 
-import sys
-import os
-
 URL = "https://cbsnooper.com/reports/top-clickbank-products"
 
 def extract_url_from_onclick(onclick_value):
@@ -58,12 +55,10 @@ def parse_data_requests_with_retry(session, url, max_retries=3, sleep_interval=1
     print("Todas as tentativas falharam.")
     return pd.DataFrame()
 
-#def parse_all_pages_requests(session, base_url):
 def parse_all_pages_requests(session, base_url, max_pages=3):
     all_products = pd.DataFrame()
     page_number = 1
     pages_processed = 0  # Contador para as páginas processadas
-    #while True:
     while page_number <= max_pages:
         current_url = f"{base_url}?page={page_number}"
         print(f"Processando página {page_number}...")
@@ -76,3 +71,13 @@ def parse_all_pages_requests(session, base_url, max_pages=3):
         page_number += 1
 
     return all_products, pages_processed
+
+# Realiza o login e obtém a sessão
+session = login_to_cbsnooper_and_transfer_session()
+
+# Extrai os dados das páginas
+if session:
+    products, pages_processed = parse_all_pages_requests(session, URL)
+    print(f"Extração concluída. {pages_processed} páginas processadas.")
+else:
+    print("Falha ao obter a sessão de login.")
