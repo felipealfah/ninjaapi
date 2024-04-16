@@ -3,8 +3,8 @@ from threading import Thread
 import pandas as pd
 
 # Importe o seu módulo de scraping
-from login.login1 import login_to_cbsnooper_and_transfer_session
-from scrape.scrape1 import parse_all_pages_requests  # Asumindo que seu código está em scraper.py
+from login.login import login_to_cbsnooper_and_transfer_session
+from scrape.scrape import parse_all_pages_requests  # Asumindo que seu código está em scraper.py
 
 app = Flask(__name__)
 

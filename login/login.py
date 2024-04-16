@@ -1,6 +1,7 @@
 import requests
 import json
 import time
+from requests.exceptions import ProxyError
 
 def login_to_cbsnooper_and_transfer_session():
     # Carrega as credenciais de um arquivo JSON
@@ -17,16 +18,27 @@ def login_to_cbsnooper_and_transfer_session():
         'password': password
     }
 
-    # Realiza o login usando uma sessão do requests
-    session = requests.Session()
-    response = session.post(login_url, data=login_data)
-
-    # Verifica se o login foi bem-sucedido
-    if response.status_code != 200 or "dashboard" not in response.url:
-        print("Erro durante o login.")
-        return None
+    # Tentativa de realizar o login usando uma sessão do requests
+    try:
+        session = requests.Session()
+        response = session.post(login_url, data=login_data)
+        
+        # Verifica se o login foi bem-sucedido
+        if response.status_code != 200 or "dashboard" not in response.url:
+            print("Erro durante o login.")
+            return None
+        
+        print("Login bem-sucedido!")
+        
+        # Retorna a sessão do requests
+        return session
     
-    print("Login bem-sucedido!")
+    except ProxyError as e:
+        # Lidar com erros de proxy aqui...
+        print("Erro de proxy: ", e)
+        # Exemplo de ação de recuperação, como tentar novamente após um atraso
+        time.sleep(10)  # Esperar 10 segundos antes de tentar novamente
+        return login_to_cbsnooper_and_transfer_session()  # Tentar a conexão novamente após o atraso
 
-    # Retorna a sessão do requests
-    return session
+# Exemplo de uso
+login_session = login_to_cbsnooper_and_transfer_session()
