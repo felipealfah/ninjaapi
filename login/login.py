@@ -9,6 +9,13 @@ import requests
 import json
 import time
 
+options = Options()
+options.add_argument("--headless")
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")  # Opcionalmente, adicione isso para evitar problemas em ambientes com recursos limitados
+
+browser = webdriver.Chrome(options=options)
+
 def login_to_cbsnooper_and_transfer_session(headless=True):
     # Carrega as credenciais de um arquivo JSON
     with open('credentials/secrets.json') as f:
