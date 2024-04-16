@@ -14,7 +14,7 @@ URL = "https://cbsnooper.com/reports/top-clickbank-products"
 
 @app.route('/', methods=['GET'])
 def index():
-    print("App Ninja Click")   
+    return "<h1>App Ninja Click</h1>" 
 
 @app.route('/scrape', methods=['GET'])
 def scrape_data():
