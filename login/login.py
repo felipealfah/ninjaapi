@@ -1,44 +1,55 @@
+# login.py
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import requests
 import json
 import time
-from requests.exceptions import ProxyError
 
-def login_to_cbsnooper_and_transfer_session():
+def login_to_cbsnooper_and_transfer_session(headless=True):
     # Carrega as credenciais de um arquivo JSON
     with open('credentials/secrets.json') as f:
         secrets = json.load(f)
     
-    login_url = secrets["CBSNOOPER_LOGIN_URL"]
-    email = secrets["CBSNOOPER_EMAIL"]
-    password = secrets["CBSNOOPER_PASSWORD"]
+    # Configurações do WebDriver
+    options = Options()
+    if headless:
+        options.add_argument("--headless")
+        options.add_argument("--disable-gpu")
+    options.add_argument("--window-size=1920,1080")
 
-    # Dados do formulário de login
-    login_data = {
-        'email': email,
-        'password': password
-    }
+    # Inicializa o WebDriver
+    browser = webdriver.Chrome(options=options)
+    browser.get(secrets["CBSNOOPER_LOGIN_URL"])
 
-    # Tentativa de realizar o login usando uma sessão do requests
-    try:
-        session = requests.Session()
-        response = session.post(login_url, data=login_data)
-        
-        # Verifica se o login foi bem-sucedido
-        if response.status_code != 200 or "dashboard" not in response.url:
-            print("Erro durante o login.")
-            return None
-        
-        print("Login bem-sucedido!")
-        
-        # Retorna a sessão do requests
-        return session
+    # Aguarda até que o campo de e-mail esteja disponível e realiza o login
+    WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, "email")))
+    browser.find_element(By.ID, "email").send_keys(secrets["CBSNOOPER_EMAIL"])
+    password_field = browser.find_element(By.ID, "password")
+    password_field.send_keys(secrets["CBSNOOPER_PASSWORD"])
+    password_field.send_keys(Keys.RETURN)
     
-    except ProxyError as e:
-        # Lidar com erros de proxy aqui...
-        print("Erro de proxy: ", e)
-        # Exemplo de ação de recuperação, como tentar novamente após um atraso
-        time.sleep(10)  # Esperar 10 segundos antes de tentar novamente
-        return login_to_cbsnooper_and_transfer_session()  # Tentar a conexão novamente após o atraso
+    # Aguarda um tempo para o login ser processado
+    time.sleep(5)
+    
+    # Verifica se o login foi bem-sucedido
+    if "dashboard" not in browser.current_url:
+        print("Erro durante o login.")
+        browser.quit()
+        return None
+    
+    print("Login bem-sucedido!")
 
-# Exemplo de uso
-login_session = login_to_cbsnooper_and_transfer_session()
+    # Inicializa uma sessão do requests e transfere os cookies
+    session = requests.Session()
+    for cookie in browser.get_cookies():
+        session.cookies.set(cookie['name'], cookie['value'], domain=cookie['domain'])
+
+    # Fecha o navegador
+    browser.quit()
+    
+    # Retorna a sessão do requests
+    return session

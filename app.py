@@ -2,15 +2,9 @@ from flask import Flask, jsonify, request
 from threading import Thread
 import pandas as pd
 
-# Importe o seu módulo de scraping
-from login.login import login_to_cbsnooper_and_transfer_session
-from scrape.scrape import parse_all_pages_requests  # Asumindo que seu código está em scraper.py
+URL = "https://cbsnooper.com/reports/top-clickbank-products"
 
 app = Flask(__name__)
-
-# Configuração do login (placeholder)
-session = login_to_cbsnooper_and_transfer_session()
-URL = "https://cbsnooper.com/reports/top-clickbank-products"
 
 @app.route('/', methods=['GET'])
 def index():
@@ -19,6 +13,13 @@ def index():
 @app.route('/scrape', methods=['GET'])
 def scrape_data():
     max_pages = request.args.get('max_pages', default=3, type=int)
+
+    # Importe o seu módulo de scraping
+    from login.login import login_to_cbsnooper_and_transfer_session
+    from scrape.scrape import parse_all_pages_requests  # Asumindo que seu código está em scraper.py
+
+    # Configuração do login (placeholder)
+    session = login_to_cbsnooper_and_transfer_session()
     
     def do_scrape():
         try:
@@ -43,4 +44,4 @@ def scrape_data():
     return jsonify(result)
 
 if __name__ == '__main__':
-    app.run()
+    app.run
