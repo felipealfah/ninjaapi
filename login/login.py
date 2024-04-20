@@ -17,7 +17,7 @@ def login_to_cbsnooper_and_transfer_session(headless=True):
         options.add_argument("--headless")
         options.add_argument("--disable-gpu")
         options.add_argument("--window-size=1920,1080")
-        chrome_driver_path = '/usr/bin/google-chrome/chromedriver'
+        chrome_driver_path = '/opt/google/chrome'
 
     browser = webdriver.Chrome(options=options)
     try:
