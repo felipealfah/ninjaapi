@@ -8,18 +8,26 @@ import requests
 import json
 import time
 
-def login_to_cbsnooper_and_transfer_session(headless=True):
+def login_to_cbsnooper_and_transfer_session(headless=True, grid_url = 'http://grid.fulled.com.br:4444/wd/hub'):
     with open('credentials/secrets.json') as f:
         secrets = json.load(f)
 
     options = Options()
     if headless:
-        options.add_argument("--headless")
-        options.add_argument("--disable-gpu")
-        options.add_argument("--window-size=1920,1080")
-        chrome_driver_path = '/opt/google/chrome'
+        options.add_argument("--headless")  # Roda em modo headless
+        options.add_argument("--no-sandbox")  # Bypass OS security model
+        options.add_argument("--disable-gpu")  # Desativa o GPU
+        options.add_argument("--disable-dev-shm-usage")  # Supera limitações de recursos
+        options.add_argument("--remote-debugging-port=9222")
+    
+    # Configuração para conectar ao Selenium Grid
+    options.set_capability("browserName", "chrome")
 
-    browser = webdriver.Chrome(options=options)
+    browser = webdriver.Remote(
+        command_executor=grid_url,
+        options=options  # Utiliza 'options' ao invés de 'desired_capabilities'
+    )
+
     try:
         browser.get(secrets["CBSNOOPER_LOGIN_URL"])
         WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, "email")))
@@ -41,4 +49,3 @@ def login_to_cbsnooper_and_transfer_session(headless=True):
         return None
     finally:
         browser.quit()
-
