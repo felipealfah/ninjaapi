@@ -6,7 +6,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import requests
 import json
-import time
 
 def login_to_cbsnooper_and_transfer_session(headless=True, grid_url = 'http://api.fulled.com.br:4444/wd/hub'):
     with open('credentials/secrets.json') as f:
@@ -49,3 +48,5 @@ def login_to_cbsnooper_and_transfer_session(headless=True, grid_url = 'http://ap
         return None
     finally:
         browser.quit()
+
+#v1.2

@@ -38,3 +38,5 @@ ENV FLASK_RUN_PORT 80
 
 # Command to start the application using Gunicorn on port 80
 CMD ["gunicorn", "-b", "0.0.0.0:80", "app:app"]
+
+#v1.2

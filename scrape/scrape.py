@@ -77,7 +77,6 @@ def parse_all_pages_requests(session, base_url, max_pages=3):
 
     return all_products, pages_processed
 
-# O código abaixo pode ser removido ou comentado se o script for chamado/importado de outro lugar
 # Realiza o login e obtém a sessão
 session = login_to_cbsnooper_and_transfer_session()
 if session:
@@ -85,3 +84,5 @@ if session:
     print(f"Extração concluída. {pages_processed} páginas processadas.")
 else:
     print("Falha ao obter a sessão de login.")
+
+#v1.2
