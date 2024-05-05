@@ -1,45 +1,36 @@
 # app.py
-from flask import Flask, jsonify, request
-import pandas as pd
-from threading import Thread
-from queue import Queue
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+import httpx
+from login.login import async_login_to_cbsnooper_and_transfer_session
+from scrape.scrape import parse_all_pages_requests
 
-app = Flask(__name__)
+app = FastAPI()
 URL = "https://cbsnooper.com/reports/top-clickbank-products"
 
-@app.route('/', methods=['GET'])
-def index():
-    return "<h1>App Ninja Click</h1>"
+class ScrapeResult(BaseModel):
+    data: list
+    pages_processed: int
+    products_count: int
 
-def scrape_in_background(session, URL, queue):
-    from scrape.scrape import parse_all_pages_requests
-    try:
-        data, pages_processed = parse_all_pages_requests(session, URL)
-        print(f"Total de páginas processadas: {pages_processed}")
-        print(f"Total de produtos extraídos: {len(data)}")
-        queue.put((data, pages_processed))
-    except Exception as e:
-        print(f"Erro durante o scraping: {e}")
-        queue.put((pd.DataFrame(), 0))
+@app.get("/", response_model=str)
+async def index():
+    return "<h1>Welcome to the Scrape Ninja App</h1>"
 
-@app.route('/scrape', methods=['GET'])
-def scrape_data():
-    from login.login import login_to_cbsnooper_and_transfer_session
-    
-    session = login_to_cbsnooper_and_transfer_session()
-    
-    result_queue = Queue()
-    thread = Thread(target=scrape_in_background, args=(session, URL, result_queue))
-    thread.start()
-    thread.join()  # This will wait for the thread to complete
-    
-    data, pages_processed = result_queue.get()  # Get the result from the queue
-    result = {
-        'data': data.to_dict(orient='records'),
-        'pages_processed': pages_processed,
-        'products_count': len(data)
-    }
-    return jsonify(result)
+@app.get("/scrape", response_model=ScrapeResult)
+async def scrape_data():
+    client = await async_login_to_cbsnooper_and_transfer_session()
+    if client is None:
+        raise HTTPException(status_code=401, detail="Login failed")
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    data, pages_processed = await parse_all_pages_requests(client, URL)
+    result = ScrapeResult(
+        data=data,
+        pages_processed=pages_processed,
+        products_count=len(data)
+    )
+    return result
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("app:app", host="0.0.0.0", port=8080)

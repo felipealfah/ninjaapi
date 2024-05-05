@@ -1,16 +1,13 @@
 # Use an official Python runtime as a parent image
-FROM python:3.10.12
+FROM python:3.10.12-slim
 
 # Set the working directory in the container
 WORKDIR /ninja
 
-# Copy the current directory contents into the container at /ninja
-COPY . /ninja
+# Copy only the necessary dependency specifications
+COPY requirements.txt /ninja/
 
-# Create a directory for logs, if necessary
-RUN mkdir __logger
-
-# Install necessary system utilities and libraries
+# Install any needed packages specified in requirements.txt
 RUN apt-get update && apt-get install -y \
     wget \
     unzip \
@@ -19,24 +16,25 @@ RUN apt-get update && apt-get install -y \
     libgconf-2-4 \
     libfontconfig1 \
     xvfb \
+    && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
+    && dpkg -i google-chrome-stable_current_amd64.deb || apt-get install -f -y \
+    && wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip \
+    && unzip chromedriver_linux64.zip -d /usr/local/bin/ \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean
 
-# Configuration of environment variables for headless operation
-ENV DISPLAY=:99
-
 # Upgrade pip and install required Python packages
 RUN pip install --upgrade pip \
-    && pip install -r requirements.txt \
-    && pip install gunicorn
+    && pip install -r requirements.txt
 
 # Expose port 80 to the host machine for external access
 EXPOSE 80
 
-# Define environment variable to specify the port Flask should listen on
-ENV FLASK_RUN_PORT 80
+# Define environment variable to specify the port FastAPI should listen on
+ENV PORT 80
 
-# Command to start the application using Gunicorn on port 80
-CMD ["gunicorn", "-b", "0.0.0.0:80", "app:app"]
+# Copy the rest of your application's code
+COPY . /ninja
 
-#v1.2
+# Command to start the application using Gunicorn on port 80 with Uvicorn workers
+CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "-b", ":80", "app:app"]
