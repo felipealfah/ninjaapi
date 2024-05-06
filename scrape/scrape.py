@@ -1,24 +1,38 @@
-# scrape/scrape.py
+import asyncio
 from bs4 import BeautifulSoup
 import httpx
-import asyncio
 import random
+import json
+from datetime import datetime
 import logging
-from logging_utils import setup_logging
+
+# URL base para scraping
+URL = "https://cbsnooper.com/reports/top-clickbank-products"
+
+# Configuração de Logging
+def setup_logging():
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
 
 setup_logging()
 
+# Função para extrair URL de onclick
 async def extract_url_from_onclick(onclick_value):
     start = onclick_value.find("('") + 2
     end = onclick_value.find("',", start)
     return onclick_value[start:end]
 
+# Função para implementar backoff exponencial com jitter
 def exponential_backoff_with_jitter(attempt, max_delay=60):
     base = 2 ** attempt
-    jitter = random.uniform(0, 1) * base * 0.1  # 10% jitter
+    jitter = random.uniform(0, 1) * base * 0.1
     delay = min(max_delay, base + jitter)
     return delay
 
+# Função para parsear dados da página com retries
 async def parse_data_requests_with_retry(client, url, max_retries=3):
     products = []
     for attempt in range(max_retries):
@@ -49,6 +63,7 @@ async def parse_data_requests_with_retry(client, url, max_retries=3):
                     }
                     products.append(product)
             if products:
+                logging.info(f"Produtos coletados da página {url}.")
                 return products
             else:
                 logging.info(f"Nenhum produto encontrado na página {url}.")
@@ -60,3 +75,41 @@ async def parse_data_requests_with_retry(client, url, max_retries=3):
             await asyncio.sleep(exponential_backoff_with_jitter(attempt))
     logging.warning("Todas as tentativas falharam.")
     return []
+
+# Função para extrair todos os produtos de todas as páginas
+async def parse_all_pages_requests(client, base_url):
+    all_products = []
+    page_number = 1
+    while True:
+        current_url = f"{base_url}?page={page_number}"
+        print(f"Processando página {page_number}...")
+        products = await parse_data_requests_with_retry(client, current_url)
+        if not products:
+            print(f"Nenhum produto encontrado na página {page_number}, terminando a extração.")
+            break
+        all_products.extend(products)
+        page_number += 1
+    return all_products
+
+# Função para salvar produtos em JSON
+def save_to_json(products, filename="resultado_scrape.json"):
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    data_with_timestamp = {
+        "generated_on": current_time,
+        "products": products
+    }
+    with open(filename, 'w') as f:
+        json.dump(data_with_timestamp, f, indent=4)
+        logging.info(f"Dados salvos com sucesso em {filename}")
+
+# Execução principal para teste
+async def main():
+    async with httpx.AsyncClient() as client:
+        products = await parse_all_pages_requests(client, URL, max_pages=5)  # Ajuste o número de páginas conforme necessário
+        if products:
+            save_to_json(products)
+        else:
+            logging.info("Nenhum produto foi encontrado para salvar.")
+
+if __name__ == "__main__":
+    asyncio.run(main())

@@ -1,35 +1,20 @@
-# app.py
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-import httpx
-from login.login import async_login_to_cbsnooper_and_transfer_session
-from scrape.scrape import parse_all_pages_requests
+from fastapi import FastAPI, HTTPException, Response
+import os
 
 app = FastAPI()
-URL = "https://cbsnooper.com/reports/top-clickbank-products"
 
-class ScrapeResult(BaseModel):
-    data: list
-    pages_processed: int
-    products_count: int
 
 @app.get("/", response_model=str)
 async def index():
     return "<h1>Welcome to the Scrape Ninja App</h1>"
 
-@app.get("/scrape", response_model=ScrapeResult)
-async def scrape_data():
-    client = await async_login_to_cbsnooper_and_transfer_session()
-    if client is None:
-        raise HTTPException(status_code=401, detail="Login failed")
-
-    data, pages_processed = await parse_all_pages_requests(client, URL)
-    result = ScrapeResult(
-        data=data,
-        pages_processed=pages_processed,
-        products_count=len(data)
-    )
-    return result
+@app.get("/results")
+async def get_scrape_results():
+    try:
+        with open("scrape/resultado_scrape.json", 'r') as f:
+            return Response(content=f.read(), media_type="application/json")
+    except FileNotFoundError:
+        raise HTTPException(status_code=404, detail="Resultado JSON não encontrado.")
 
 if __name__ == "__main__":
     import uvicorn
