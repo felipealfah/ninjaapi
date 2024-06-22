@@ -6,33 +6,23 @@ WORKDIR /ninja
 
 # Install necessary system utilities and libraries
 RUN apt-get update && apt-get install -y \
-    wget \
-    unzip \
-    libglib2.0-0 \
-    libnss3 \
-    libgconf-2-4 \
-    libfontconfig1 \
-    xvfb \
+    cron \
+    tzdata \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Configuration of environment variables for headless operation
-ENV DISPLAY=:99
+# Copy scripts into the container
+COPY cron-jobs /etc/cron.d/cron-jobs
+COPY diario.py semanal.py quinzenal.py ./
+COPY etl ./etl
 
-# Copy only the requirements file and install Python dependencies
-COPY requirements.txt ./
-RUN pip install --no-cache-dir --upgrade pip \
-    && pip install --no-cache-dir -r requirements.txt \
-    && pip install --no-cache-dir gunicorn uvicorn
+# Install Python dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of your application's code
-COPY . .
+# Add cron jobs
+RUN chmod 0644 /etc/cron.d/cron-jobs
+RUN crontab /etc/cron.d/cron-jobs
 
-# Expose port 80 to the host machine for external access
-EXPOSE 80
-
-# Define environment variable
-ENV PORT 80
-
-# Command to start the application using Gunicorn on port 80
-CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "-b", "0.0.0.0:80", "app:app"]
+# Start cron service
+CMD ["cron", "-f"]
