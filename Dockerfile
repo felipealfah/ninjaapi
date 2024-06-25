@@ -11,8 +11,10 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy scripts into the container
+# Copy cron job definition into the container
 COPY cron-jobs /etc/cron.d/cron-jobs
+
+# Copy Python scripts and ETL directory into the container
 COPY diario.py semanal.py quinzenal.py ./
 COPY etl ./etl
 
