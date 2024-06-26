@@ -12,8 +12,8 @@ def run_script(script_path):
 
 def main():
     # Absolute paths to the scripts
-    extracao_script = '/app/etl/extracao/diario/cb_scrape.py'
-    trans_insert_script = '/app/etl/trans_insert/diario/trans_cb_diario.py'
+    extracao_script = '/ninja/etl/extracao/diario/cb_scrape.py'
+    trans_insert_script = '/ninja/etl/trans_insert/diario/trans_cb_diario.py'
 
     # Execute the extraction script
     run_script(extracao_script)

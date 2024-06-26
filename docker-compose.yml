@@ -2,7 +2,7 @@ version: '3.0 etl'
 
 services:
   ninjaapi:
-    image: felipealfah/ninjaetl3.4
+    image: fulled/ninjaetl3.4.1
     ports:
       - "80:80"
     depends_on:

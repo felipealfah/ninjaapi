@@ -12,9 +12,9 @@ def run_script(script_path):
 
 def main():
     # Absolute paths to the scripts
-    scrape_url_script = '/app/etl/extracao/semanal/scrape_url.py'
-    trans_url_final_script = '/app/etl/trans_insert/semanal/trans_url_final.py'
-    insert_url_final_script = '/app/etl/trans_insert/semanal/insert_url_final.py'
+    scrape_url_script = '/ninja/etl/extracao/semanal/scrape_url.py'
+    trans_url_final_script = '/ninja/etl/trans_insert/semanal/trans_url_final.py'
+    insert_url_final_script = '/ninja/etl/trans_insert/semanal/insert_url_final.py'
 
     # Execute the scripts sequentially
     run_script(scrape_url_script)

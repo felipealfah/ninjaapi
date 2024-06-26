@@ -12,8 +12,8 @@ def run_script(script_path):
 
 def main():
     # Absolute paths to the scripts
-    trans_trafego_script = '/app/etl/trans_insert/quinzenal/trans_trafego.py'
-    insert_trafego_script = '/app/etl/trans_insert/quinzenal/insert_trafego.py'
+    trans_trafego_script = '/ninja/etl/trans_insert/quinzenal/trans_trafego.py'
+    insert_trafego_script = '/ninja/etl/trans_insert/quinzenal/insert_trafego.py'
 
     # Execute the scripts sequentially
     run_script(trans_trafego_script)
