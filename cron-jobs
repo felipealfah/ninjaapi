@@ -1,0 +1,8 @@
+# Diário - 15:00 todos os dias
+0 15 * * * /usr/local/bin/python3 /ninja/diario.py >> /var/log/cron.log 2>&1
+
+# Semanal - 16:00 toda sexta-feira
+0 16 * * 5 /usr/local/bin/python3 /ninja/semanal.py >> /var/log/cron.log 2>&1
+
+# Quinzenal - 17:00 todo dia 01 e todo dia 15 de cada mês
+0 17 1,15 * * /usr/local/bin/python3 /ninja/quinzenal.py >> /var/log/cron.log 2>&1

@@ -1,0 +1,2367 @@
+[
+    {
+        "nome_produto": "GUTWELL",
+        "url_produto": "https://cbsnooper.com/products/GUTWELL",
+        "url_afiliado": "https://info.stenglergutwellness.com/affiliate-information"
+    },
+    {
+        "nome_produto": "LIVPURE",
+        "url_produto": "https://cbsnooper.com/products/LIVPURE",
+        "url_afiliado": "https://liv-pure.co/affiliates"
+    },
+    {
+        "nome_produto": "SUMATONIC",
+        "url_produto": "https://cbsnooper.com/products/SUMATONIC",
+        "url_afiliado": "https://sumatratonic.com/affiliates/"
+    },
+    {
+        "nome_produto": "RENEW",
+        "url_produto": "https://cbsnooper.com/products/RENEW",
+        "url_afiliado": "https://www.saltwatertrick.com/affiliates"
+    },
+    {
+        "nome_produto": "JOINTGEN",
+        "url_produto": "https://cbsnooper.com/products/JOINTGEN",
+        "url_afiliado": "https://jointgenesis.com/affiliates"
+    },
+    {
+        "nome_produto": "BALMOREX",
+        "url_produto": "https://cbsnooper.com/products/BALMOREX",
+        "url_afiliado": "https://balmorex.pro/affiliates/"
+    },
+    {
+        "nome_produto": "LEANBIOME",
+        "url_produto": "https://cbsnooper.com/products/LEANBIOME",
+        "url_afiliado": "https://bestleanlife.com/affiliates/"
+    },
+    {
+        "nome_produto": "QUIETPLUS",
+        "url_produto": "https://cbsnooper.com/products/QUIETPLUS",
+        "url_afiliado": "https://quietumplus.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "LBJUICE",
+        "url_produto": "https://cbsnooper.com/products/LBJUICE",
+        "url_afiliado": "https://theikariajuice.com/affiliates"
+    },
+    {
+        "nome_produto": "LBTONIC",
+        "url_produto": "https://cbsnooper.com/products/LBTONIC",
+        "url_afiliado": "https://leanbodytonic.com/affiliates"
+    },
+    {
+        "nome_produto": "NEUROTHRIV",
+        "url_produto": "https://cbsnooper.com/products/NEUROTHRIV",
+        "url_afiliado": "https://neurothrive.org/partners"
+    },
+    {
+        "nome_produto": "DENTICORE",
+        "url_produto": "https://cbsnooper.com/products/DENTICORE",
+        "url_afiliado": "https://getdenticore.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "DANNYG",
+        "url_produto": "https://cbsnooper.com/products/DANNYG",
+        "url_afiliado": "http://www.agelessknees.com/partners"
+    },
+    {
+        "nome_produto": "SEROLEAN",
+        "url_produto": "https://cbsnooper.com/products/SEROLEAN",
+        "url_afiliado": "https://serolean.com/affiliates"
+    },
+    {
+        "nome_produto": "PRONAILCOM",
+        "url_produto": "https://cbsnooper.com/products/PRONAILCOM",
+        "url_afiliado": "https://pronailcomplex.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "ALPHATONIC",
+        "url_produto": "https://cbsnooper.com/products/ALPHATONIC",
+        "url_afiliado": "https://thealphatonic.com/affiliates"
+    },
+    {
+        "nome_produto": "ALPILEAN",
+        "url_produto": "https://cbsnooper.com/products/ALPILEAN",
+        "url_afiliado": "https://alpilean.com/affiliates/"
+    },
+    {
+        "nome_produto": "GLUCOBERRY",
+        "url_produto": "https://cbsnooper.com/products/GLUCOBERRY",
+        "url_afiliado": "https://bloodsugarberry.com/affiliates/"
+    },
+    {
+        "nome_produto": "ALLSLIMTEA",
+        "url_produto": "https://cbsnooper.com/products/ALLSLIMTEA",
+        "url_afiliado": "https://allslimmingherbs.com/aff"
+    },
+    {
+        "nome_produto": "ZENEARA",
+        "url_produto": "https://cbsnooper.com/products/ZENEARA",
+        "url_afiliado": "https://zeneara.com/affiliate/index.php"
+    },
+    {
+        "nome_produto": "ALEXPFS",
+        "url_produto": "https://cbsnooper.com/products/ALEXPFS",
+        "url_afiliado": "https://upperbodystretch.com/affiliates"
+    },
+    {
+        "nome_produto": "TEABURN",
+        "url_produto": "https://cbsnooper.com/products/TEABURN",
+        "url_afiliado": "https://teaburn.com/affiliates"
+    },
+    {
+        "nome_produto": "GLUCO6",
+        "url_produto": "https://cbsnooper.com/products/GLUCO6",
+        "url_afiliado": "https://gluco6.com/affiliates"
+    },
+    {
+        "nome_produto": "BTLIFE",
+        "url_produto": "https://cbsnooper.com/products/BTLIFE",
+        "url_afiliado": "http://www.erasemybackpain.com/affiliates"
+    },
+    {
+        "nome_produto": "SLIMCRYSTA",
+        "url_produto": "https://cbsnooper.com/products/SLIMCRYSTA",
+        "url_afiliado": "https://slimcrystal.com/aff"
+    },
+    {
+        "nome_produto": "CRITICALB",
+        "url_produto": "https://cbsnooper.com/products/CRITICALB",
+        "url_afiliado": "https://neurobalancetherapy.org/partners"
+    },
+    {
+        "nome_produto": "ERECPRIME",
+        "url_produto": "https://cbsnooper.com/products/ERECPRIME",
+        "url_afiliado": "https://skyhighperform.com/pirates-of-the-caribbean/"
+    },
+    {
+        "nome_produto": "T1KUSLIK",
+        "url_produto": "https://cbsnooper.com/products/T1KUSLIK",
+        "url_afiliado": "https://www.feelgoodknees.com/affiliatepage"
+    },
+    {
+        "nome_produto": "NEUROZOOM",
+        "url_produto": "https://cbsnooper.com/products/NEUROZOOM",
+        "url_afiliado": "https://getneurozoom.com/affiliates/"
+    },
+    {
+        "nome_produto": "PROVADENT",
+        "url_produto": "https://cbsnooper.com/products/PROVADENT",
+        "url_afiliado": "https://sevenlionsmedia.com/theriseofthetrio-contest/"
+    },
+    {
+        "nome_produto": "BIOVANISH",
+        "url_produto": "https://cbsnooper.com/products/BIOVANISH",
+        "url_afiliado": "https://leanloophole.com/affiliates"
+    },
+    {
+        "nome_produto": "TEXTNECK",
+        "url_produto": "https://cbsnooper.com/products/TEXTNECK",
+        "url_afiliado": "http://www.forwardheadposturefix.com/partners"
+    },
+    {
+        "nome_produto": "PAWBIOTIX",
+        "url_produto": "https://cbsnooper.com/products/PAWBIOTIX",
+        "url_afiliado": "https://getpawbiotix.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "SSALT",
+        "url_produto": "https://cbsnooper.com/products/SSALT",
+        "url_afiliado": "https://spiritualsalt.co/affiliates/"
+    },
+    {
+        "nome_produto": "BZPRL",
+        "url_produto": "https://cbsnooper.com/products/BZPRL",
+        "url_afiliado": "https://bazopril.com/affiliates"
+    },
+    {
+        "nome_produto": "NEUROPURE",
+        "url_produto": "https://cbsnooper.com/products/NEUROPURE",
+        "url_afiliado": "https://neuropathyhealth101.com/affiliate-enter-np-cb"
+    },
+    {
+        "nome_produto": "BOOKOFREN",
+        "url_produto": "https://cbsnooper.com/products/BOOKOFREN",
+        "url_afiliado": "https://medicinalkit.com/affiliates/"
+    },
+    {
+        "nome_produto": "IMMORTOLO1",
+        "url_produto": "https://cbsnooper.com/products/IMMORTOLO1",
+        "url_afiliado": "http://immortology.org/affiliates"
+    },
+    {
+        "nome_produto": "CLARITOX",
+        "url_produto": "https://cbsnooper.com/products/CLARITOX",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "FIBERFIX",
+        "url_produto": "https://cbsnooper.com/products/FIBERFIX",
+        "url_afiliado": "https://vita.everflowclient.io/affiliate/signup/?q=2LD55X3"
+    },
+    {
+        "nome_produto": "PAINFIX",
+        "url_produto": "https://cbsnooper.com/products/PAINFIX",
+        "url_afiliado": "https://www.unlockmyhips.com/partners"
+    },
+    {
+        "nome_produto": "FBTONIC",
+        "url_produto": "https://cbsnooper.com/products/FBTONIC",
+        "url_afiliado": "http://okinawatonic.co/affiliates/"
+    },
+    {
+        "nome_produto": "LISTENBODY",
+        "url_produto": "https://cbsnooper.com/products/LISTENBODY",
+        "url_afiliado": "https://www.backpainreversed.com/affiliates"
+    },
+    {
+        "nome_produto": "RESURGE",
+        "url_produto": "https://cbsnooper.com/products/RESURGE",
+        "url_afiliado": "https://resurge.com/affiliates"
+    },
+    {
+        "nome_produto": "LOSTREC",
+        "url_produto": "https://cbsnooper.com/products/LOSTREC",
+        "url_afiliado": "http://www.thelostsurvivalfoods.com/affiliates"
+    },
+    {
+        "nome_produto": "AMYLGUARD",
+        "url_produto": "https://cbsnooper.com/products/AMYLGUARD",
+        "url_afiliado": "https://amylguard.com/affiliate/index.php"
+    },
+    {
+        "nome_produto": "LEANBLISS",
+        "url_produto": "https://cbsnooper.com/products/LEANBLISS",
+        "url_afiliado": "https://getleanbliss.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "HOMEDOC",
+        "url_produto": "https://cbsnooper.com/products/HOMEDOC",
+        "url_afiliado": "https://homedoctorguide.com/affiliates/"
+    },
+    {
+        "nome_produto": "D2FREE",
+        "url_produto": "https://cbsnooper.com/products/D2FREE",
+        "url_afiliado": "https://diabetesfreedom.org/affiliates/"
+    },
+    {
+        "nome_produto": "TITANFLOW",
+        "url_produto": "https://cbsnooper.com/products/TITANFLOW",
+        "url_afiliado": "https://prostaterevealed.com/affiliates/"
+    },
+    {
+        "nome_produto": "CLUBHOUSEX",
+        "url_produto": "https://cbsnooper.com/products/CLUBHOUSEX",
+        "url_afiliado": "https://clubhousesupplements.com/wood-affiliate-center/"
+    },
+    {
+        "nome_produto": "MIKEGEARY1",
+        "url_produto": "https://cbsnooper.com/products/MIKEGEARY1",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "SEPTIFIX",
+        "url_produto": "https://cbsnooper.com/products/SEPTIFIX",
+        "url_afiliado": "https://septifix.com/aff"
+    },
+    {
+        "nome_produto": "CODESTINY",
+        "url_produto": "https://cbsnooper.com/products/CODESTINY",
+        "url_afiliado": "https://callofdestiny.org/affiliates"
+    },
+    {
+        "nome_produto": "DMSUPPS",
+        "url_produto": "https://cbsnooper.com/products/DMSUPPS",
+        "url_afiliado": "https://thefitrise.com/aff/affiliatesignup-cacaobliss/"
+    },
+    {
+        "nome_produto": "PROSTABIO",
+        "url_produto": "https://cbsnooper.com/products/PROSTABIO",
+        "url_afiliado": "https://prostabiome.com/affiliates"
+    },
+    {
+        "nome_produto": "AUTHNUMER",
+        "url_produto": "https://cbsnooper.com/products/AUTHNUMER",
+        "url_afiliado": "https://docs.google.com/document/d/1jjvI_nf566tqdhFRLtRUbAPu9uZxVlBWGdalnY0Zd58/edit"
+    },
+    {
+        "nome_produto": "AMICLEAR",
+        "url_produto": "https://cbsnooper.com/products/AMICLEAR",
+        "url_afiliado": "https://tryamiclear.com/aff/"
+    },
+    {
+        "nome_produto": "3RDEYECODE",
+        "url_produto": "https://cbsnooper.com/products/3RDEYECODE",
+        "url_afiliado": "https://spiritualoffers.com/offers/3rdeyecode"
+    },
+    {
+        "nome_produto": "NERVOGEN",
+        "url_produto": "https://cbsnooper.com/products/NERVOGEN",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "1KETO",
+        "url_produto": "https://cbsnooper.com/products/1KETO",
+        "url_afiliado": "https://affiliates.ckd.media"
+    },
+    {
+        "nome_produto": "COGNICARE",
+        "url_produto": "https://cbsnooper.com/products/COGNICARE",
+        "url_afiliado": "https://cognicarepro.com/info/affiliates.html"
+    },
+    {
+        "nome_produto": "ALEXFVB",
+        "url_produto": "https://cbsnooper.com/products/ALEXFVB",
+        "url_afiliado": "https://fvblueprint.com/affiliates"
+    },
+    {
+        "nome_produto": "DVNLOCKS",
+        "url_produto": "https://cbsnooper.com/products/DVNLOCKS",
+        "url_afiliado": "https://www.trydivinelocks.com/affiliates-cb"
+    },
+    {
+        "nome_produto": "ALPHASUPPS",
+        "url_produto": "https://cbsnooper.com/products/ALPHASUPPS",
+        "url_afiliado": "https://organichealthremedies.co/affiliates/"
+    },
+    {
+        "nome_produto": "REVIVE",
+        "url_produto": "https://cbsnooper.com/products/REVIVE",
+        "url_afiliado": "https://revive-daily.net/affiliates"
+    },
+    {
+        "nome_produto": "ULTRAK9PRO",
+        "url_produto": "https://cbsnooper.com/products/ULTRAK9PRO",
+        "url_afiliado": "https://ultrak9pro.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "TUPITEA",
+        "url_produto": "https://cbsnooper.com/products/TUPITEA",
+        "url_afiliado": "https://gettupitea.com/affiliates.php"
+    },
+    {
+        "nome_produto": "HONEYBURN",
+        "url_produto": "https://cbsnooper.com/products/HONEYBURN",
+        "url_afiliado": "https://honeyburn.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "PROMINDC",
+        "url_produto": "https://cbsnooper.com/products/PROMINDC",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "SCIENCEGEN",
+        "url_produto": "https://cbsnooper.com/products/SCIENCEGEN",
+        "url_afiliado": "https://visionbreakthrough.com/aff"
+    },
+    {
+        "nome_produto": "KERAVITA",
+        "url_produto": "https://cbsnooper.com/products/KERAVITA",
+        "url_afiliado": "https://getkeravitapro101.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "TESTOGREEN",
+        "url_produto": "https://cbsnooper.com/products/TESTOGREEN",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "POWERBITE",
+        "url_produto": "https://cbsnooper.com/products/POWERBITE",
+        "url_afiliado": "https://getpowerbite.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "MYGLUTES",
+        "url_produto": "https://cbsnooper.com/products/MYGLUTES",
+        "url_afiliado": "https://www.unlockmyglutes.com/partners"
+    },
+    {
+        "nome_produto": "PART2SUC",
+        "url_produto": "https://cbsnooper.com/products/PART2SUC",
+        "url_afiliado": "https://jvwithjohn.com/p2s/"
+    },
+    {
+        "nome_produto": "MANIFMAGIC",
+        "url_produto": "https://cbsnooper.com/products/MANIFMAGIC",
+        "url_afiliado": "https://manifestationmagic.com/affiliate"
+    },
+    {
+        "nome_produto": "EMPOWEREDH",
+        "url_produto": "https://cbsnooper.com/products/EMPOWEREDH",
+        "url_afiliado": "https://www.rx.beatkidneydisease.com/affiliates/"
+    },
+    {
+        "nome_produto": "PROTOFLOW",
+        "url_produto": "https://cbsnooper.com/products/PROTOFLOW",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "VIVASLIM",
+        "url_produto": "https://cbsnooper.com/products/VIVASLIM",
+        "url_afiliado": "https://cb.getvivaslim.com/aff/"
+    },
+    {
+        "nome_produto": "METABOFIX",
+        "url_produto": "https://cbsnooper.com/products/METABOFIX",
+        "url_afiliado": "https://metabo-fix.com/affiliates/"
+    },
+    {
+        "nome_produto": "CARBOFIX",
+        "url_produto": "https://cbsnooper.com/products/CARBOFIX",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "BURNB247",
+        "url_produto": "https://cbsnooper.com/products/BURNB247",
+        "url_afiliado": "https://fatburnboost.com/affiliates/"
+    },
+    {
+        "nome_produto": "NEURORISE",
+        "url_produto": "https://cbsnooper.com/products/NEURORISE",
+        "url_afiliado": "https://zencortexhq.com/info/affiliates.html"
+    },
+    {
+        "nome_produto": "ABIOHEALTH",
+        "url_produto": "https://cbsnooper.com/products/ABIOHEALTH",
+        "url_afiliado": "https://neurodrine.com/jv.php"
+    },
+    {
+        "nome_produto": "LOSTWAYS",
+        "url_produto": "https://cbsnooper.com/products/LOSTWAYS",
+        "url_afiliado": "https://www.thelostways.com/statics/affiliates.php"
+    },
+    {
+        "nome_produto": "KETORES",
+        "url_produto": "https://cbsnooper.com/products/KETORES",
+        "url_afiliado": "https://secure.ketoresource.org/affiliates/"
+    },
+    {
+        "nome_produto": "WGENIX",
+        "url_produto": "https://cbsnooper.com/products/WGENIX",
+        "url_afiliado": "https://wealthgenix.co/affiliates"
+    },
+    {
+        "nome_produto": "GFDESSERTS",
+        "url_produto": "https://cbsnooper.com/products/GFDESSERTS",
+        "url_afiliado": "https://healinggourmet.com/affiliates/ketobread/"
+    },
+    {
+        "nome_produto": "FLEXAFEN",
+        "url_produto": "https://cbsnooper.com/products/FLEXAFEN",
+        "url_afiliado": "https://www.clkmg.com/alvindpm/flexa-afftool"
+    },
+    {
+        "nome_produto": "BOUSA1",
+        "url_produto": "https://cbsnooper.com/products/BOUSA1",
+        "url_afiliado": "https://www.blackoutusa.org/affiliates"
+    },
+    {
+        "nome_produto": "BIOLEAN24",
+        "url_produto": "https://cbsnooper.com/products/BIOLEAN24",
+        "url_afiliado": "https://trybiolean.com/aff/"
+    },
+    {
+        "nome_produto": "GLUCONITE",
+        "url_produto": "https://cbsnooper.com/products/GLUCONITE",
+        "url_afiliado": "https://gluconite.com/affiliates"
+    },
+    {
+        "nome_produto": "LEGENDPE",
+        "url_produto": "https://cbsnooper.com/products/LEGENDPE",
+        "url_afiliado": "https://juicingforyourmanhood.com/affiliate_tools.html"
+    },
+    {
+        "nome_produto": "STEELBITE",
+        "url_produto": "https://cbsnooper.com/products/STEELBITE",
+        "url_afiliado": "https://steelbitepro.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "PROSTAS",
+        "url_produto": "https://cbsnooper.com/products/PROSTAS",
+        "url_afiliado": "https://prostastream.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "ALIVEFALL",
+        "url_produto": "https://cbsnooper.com/products/ALIVEFALL",
+        "url_afiliado": "https://sa.aliveafterthefall.info/aatf_b/affiliates?sa_ptf=clickbank"
+    },
+    {
+        "nome_produto": "PEBIBLE",
+        "url_produto": "https://cbsnooper.com/products/PEBIBLE",
+        "url_afiliado": "https://pebible.com/affiliates/"
+    },
+    {
+        "nome_produto": "KNEECODES",
+        "url_produto": "https://cbsnooper.com/products/KNEECODES",
+        "url_afiliado": "https://www.kneepainreliefcodes.com/kprc-affiliate-page1668917870370"
+    },
+    {
+        "nome_produto": "SONICKEY",
+        "url_produto": "https://cbsnooper.com/products/SONICKEY",
+        "url_afiliado": "https://sonickeycode.com/affiliates/index.php"
+    },
+    {
+        "nome_produto": "ABDOMAX",
+        "url_produto": "https://cbsnooper.com/products/ABDOMAX",
+        "url_afiliado": "https://tryabdomax.com/aff/"
+    },
+    {
+        "nome_produto": "LEGACYLAB5",
+        "url_produto": "https://cbsnooper.com/products/LEGACYLAB5",
+        "url_afiliado": "https://nanoease.com/affiliates"
+    },
+    {
+        "nome_produto": "BYLIBERTY",
+        "url_produto": "https://cbsnooper.com/products/BYLIBERTY",
+        "url_afiliado": "https://www.backyardliberty.org/affiliates/"
+    },
+    {
+        "nome_produto": "SAVSTASH",
+        "url_produto": "https://cbsnooper.com/products/SAVSTASH",
+        "url_afiliado": "https://www.thestockpilesavior.org/affiliates/"
+    },
+    {
+        "nome_produto": "CLAYTONMAX",
+        "url_produto": "https://cbsnooper.com/products/CLAYTONMAX",
+        "url_afiliado": "http://makehimsure.com/affiliates.php"
+    },
+    {
+        "nome_produto": "ZZZDRIP",
+        "url_produto": "https://cbsnooper.com/products/ZZZDRIP",
+        "url_afiliado": "https://ignitedrops.com/aff/"
+    },
+    {
+        "nome_produto": "PROGENIFIX",
+        "url_produto": "https://cbsnooper.com/products/PROGENIFIX",
+        "url_afiliado": "https://progenifix.com/affiliates/"
+    },
+    {
+        "nome_produto": "BIOFITSUPP",
+        "url_produto": "https://cbsnooper.com/products/BIOFITSUPP",
+        "url_afiliado": "https://www.webseeds.com/affiliates/"
+    },
+    {
+        "nome_produto": "YOURSLEEP",
+        "url_produto": "https://cbsnooper.com/products/YOURSLEEP",
+        "url_afiliado": "https://breatheandsleep.org/partners"
+    },
+    {
+        "nome_produto": "NPOUNDER95",
+        "url_produto": "https://cbsnooper.com/products/NPOUNDER95",
+        "url_afiliado": "https://biotoxnutrition.com/biotox-affiliate-resources"
+    },
+    {
+        "nome_produto": "PURADROPS",
+        "url_produto": "https://cbsnooper.com/products/PURADROPS",
+        "url_afiliado": "https://puradrops.com/affiliates"
+    },
+    {
+        "nome_produto": "HELIX40",
+        "url_produto": "https://cbsnooper.com/products/HELIX40",
+        "url_afiliado": "https://helix-4.com/affiliate/index.php"
+    },
+    {
+        "nome_produto": "SLIMGUARD",
+        "url_produto": "https://cbsnooper.com/products/SLIMGUARD",
+        "url_afiliado": "https://getslimsciences.com/affiliates"
+    },
+    {
+        "nome_produto": "MENTALISM",
+        "url_produto": "https://cbsnooper.com/products/MENTALISM",
+        "url_afiliado": "https://mastermentalism.com/mentalsim-affiliates"
+    },
+    {
+        "nome_produto": "FBRAINB",
+        "url_produto": "https://cbsnooper.com/products/FBRAINB",
+        "url_afiliado": "https://fastbrainbooster.com/affiliate_cb/"
+    },
+    {
+        "nome_produto": "INSTASOOTH",
+        "url_produto": "https://cbsnooper.com/products/INSTASOOTH",
+        "url_afiliado": "https://www.insta-soothe.com/partners/"
+    },
+    {
+        "nome_produto": "SLVSPARROW",
+        "url_produto": "https://cbsnooper.com/products/SLVSPARROW",
+        "url_afiliado": "https://phytocet.com/affiliates"
+    },
+    {
+        "nome_produto": "VIDACALM",
+        "url_produto": "https://cbsnooper.com/products/VIDACALM",
+        "url_afiliado": "https://vidacalm.net/affiliates"
+    },
+    {
+        "nome_produto": "SIMSPELLS",
+        "url_produto": "https://cbsnooper.com/products/SIMSPELLS",
+        "url_afiliado": "https://www.simple-mystic-miracles.com/smm/affiliate-tools.php"
+    },
+    {
+        "nome_produto": "PAINFOOT",
+        "url_produto": "https://cbsnooper.com/products/PAINFOOT",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "SYNERGEXJV",
+        "url_produto": "https://cbsnooper.com/products/SYNERGEXJV",
+        "url_afiliado": "https://synergex7.com/affiliates"
+    },
+    {
+        "nome_produto": "SOUNDHEALR",
+        "url_produto": "https://cbsnooper.com/products/SOUNDHEALR",
+        "url_afiliado": "https://sacredsoundhealingsystem.com/affiliate/index.php"
+    },
+    {
+        "nome_produto": "FOLIPRIME",
+        "url_produto": "https://cbsnooper.com/products/FOLIPRIME",
+        "url_afiliado": "https://foliprime.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "RESTOLIN",
+        "url_produto": "https://cbsnooper.com/products/RESTOLIN",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "15MANIFEST",
+        "url_produto": "https://cbsnooper.com/products/15MANIFEST",
+        "url_afiliado": "https://jv.limitlessfactor.com"
+    },
+    {
+        "nome_produto": "ACTIFLOW",
+        "url_produto": "https://cbsnooper.com/products/ACTIFLOW",
+        "url_afiliado": "https://tryactiflow.com/aff/"
+    },
+    {
+        "nome_produto": "MOONLIGHTZ",
+        "url_produto": "https://cbsnooper.com/products/MOONLIGHTZ",
+        "url_afiliado": "https://moonlightmanifestation.com/affiliate/index.php"
+    },
+    {
+        "nome_produto": "CURALIFE",
+        "url_produto": "https://cbsnooper.com/products/CURALIFE",
+        "url_afiliado": "https://curalife.com/pages/affiliate-tools"
+    },
+    {
+        "nome_produto": "SPIRITTREE",
+        "url_produto": "https://cbsnooper.com/products/SPIRITTREE",
+        "url_afiliado": "https://www.thecosmoswithlove.com/spirit-tree-affiliate"
+    },
+    {
+        "nome_produto": "NERVOLINK",
+        "url_produto": "https://cbsnooper.com/products/NERVOLINK",
+        "url_afiliado": "https://nervolink.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "TOTALPAT",
+        "url_produto": "https://cbsnooper.com/products/TOTALPAT",
+        "url_afiliado": "https://affiliates.patriotwholesaleclub.com/"
+    },
+    {
+        "nome_produto": "BRANDVIF",
+        "url_produto": "https://cbsnooper.com/products/BRANDVIF",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "ANGELCARDS",
+        "url_produto": "https://cbsnooper.com/products/ANGELCARDS",
+        "url_afiliado": "https://special.angelcarddaily.com/affiliate-page-tools"
+    },
+    {
+        "nome_produto": "EATFATOFF",
+        "url_produto": "https://cbsnooper.com/products/EATFATOFF",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "KHEIFETS",
+        "url_produto": "https://cbsnooper.com/products/KHEIFETS",
+        "url_afiliado": "https://jv.listbuildinglifestyle.com"
+    },
+    {
+        "nome_produto": "SURVMD1",
+        "url_produto": "https://cbsnooper.com/products/SURVMD1",
+        "url_afiliado": "https://www.survivalmd.org/affiliates/"
+    },
+    {
+        "nome_produto": "BPMIRACLE",
+        "url_produto": "https://cbsnooper.com/products/BPMIRACLE",
+        "url_afiliado": "https://thebackpainmiracle.com/affiliates"
+    },
+    {
+        "nome_produto": "RELIVERPRO",
+        "url_produto": "https://cbsnooper.com/products/RELIVERPRO",
+        "url_afiliado": "https://www.reliverpro.com/affiliates/"
+    },
+    {
+        "nome_produto": "MZHANG044",
+        "url_produto": "https://cbsnooper.com/products/MZHANG044",
+        "url_afiliado": "https://acidaburn.com/affiliates/"
+    },
+    {
+        "nome_produto": "JOELOINC",
+        "url_produto": "https://cbsnooper.com/products/JOELOINC",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "BRANDHAF",
+        "url_produto": "https://cbsnooper.com/products/BRANDHAF",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "GUTVITA",
+        "url_produto": "https://cbsnooper.com/products/GUTVITA",
+        "url_afiliado": "https://www.GutVita.com/affiliates"
+    },
+    {
+        "nome_produto": "TURBOINC",
+        "url_produto": "https://cbsnooper.com/products/TURBOINC",
+        "url_afiliado": "https://totallybangintan.com/affiliates/"
+    },
+    {
+        "nome_produto": "BRANDSER",
+        "url_produto": "https://cbsnooper.com/products/BRANDSER",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "HYDROSSENT",
+        "url_produto": "https://cbsnooper.com/products/HYDROSSENT",
+        "url_afiliado": "https://hydrossential.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "ZVISION20",
+        "url_produto": "https://cbsnooper.com/products/ZVISION20",
+        "url_afiliado": "https://bestvisionsupport.com/affiliates/"
+    },
+    {
+        "nome_produto": "CARDIOFLEX",
+        "url_produto": "https://cbsnooper.com/products/CARDIOFLEX",
+        "url_afiliado": "https://www.thecardioflex.com/aff-page"
+    },
+    {
+        "nome_produto": "THE20",
+        "url_produto": "https://cbsnooper.com/products/THE20",
+        "url_afiliado": "https://jv.personallifemedia.com/the20/"
+    },
+    {
+        "nome_produto": "GLUCOFLUSH",
+        "url_produto": "https://cbsnooper.com/products/GLUCOFLUSH",
+        "url_afiliado": "https://glucoflush.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "ENERGYBRAC",
+        "url_produto": "https://cbsnooper.com/products/ENERGYBRAC",
+        "url_afiliado": "https://www.thecosmoswithlove.com/energybrac-affiliate"
+    },
+    {
+        "nome_produto": "HEALTHX",
+        "url_produto": "https://cbsnooper.com/products/HEALTHX",
+        "url_afiliado": "http://www.simpleketotest.com"
+    },
+    {
+        "nome_produto": "TERRACALM",
+        "url_produto": "https://cbsnooper.com/products/TERRACALM",
+        "url_afiliado": "https://getterracalm.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "ANCIENTSEC",
+        "url_produto": "https://cbsnooper.com/products/ANCIENTSEC",
+        "url_afiliado": "https://jv.limitlessfactor.com"
+    },
+    {
+        "nome_produto": "FBFIX",
+        "url_produto": "https://cbsnooper.com/products/FBFIX",
+        "url_afiliado": "https://alphanation.com/affiliates/"
+    },
+    {
+        "nome_produto": "ALPHAXTRA",
+        "url_produto": "https://cbsnooper.com/products/ALPHAXTRA",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "PRDRNE",
+        "url_produto": "https://cbsnooper.com/products/PRDRNE",
+        "url_afiliado": "https://purodrine.com/affiliates.html"
+    },
+    {
+        "nome_produto": "MYGOLFINGS",
+        "url_produto": "https://cbsnooper.com/products/MYGOLFINGS",
+        "url_afiliado": "https://offers.mygolfingstore.com/cb-affiliates/"
+    },
+    {
+        "nome_produto": "NITRILEAN",
+        "url_produto": "https://cbsnooper.com/products/NITRILEAN",
+        "url_afiliado": "https://nitrilean.com/affiliates.php"
+    },
+    {
+        "nome_produto": "TROPISLIM",
+        "url_produto": "https://cbsnooper.com/products/TROPISLIM",
+        "url_afiliado": "https://trytropislim.com/aff/"
+    },
+    {
+        "nome_produto": "15MBACK",
+        "url_produto": "https://cbsnooper.com/products/15MBACK",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "TPGAA",
+        "url_produto": "https://cbsnooper.com/products/TPGAA",
+        "url_afiliado": "https://wc.astrologyanswers.com/jv"
+    },
+    {
+        "nome_produto": "COSMICWEAR",
+        "url_produto": "https://cbsnooper.com/products/COSMICWEAR",
+        "url_afiliado": "https://www.thecosmoswithlove.com/cosmicwear-affiliate"
+    },
+    {
+        "nome_produto": "JOANAGUIDE",
+        "url_produto": "https://cbsnooper.com/products/JOANAGUIDE",
+        "url_afiliado": "https://www.joanasworld.com/affiliates.html"
+    },
+    {
+        "nome_produto": "REFIRMANCE",
+        "url_produto": "https://cbsnooper.com/products/REFIRMANCE",
+        "url_afiliado": "https://refirmance.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "VIVOTONIC",
+        "url_produto": "https://cbsnooper.com/products/VIVOTONIC",
+        "url_afiliado": "https://go.vivotonic.com/affs/"
+    },
+    {
+        "nome_produto": "LEANGENES",
+        "url_produto": "https://cbsnooper.com/products/LEANGENES",
+        "url_afiliado": "https://lean-gene.com/affiliates.php"
+    },
+    {
+        "nome_produto": "DETOXIL",
+        "url_produto": "https://cbsnooper.com/products/DETOXIL",
+        "url_afiliado": "https://affiliates.detoxil.com"
+    },
+    {
+        "nome_produto": "NTHRV",
+        "url_produto": "https://cbsnooper.com/products/NTHRV",
+        "url_afiliado": "http://vitalitymineral.com/clickbank/"
+    },
+    {
+        "nome_produto": "BKFITNESS3",
+        "url_produto": "https://cbsnooper.com/products/BKFITNESS3",
+        "url_afiliado": "http://www.leanbellybreakthrough.com/affiliates.html"
+    },
+    {
+        "nome_produto": "SLPBREAK",
+        "url_produto": "https://cbsnooper.com/products/SLPBREAK",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "ULTRAPF",
+        "url_produto": "https://cbsnooper.com/products/ULTRAPF",
+        "url_afiliado": "https://ultraprostafix.com/affiliate_cb/"
+    },
+    {
+        "nome_produto": "GT4IDIOTS",
+        "url_produto": "https://cbsnooper.com/products/GT4IDIOTS",
+        "url_afiliado": "https://www.gettaller4idiots.com/affiliates.php"
+    },
+    {
+        "nome_produto": "OTI20144",
+        "url_produto": "https://cbsnooper.com/products/OTI20144",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "GOLFKNACK",
+        "url_produto": "https://cbsnooper.com/products/GOLFKNACK",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "BUBNATURAL",
+        "url_produto": "https://cbsnooper.com/products/BUBNATURAL",
+        "url_afiliado": "https://www.bubsnaturals.com/collagenaffiliate"
+    },
+    {
+        "nome_produto": "REVIVALT",
+        "url_produto": "https://cbsnooper.com/products/REVIVALT",
+        "url_afiliado": "https://revivaltonic.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "ELPRODENT",
+        "url_produto": "https://cbsnooper.com/products/ELPRODENT",
+        "url_afiliado": "https://elprodentim.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "NOOTOPIA",
+        "url_produto": "https://cbsnooper.com/products/NOOTOPIA",
+        "url_afiliado": "https://nootopia.com/cb/collagenius"
+    },
+    {
+        "nome_produto": "EMPCLOTH",
+        "url_produto": "https://cbsnooper.com/products/EMPCLOTH",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "NEUROBANK",
+        "url_produto": "https://cbsnooper.com/products/NEUROBANK",
+        "url_afiliado": "https://10minuteawakening.com/affiliate"
+    },
+    {
+        "nome_produto": "WELLBAKE",
+        "url_produto": "https://cbsnooper.com/products/WELLBAKE",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "15WEIGHT",
+        "url_produto": "https://cbsnooper.com/products/15WEIGHT",
+        "url_afiliado": "https://15minuteweightloss.com/affiliates/"
+    },
+    {
+        "nome_produto": "MAGICPIXIU",
+        "url_produto": "https://cbsnooper.com/products/MAGICPIXIU",
+        "url_afiliado": "https://manifestationmagic.co/pixiu/affiliate/home.php"
+    },
+    {
+        "nome_produto": "ALPHAHEART",
+        "url_produto": "https://cbsnooper.com/products/ALPHAHEART",
+        "url_afiliado": "https://www.thenewalpha.com/alpha-strength-cb-affiliate-center/"
+    },
+    {
+        "nome_produto": "OVER40ABS",
+        "url_produto": "https://cbsnooper.com/products/OVER40ABS",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "RENEWDETOX",
+        "url_produto": "https://cbsnooper.com/products/RENEWDETOX",
+        "url_afiliado": "https://berenewed.net/affiliates"
+    },
+    {
+        "nome_produto": "CANINEGOLD",
+        "url_produto": "https://cbsnooper.com/products/CANINEGOLD",
+        "url_afiliado": "https://dogfoodtruths.com/affiliates/"
+    },
+    {
+        "nome_produto": "SACHIEL247",
+        "url_produto": "https://cbsnooper.com/products/SACHIEL247",
+        "url_afiliado": "https://docs.google.com/document/d/1vDQMMr-1sy9g81d5nzJLEVD6k9nIX3xN66Z63Wco2Z8/edit?usp=sharing"
+    },
+    {
+        "nome_produto": "PATHCOSMIC",
+        "url_produto": "https://cbsnooper.com/products/PATHCOSMIC",
+        "url_afiliado": "https://www.thecosmoswithlove.com/pathcosmic-affiliate"
+    },
+    {
+        "nome_produto": "MANIMIR",
+        "url_produto": "https://cbsnooper.com/products/MANIMIR",
+        "url_afiliado": "https://destinymiracle.com/go/afflinks"
+    },
+    {
+        "nome_produto": "EVERBELLA",
+        "url_produto": "https://cbsnooper.com/products/EVERBELLA",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "TOUGHMIND",
+        "url_produto": "https://cbsnooper.com/products/TOUGHMIND",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "METSTRETCH",
+        "url_produto": "https://cbsnooper.com/products/METSTRETCH",
+        "url_afiliado": "http://criticalbench.com/partners/"
+    },
+    {
+        "nome_produto": "CRUNCHLESS",
+        "url_produto": "https://cbsnooper.com/products/CRUNCHLESS",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "CHERRYGOOD",
+        "url_produto": "https://cbsnooper.com/products/CHERRYGOOD",
+        "url_afiliado": "https://cherrygoodness.com/pages/affiliates-welcome"
+    },
+    {
+        "nome_produto": "LOTTERY50K",
+        "url_produto": "https://cbsnooper.com/products/LOTTERY50K",
+        "url_afiliado": "http://www.autolottoprocessor.com/affiliates"
+    },
+    {
+        "nome_produto": "ZOOMSOCKS",
+        "url_produto": "https://cbsnooper.com/products/ZOOMSOCKS",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "DENTIVIVE",
+        "url_produto": "https://cbsnooper.com/products/DENTIVIVE",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "GLOWDEMO",
+        "url_produto": "https://cbsnooper.com/products/GLOWDEMO",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "BCRAFT15",
+        "url_produto": "https://cbsnooper.com/products/BCRAFT15",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "SAYTHIS",
+        "url_produto": "https://cbsnooper.com/products/SAYTHIS",
+        "url_afiliado": "http://saythistomen.com/affiliates.php"
+    },
+    {
+        "nome_produto": "ANACOOKING",
+        "url_produto": "https://cbsnooper.com/products/ANACOOKING",
+        "url_afiliado": "http://www.anaboliccooking.com/affiliates/home.php"
+    },
+    {
+        "nome_produto": "MIAMIINK",
+        "url_produto": "https://cbsnooper.com/products/MIAMIINK",
+        "url_afiliado": "https://MiamiInkTattooDesigns.com/affiliates/"
+    },
+    {
+        "nome_produto": "AQUAPONICS",
+        "url_produto": "https://cbsnooper.com/products/AQUAPONICS",
+        "url_afiliado": "https://www.Aquaponics4You.com/affiliates.php"
+    },
+    {
+        "nome_produto": "ONNIT",
+        "url_produto": "https://cbsnooper.com/products/ONNIT",
+        "url_afiliado": "https://www.onnit.com/cbk/affiliates/"
+    },
+    {
+        "nome_produto": "SLIMSOLVE",
+        "url_produto": "https://cbsnooper.com/products/SLIMSOLVE",
+        "url_afiliado": "https://theslimsolve.com/affiliate/index.php"
+    },
+    {
+        "nome_produto": "SAVEMARRIA",
+        "url_produto": "https://cbsnooper.com/products/SAVEMARRIA",
+        "url_afiliado": "https://savemymarriagetoday.com/affiliates/"
+    },
+    {
+        "nome_produto": "CLEARCV",
+        "url_produto": "https://cbsnooper.com/products/CLEARCV",
+        "url_afiliado": "https://clearcrystalvision.com/affiliate_cb/"
+    },
+    {
+        "nome_produto": "RHVITAL",
+        "url_produto": "https://cbsnooper.com/products/RHVITAL",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "PS1000DIET",
+        "url_produto": "https://cbsnooper.com/products/PS1000DIET",
+        "url_afiliado": "https://ps1000.com/affiliates/"
+    },
+    {
+        "nome_produto": "23VSLS",
+        "url_produto": "https://cbsnooper.com/products/23VSLS",
+        "url_afiliado": "https://www.gl-90.com/cb-affiliate"
+    },
+    {
+        "nome_produto": "PROSTACLR",
+        "url_produto": "https://cbsnooper.com/products/PROSTACLR",
+        "url_afiliado": "https://www.getprostaclear.com/affiliate-center/"
+    },
+    {
+        "nome_produto": "RUKIE123",
+        "url_produto": "https://cbsnooper.com/products/RUKIE123",
+        "url_afiliado": "https://qchargeshop.com/affiliates-page/"
+    },
+    {
+        "nome_produto": "DRINKLESS1",
+        "url_produto": "https://cbsnooper.com/products/DRINKLESS1",
+        "url_afiliado": "https://7daystodrinkless.com/affiliate-tools"
+    },
+    {
+        "nome_produto": "SONICSOLAC",
+        "url_produto": "https://cbsnooper.com/products/SONICSOLAC",
+        "url_afiliado": "https://sonicsolace.com/affiliates"
+    },
+    {
+        "nome_produto": "VIPSVL",
+        "url_produto": "https://cbsnooper.com/products/VIPSVL",
+        "url_afiliado": "http://www.konexnetwork.com"
+    },
+    {
+        "nome_produto": "VALUENEST",
+        "url_produto": "https://cbsnooper.com/products/VALUENEST",
+        "url_afiliado": "https://docs.google.com/document/d/14bEf9JUF-WDev2Mqlex7nG8vRSI08xcU1SlvTk56kLQ/edit?usp=sharing"
+    },
+    {
+        "nome_produto": "METACEPTIN",
+        "url_produto": "https://cbsnooper.com/products/METACEPTIN",
+        "url_afiliado": "https://metaceptine.com/affiliates"
+    },
+    {
+        "nome_produto": "BEDBOSS1",
+        "url_produto": "https://cbsnooper.com/products/BEDBOSS1",
+        "url_afiliado": "https://thenewalpha.com/bedroom-boss-affiliate-center/"
+    },
+    {
+        "nome_produto": "BFGUARDIAN",
+        "url_produto": "https://cbsnooper.com/products/BFGUARDIAN",
+        "url_afiliado": "https://jaylabpro.com/clickbank-affiliate-tools.html"
+    },
+    {
+        "nome_produto": "DAG8FIG4",
+        "url_produto": "https://cbsnooper.com/products/DAG8FIG4",
+        "url_afiliado": "https://www.secretseductionshowergel.com/swipes"
+    },
+    {
+        "nome_produto": "312MANAGE",
+        "url_produto": "https://cbsnooper.com/products/312MANAGE",
+        "url_afiliado": "https://tryinvigorise.com/v1/jv"
+    },
+    {
+        "nome_produto": "GOALLNIGHT",
+        "url_produto": "https://cbsnooper.com/products/GOALLNIGHT",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "GREENIFYS",
+        "url_produto": "https://cbsnooper.com/products/GREENIFYS",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "ASTRALNOW",
+        "url_produto": "https://cbsnooper.com/products/ASTRALNOW",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "MYCOSYN",
+        "url_produto": "https://cbsnooper.com/products/MYCOSYN",
+        "url_afiliado": "https://mycosynpro.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "CHAKRAQUIZ",
+        "url_produto": "https://cbsnooper.com/products/CHAKRAQUIZ",
+        "url_afiliado": "https://www.thecosmoswithlove.com/chakra-quiz-program-affiliateab1t03k3"
+    },
+    {
+        "nome_produto": "DEVOTD",
+        "url_produto": "https://cbsnooper.com/products/DEVOTD",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "PANICAWAY",
+        "url_produto": "https://cbsnooper.com/products/PANICAWAY",
+        "url_afiliado": "https://www.panicaway.com/panic-away-partners/"
+    },
+    {
+        "nome_produto": "PATRICCHAN",
+        "url_produto": "https://cbsnooper.com/products/PATRICCHAN",
+        "url_afiliado": "http://nftcreatorworkshop.com"
+    },
+    {
+        "nome_produto": "WEALTHX",
+        "url_produto": "https://cbsnooper.com/products/WEALTHX",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "JEDDGRIP",
+        "url_produto": "https://cbsnooper.com/products/JEDDGRIP",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "TXTCB",
+        "url_produto": "https://cbsnooper.com/products/TXTCB",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "DJQPON",
+        "url_produto": "https://cbsnooper.com/products/DJQPON",
+        "url_afiliado": "http://www.trickphotographybook.com/affiliates"
+    },
+    {
+        "nome_produto": "MUSCLEMEAL",
+        "url_produto": "https://cbsnooper.com/products/MUSCLEMEAL",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "BIZCERT",
+        "url_produto": "https://cbsnooper.com/products/BIZCERT",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "FIXELBOW",
+        "url_produto": "https://cbsnooper.com/products/FIXELBOW",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "FUNCFIT",
+        "url_produto": "https://cbsnooper.com/products/FUNCFIT",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "DSLRCOURSE",
+        "url_produto": "https://cbsnooper.com/products/DSLRCOURSE",
+        "url_afiliado": "http://www.PhotographyMasterclass.com/affiliates"
+    },
+    {
+        "nome_produto": "20MBODY",
+        "url_produto": "https://cbsnooper.com/products/20MBODY",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "NET30CLICK",
+        "url_produto": "https://cbsnooper.com/products/NET30CLICK",
+        "url_afiliado": "https://www.electricsense.com/affiliate-guide/"
+    },
+    {
+        "nome_produto": "JUICETOMOL",
+        "url_produto": "https://cbsnooper.com/products/JUICETOMOL",
+        "url_afiliado": "https://juicingforyourmanhood.com/affiliate_tools.html"
+    },
+    {
+        "nome_produto": "LAVASLIM",
+        "url_produto": "https://cbsnooper.com/products/LAVASLIM",
+        "url_afiliado": "https://www.lavaslim.com/affiliation/"
+    },
+    {
+        "nome_produto": "DIABDOCO",
+        "url_produto": "https://cbsnooper.com/products/DIABDOCO",
+        "url_afiliado": "https://diabetessmarts.com/affiliates.php"
+    },
+    {
+        "nome_produto": "NEUROACTIV",
+        "url_produto": "https://cbsnooper.com/products/NEUROACTIV",
+        "url_afiliado": "https://www.naturalcell.com/affiliate/"
+    },
+    {
+        "nome_produto": "GLUCOTRU2",
+        "url_produto": "https://cbsnooper.com/products/GLUCOTRU2",
+        "url_afiliado": "https://tryglucotru.com/aff/"
+    },
+    {
+        "nome_produto": "HHNUTRI",
+        "url_produto": "https://cbsnooper.com/products/HHNUTRI",
+        "url_afiliado": "https://www.gethellohealth.com/pages/clickbank-affiliate-tools"
+    },
+    {
+        "nome_produto": "PROSTA7",
+        "url_produto": "https://cbsnooper.com/products/PROSTA7",
+        "url_afiliado": "https://jaylabpro.com/clickbank-affiliate-tools.html"
+    },
+    {
+        "nome_produto": "WATERLIB",
+        "url_produto": "https://cbsnooper.com/products/WATERLIB",
+        "url_afiliado": "https://www.nanolons.com/jv-tools"
+    },
+    {
+        "nome_produto": "HEATBOOK",
+        "url_produto": "https://cbsnooper.com/products/HEATBOOK",
+        "url_afiliado": "https://clkbooks.com/affiliates/"
+    },
+    {
+        "nome_produto": "LIFECCERT",
+        "url_produto": "https://cbsnooper.com/products/LIFECCERT",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "EWONGMMA",
+        "url_produto": "https://cbsnooper.com/products/EWONGMMA",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "NZMEGABURN",
+        "url_produto": "https://cbsnooper.com/products/NZMEGABURN",
+        "url_afiliado": "https://getmegaburn.com/aff/index.php"
+    },
+    {
+        "nome_produto": "GLUCOTSFR",
+        "url_produto": "https://cbsnooper.com/products/GLUCOTSFR",
+        "url_afiliado": "https://www.glucotrustfr.com/affiliation/"
+    },
+    {
+        "nome_produto": "STFHOCKEY",
+        "url_produto": "https://cbsnooper.com/products/STFHOCKEY",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "ELWDNA",
+        "url_produto": "https://cbsnooper.com/products/ELWDNA",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "ASMARTS1",
+        "url_produto": "https://cbsnooper.com/products/ASMARTS1",
+        "url_afiliado": "https://www.patriotpoweredpartners.com/national-prayer-coin-affiliates"
+    },
+    {
+        "nome_produto": "SOULINSOL",
+        "url_produto": "https://cbsnooper.com/products/SOULINSOL",
+        "url_afiliado": "https://www.soulinsole.com/affiliate-resources/"
+    },
+    {
+        "nome_produto": "NEUROCALM",
+        "url_produto": "https://cbsnooper.com/products/NEUROCALM",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "EGDLTD",
+        "url_produto": "https://cbsnooper.com/products/EGDLTD",
+        "url_afiliado": "https://www.OracleofHeavens.com/affiliate"
+    },
+    {
+        "nome_produto": "YOURNEWYR",
+        "url_produto": "https://cbsnooper.com/products/YOURNEWYR",
+        "url_afiliado": "https://www.mycosmicforecast.com/affiliate-page-2023"
+    },
+    {
+        "nome_produto": "3RDEYEHELP",
+        "url_produto": "https://cbsnooper.com/products/3RDEYEHELP",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "SOVSUPS",
+        "url_produto": "https://cbsnooper.com/products/SOVSUPS",
+        "url_afiliado": "https://isovereignty.co/affiliates"
+    },
+    {
+        "nome_produto": "MAGASUPP",
+        "url_produto": "https://cbsnooper.com/products/MAGASUPP",
+        "url_afiliado": "https://magasupplements.com/maga-slim-aff-zone-cb/"
+    },
+    {
+        "nome_produto": "OILSPOTS",
+        "url_produto": "https://cbsnooper.com/products/OILSPOTS",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "UNDERNUTRI",
+        "url_produto": "https://cbsnooper.com/products/UNDERNUTRI",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "PHALOFUEL",
+        "url_produto": "https://cbsnooper.com/products/PHALOFUEL",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "BUBSACV",
+        "url_produto": "https://cbsnooper.com/products/BUBSACV",
+        "url_afiliado": "https://www.bubsnaturals.com/acvaffiliate"
+    },
+    {
+        "nome_produto": "JAVABURN",
+        "url_produto": "https://cbsnooper.com/products/JAVABURN",
+        "url_afiliado": "https://javaburncoffee.co/affiliates"
+    },
+    {
+        "nome_produto": "PURACLICK",
+        "url_produto": "https://cbsnooper.com/products/PURACLICK",
+        "url_afiliado": "https://puravive.com/affiliates/"
+    },
+    {
+        "nome_produto": "SUGARDEF",
+        "url_produto": "https://cbsnooper.com/products/SUGARDEF",
+        "url_afiliado": "https://skyhighperform.com/pirates-of-the-caribbean/"
+    },
+    {
+        "nome_produto": "PRODENTIM",
+        "url_produto": "https://cbsnooper.com/products/PRODENTIM",
+        "url_afiliado": "https://myprodentim101.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "ZENCORTEX",
+        "url_produto": "https://cbsnooper.com/products/ZENCORTEX",
+        "url_afiliado": "https://skyhighperform.com/pirates-of-the-caribbean/"
+    },
+    {
+        "nome_produto": "NOTORITY",
+        "url_produto": "https://cbsnooper.com/products/NOTORITY",
+        "url_afiliado": "https://www.thedivineprayer.com/affiliate/welcome"
+    },
+    {
+        "nome_produto": "HISSECRET",
+        "url_produto": "https://cbsnooper.com/products/HISSECRET",
+        "url_afiliado": "https://HisSecretObsession.com/aff"
+    },
+    {
+        "nome_produto": "NEOTONICS",
+        "url_produto": "https://cbsnooper.com/products/NEOTONICS",
+        "url_afiliado": "https://neotonics.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "PROSTADINE",
+        "url_produto": "https://cbsnooper.com/products/PROSTADINE",
+        "url_afiliado": "https://getprostadine.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "KERASSENT",
+        "url_produto": "https://cbsnooper.com/products/KERASSENT",
+        "url_afiliado": "https://kerassentials.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "HWTONIC",
+        "url_produto": "https://cbsnooper.com/products/HWTONIC",
+        "url_afiliado": "https://hardwoodtonic.com/affiliates"
+    },
+    {
+        "nome_produto": "FLOWFORCE",
+        "url_produto": "https://cbsnooper.com/products/FLOWFORCE",
+        "url_afiliado": "https://flowforcemax.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "GLUCOTRUST",
+        "url_produto": "https://cbsnooper.com/products/GLUCOTRUST",
+        "url_afiliado": "https://sevenlionsmedia.com/theriseofthetrio-contest/"
+    },
+    {
+        "nome_produto": "SO50SUPP",
+        "url_produto": "https://cbsnooper.com/products/SO50SUPP",
+        "url_afiliado": "https://alldayslimmingteafree.com/aff/"
+    },
+    {
+        "nome_produto": "NANODEFPRO",
+        "url_produto": "https://cbsnooper.com/products/NANODEFPRO",
+        "url_afiliado": "https://nanodefensepro.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "VENOPLUS8",
+        "url_produto": "https://cbsnooper.com/products/VENOPLUS8",
+        "url_afiliado": "https://www.clkmg.com/alvindpm/venoplus8"
+    },
+    {
+        "nome_produto": "SYNOGUT",
+        "url_produto": "https://cbsnooper.com/products/SYNOGUT",
+        "url_afiliado": "https://synogut.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "POTENTSTR",
+        "url_produto": "https://cbsnooper.com/products/POTENTSTR",
+        "url_afiliado": "https://potentstream.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "CARDIOSHIE",
+        "url_produto": "https://cbsnooper.com/products/CARDIOSHIE",
+        "url_afiliado": "https://www.getcardioshield.com/affiliate-center/"
+    },
+    {
+        "nome_produto": "PEAKBIOME",
+        "url_produto": "https://cbsnooper.com/products/PEAKBIOME",
+        "url_afiliado": "https://peakbiome.com/affiliate-tools/signup/"
+    },
+    {
+        "nome_produto": "PINEALXT",
+        "url_produto": "https://cbsnooper.com/products/PINEALXT",
+        "url_afiliado": "https://PinealXT.com/affiliate.php"
+    },
+    {
+        "nome_produto": "GUITARIST3",
+        "url_produto": "https://cbsnooper.com/products/GUITARIST3",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "BKFITNESS5",
+        "url_produto": "https://cbsnooper.com/products/BKFITNESS5",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "KETOKETO",
+        "url_produto": "https://cbsnooper.com/products/KETOKETO",
+        "url_afiliado": "https://ministryofdevotions.org"
+    },
+    {
+        "nome_produto": "DAG8FIG3",
+        "url_produto": "https://cbsnooper.com/products/DAG8FIG3",
+        "url_afiliado": "https://www.secretseductionspray.com/swipes_2023"
+    },
+    {
+        "nome_produto": "PRIMALFLOW",
+        "url_produto": "https://cbsnooper.com/products/PRIMALFLOW",
+        "url_afiliado": "http://getprimalflow.com/affiliates"
+    },
+    {
+        "nome_produto": "INNOSUPPS",
+        "url_produto": "https://cbsnooper.com/products/INNOSUPPS",
+        "url_afiliado": "http://www.get-tdrive.com/partners"
+    },
+    {
+        "nome_produto": "VIRACLEANS",
+        "url_produto": "https://cbsnooper.com/products/VIRACLEANS",
+        "url_afiliado": "https://zcleanse.com/aff/"
+    },
+    {
+        "nome_produto": "TIBETANSEC",
+        "url_produto": "https://cbsnooper.com/products/TIBETANSEC",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "OMEGAICON",
+        "url_produto": "https://cbsnooper.com/products/OMEGAICON",
+        "url_afiliado": "https://www.jaylabpro.com/clickbank-affiliate-tools.html"
+    },
+    {
+        "nome_produto": "CCJLP",
+        "url_produto": "https://cbsnooper.com/products/CCJLP",
+        "url_afiliado": "https://www.jaylabpro.com/clickbank-affiliate-tools.html"
+    },
+    {
+        "nome_produto": "FRESHLINX",
+        "url_produto": "https://cbsnooper.com/products/FRESHLINX",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "STARTWILL",
+        "url_produto": "https://cbsnooper.com/products/STARTWILL",
+        "url_afiliado": "https://startyourwilltoday.com/affiliates"
+    },
+    {
+        "nome_produto": "LIVERG",
+        "url_produto": "https://cbsnooper.com/products/LIVERG",
+        "url_afiliado": "https://liverguardplus.com/affiliate_cb/"
+    },
+    {
+        "nome_produto": "IKARIASLIM",
+        "url_produto": "https://cbsnooper.com/products/IKARIASLIM",
+        "url_afiliado": "https://ikariaslim.com/affiliate-enter-is-cb"
+    },
+    {
+        "nome_produto": "ELABSUS",
+        "url_produto": "https://cbsnooper.com/products/ELABSUS",
+        "url_afiliado": "https://www.enhancedlabscb.com/affiliate-tools"
+    },
+    {
+        "nome_produto": "CLUBHOUSES",
+        "url_produto": "https://cbsnooper.com/products/CLUBHOUSES",
+        "url_afiliado": "https://clubhousesupplements.com/stud-affiliate-center/"
+    },
+    {
+        "nome_produto": "CEREBROZEN",
+        "url_produto": "https://cbsnooper.com/products/CEREBROZEN",
+        "url_afiliado": "https://cerebrozen.com/info/affiliates.html"
+    },
+    {
+        "nome_produto": "MENORESCUE",
+        "url_produto": "https://cbsnooper.com/products/MENORESCUE",
+        "url_afiliado": "https://menorescue.com/affiliates/"
+    },
+    {
+        "nome_produto": "METACMPLX",
+        "url_produto": "https://cbsnooper.com/products/METACMPLX",
+        "url_afiliado": "https://metanailcomplex.com/affiliates"
+    },
+    {
+        "nome_produto": "ILLUDERMA",
+        "url_produto": "https://cbsnooper.com/products/ILLUDERMA",
+        "url_afiliado": "https://illuderma.com/help/affiliates.php#form"
+    },
+    {
+        "nome_produto": "ASTROLAN",
+        "url_produto": "https://cbsnooper.com/products/ASTROLAN",
+        "url_afiliado": "https://yourastrologylanguage.com/affiliates"
+    },
+    {
+        "nome_produto": "ENERG26",
+        "url_produto": "https://cbsnooper.com/products/ENERG26",
+        "url_afiliado": "https://myenergeia.com/vip-affiliates-new/"
+    },
+    {
+        "nome_produto": "SONOVIVE",
+        "url_produto": "https://cbsnooper.com/products/SONOVIVE",
+        "url_afiliado": "https://sonovive.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "VIGORTONIC",
+        "url_produto": "https://cbsnooper.com/products/VIGORTONIC",
+        "url_afiliado": "https://emperorsvigortonic.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "THEYAVUE",
+        "url_produto": "https://cbsnooper.com/products/THEYAVUE",
+        "url_afiliado": "https://gettheyavue.com/cb-affiliates"
+    },
+    {
+        "nome_produto": "BIOPTIMIZE",
+        "url_produto": "https://cbsnooper.com/products/BIOPTIMIZE",
+        "url_afiliado": "https://bioptimizers.com/vip-center/clickbank"
+    },
+    {
+        "nome_produto": "BOOKOFREM",
+        "url_produto": "https://cbsnooper.com/products/BOOKOFREM",
+        "url_afiliado": "https://www.lostbookofremedies.com/affiliates/index.php"
+    },
+    {
+        "nome_produto": "ARCTICB",
+        "url_produto": "https://cbsnooper.com/products/ARCTICB",
+        "url_afiliado": "https://cb.getarcticblast.com/aff/"
+    },
+    {
+        "nome_produto": "GUTOPTIM",
+        "url_produto": "https://cbsnooper.com/products/GUTOPTIM",
+        "url_afiliado": "https://gutoptim.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "FASTLEANPR",
+        "url_produto": "https://cbsnooper.com/products/FASTLEANPR",
+        "url_afiliado": "https://fastleanpro.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "PINEALGRD",
+        "url_produto": "https://cbsnooper.com/products/PINEALGRD",
+        "url_afiliado": "https://pinealguard.com/affiliates/index.php"
+    },
+    {
+        "nome_produto": "DENTITOX",
+        "url_produto": "https://cbsnooper.com/products/DENTITOX",
+        "url_afiliado": "https://dentitox.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "DROUGHTUSA",
+        "url_produto": "https://cbsnooper.com/products/DROUGHTUSA",
+        "url_afiliado": "https://www.megadroughtusa.org/affiliates"
+    },
+    {
+        "nome_produto": "MAKEHIMW",
+        "url_produto": "https://cbsnooper.com/products/MAKEHIMW",
+        "url_afiliado": "https://digitalromanceaffiliates.com/mhwy/"
+    },
+    {
+        "nome_produto": "PINEALGRDN",
+        "url_produto": "https://cbsnooper.com/products/PINEALGRDN",
+        "url_afiliado": "https://thepinealguardian.com/affiliates/"
+    },
+    {
+        "nome_produto": "MARTIN7",
+        "url_produto": "https://cbsnooper.com/products/MARTIN7",
+        "url_afiliado": "https://www.HeartburnNoMore.com/affiliates"
+    },
+    {
+        "nome_produto": "SBACKYARD",
+        "url_produto": "https://cbsnooper.com/products/SBACKYARD",
+        "url_afiliado": "https://www.selfsufficientbackyard.com/affiliates/"
+    },
+    {
+        "nome_produto": "ENDOPEAK",
+        "url_produto": "https://cbsnooper.com/products/ENDOPEAK",
+        "url_afiliado": "https://endopeak.com/info/affiliates.html"
+    },
+    {
+        "nome_produto": "FLUXACTIVE",
+        "url_produto": "https://cbsnooper.com/products/FLUXACTIVE",
+        "url_afiliado": "https://fluxactive.net/affs"
+    },
+    {
+        "nome_produto": "EATSTOPEAT",
+        "url_produto": "https://cbsnooper.com/products/EATSTOPEAT",
+        "url_afiliado": "https://clkbooks.com/affiliates/"
+    },
+    {
+        "nome_produto": "JOINTETERN",
+        "url_produto": "https://cbsnooper.com/products/JOINTETERN",
+        "url_afiliado": "https://jointeternal.com/affiliate/"
+    },
+    {
+        "nome_produto": "TRYOLIVINE",
+        "url_produto": "https://cbsnooper.com/products/TRYOLIVINE",
+        "url_afiliado": "https://newitaliandiscovery.com/affiliates"
+    },
+    {
+        "nome_produto": "XITOX",
+        "url_produto": "https://cbsnooper.com/products/XITOX",
+        "url_afiliado": "https://cb.getxitox.com/aff/"
+    },
+    {
+        "nome_produto": "JOINTRES",
+        "url_produto": "https://cbsnooper.com/products/JOINTRES",
+        "url_afiliado": "https://prosperwellness.co/clickbank/affiliates/"
+    },
+    {
+        "nome_produto": "FBSHAKE",
+        "url_produto": "https://cbsnooper.com/products/FBSHAKE",
+        "url_afiliado": "https://flatbellyshake.com/affiliates"
+    },
+    {
+        "nome_produto": "HORMONALH1",
+        "url_produto": "https://cbsnooper.com/products/HORMONALH1",
+        "url_afiliado": "https://cb.hormonalbalancenow.com/hb5affiliate-cb"
+    },
+    {
+        "nome_produto": "PQS2012",
+        "url_produto": "https://cbsnooper.com/products/PQS2012",
+        "url_afiliado": "https://www.thecosmoswithlove.com/pqs-affiliate"
+    },
+    {
+        "nome_produto": "AWAKEN88",
+        "url_produto": "https://cbsnooper.com/products/AWAKEN88",
+        "url_afiliado": "https://awakenxt.com/affiliates.php"
+    },
+    {
+        "nome_produto": "METABOFLEX",
+        "url_produto": "https://cbsnooper.com/products/METABOFLEX",
+        "url_afiliado": "https://metaboflex.com/affiliates"
+    },
+    {
+        "nome_produto": "SONOFIT",
+        "url_produto": "https://cbsnooper.com/products/SONOFIT",
+        "url_afiliado": "https://getsonofit.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "VOLCABURN",
+        "url_produto": "https://cbsnooper.com/products/VOLCABURN",
+        "url_afiliado": "https://volcaburn.com/affiliate/index.php"
+    },
+    {
+        "nome_produto": "SSTICK",
+        "url_produto": "https://cbsnooper.com/products/SSTICK",
+        "url_afiliado": "https://spiritualsticks.com/affiliates"
+    },
+    {
+        "nome_produto": "EYEFORTIN",
+        "url_produto": "https://cbsnooper.com/products/EYEFORTIN",
+        "url_afiliado": "https://eyefortin.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "GLUCOPURE",
+        "url_produto": "https://cbsnooper.com/products/GLUCOPURE",
+        "url_afiliado": "http://getglucopure.com/affiliates"
+    },
+    {
+        "nome_produto": "PROVASLIM",
+        "url_produto": "https://cbsnooper.com/products/PROVASLIM",
+        "url_afiliado": "https://sevenlionsmedia.com/theriseofthetrio-contest/"
+    },
+    {
+        "nome_produto": "ENDOPUMP",
+        "url_produto": "https://cbsnooper.com/products/ENDOPUMP",
+        "url_afiliado": "https://endopumpsecret.com/affiliates"
+    },
+    {
+        "nome_produto": "LOTTERY90K",
+        "url_produto": "https://cbsnooper.com/products/LOTTERY90K",
+        "url_afiliado": "http://lotterymaximizer.com/affiliates/"
+    },
+    {
+        "nome_produto": "GLUCOTRIM",
+        "url_produto": "https://cbsnooper.com/products/GLUCOTRIM",
+        "url_afiliado": "https://theglucotrim.com/affiliate/index.php"
+    },
+    {
+        "nome_produto": "DRLMASTERY",
+        "url_produto": "https://cbsnooper.com/products/DRLMASTERY",
+        "url_afiliado": "https://aff.dreamlifeprogram.com/"
+    },
+    {
+        "nome_produto": "MBPC84",
+        "url_produto": "https://cbsnooper.com/products/MBPC84",
+        "url_afiliado": "https://mybackpaincoach.com/affiliates/resources/"
+    },
+    {
+        "nome_produto": "AQUAPEACE",
+        "url_produto": "https://cbsnooper.com/products/AQUAPEACE",
+        "url_afiliado": "https://getaquapeace.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "TESTOCHEWS",
+        "url_produto": "https://cbsnooper.com/products/TESTOCHEWS",
+        "url_afiliado": "https://docs.google.com/document/d/1L_-0E8XncoKRu1mrJ7wqG7Wd7c21pqpbJtRCLymJl-c/edit?usp=sharing"
+    },
+    {
+        "nome_produto": "CREFRESH",
+        "url_produto": "https://cbsnooper.com/products/CREFRESH",
+        "url_afiliado": "https://yourcollagensource.com/affiliates/"
+    },
+    {
+        "nome_produto": "ANGELTAROT",
+        "url_produto": "https://cbsnooper.com/products/ANGELTAROT",
+        "url_afiliado": "https://affiliates.angelictarot.org/"
+    },
+    {
+        "nome_produto": "THE7ENERGY",
+        "url_produto": "https://cbsnooper.com/products/THE7ENERGY",
+        "url_afiliado": "https://7magicexperiments.com/affiliate/home.php"
+    },
+    {
+        "nome_produto": "TYPE2FREE",
+        "url_produto": "https://cbsnooper.com/products/TYPE2FREE",
+        "url_afiliado": "https://sonusdiabetessecret.com/affiliates/"
+    },
+    {
+        "nome_produto": "DOGGYD4N",
+        "url_produto": "https://cbsnooper.com/products/DOGGYD4N",
+        "url_afiliado": "https://affiliates.theonlinedogtrainer.com/join"
+    },
+    {
+        "nome_produto": "WFGUIDE",
+        "url_produto": "https://cbsnooper.com/products/WFGUIDE",
+        "url_afiliado": "https://wildplantsguide.com/affiliates/"
+    },
+    {
+        "nome_produto": "NEUROTEST",
+        "url_produto": "https://cbsnooper.com/products/NEUROTEST",
+        "url_afiliado": "https://affiliates.epiphanymarketing.co/neurotest"
+    },
+    {
+        "nome_produto": "PURELUMINE",
+        "url_produto": "https://cbsnooper.com/products/PURELUMINE",
+        "url_afiliado": "https://pureluminessence.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "DENTATONIC",
+        "url_produto": "https://cbsnooper.com/products/DENTATONIC",
+        "url_afiliado": "https://dentatonic.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "SHRINKX",
+        "url_produto": "https://cbsnooper.com/products/SHRINKX",
+        "url_afiliado": "https://shrink-x.com/aff/"
+    },
+    {
+        "nome_produto": "INDIVIDUA1",
+        "url_produto": "https://cbsnooper.com/products/INDIVIDUA1",
+        "url_afiliado": "https://docs.google.com/document/d/1zyT7Y4mk9kB7aeZIW6p0DoGeFoH-4RfGs1LbrvfUxeE"
+    },
+    {
+        "nome_produto": "KERABIOTIC",
+        "url_produto": "https://cbsnooper.com/products/KERABIOTIC",
+        "url_afiliado": "https://kerabiotics.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "4THESTORY",
+        "url_produto": "https://cbsnooper.com/products/4THESTORY",
+        "url_afiliado": "https://www.thecosmoswithlove.com/cosmic-manifestation-secrets-affiliate1"
+    },
+    {
+        "nome_produto": "EXDIABETES",
+        "url_produto": "https://cbsnooper.com/products/EXDIABETES",
+        "url_afiliado": "https://bartonaffiliates.com/diabetes-solution-kit/"
+    },
+    {
+        "nome_produto": "GOGUT",
+        "url_produto": "https://cbsnooper.com/products/GOGUT",
+        "url_afiliado": "https://getgutgo.com/affiliates"
+    },
+    {
+        "nome_produto": "PTTRIM",
+        "url_produto": "https://cbsnooper.com/products/PTTRIM",
+        "url_afiliado": "https://pttrimfatburn.com/vipaffiliates/"
+    },
+    {
+        "nome_produto": "FRONTBOOK",
+        "url_produto": "https://cbsnooper.com/products/FRONTBOOK",
+        "url_afiliado": "https://www.lostfrontierhandbook.com/affiliates/"
+    },
+    {
+        "nome_produto": "FORTBITE",
+        "url_produto": "https://cbsnooper.com/products/FORTBITE",
+        "url_afiliado": "https://getfortbite.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "ZORACEL",
+        "url_produto": "https://cbsnooper.com/products/ZORACEL",
+        "url_afiliado": "https://affiliates.zoracel.com"
+    },
+    {
+        "nome_produto": "DERMAPRIME",
+        "url_produto": "https://cbsnooper.com/products/DERMAPRIME",
+        "url_afiliado": "https://dermaprimeplus.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "EDELIXIR",
+        "url_produto": "https://cbsnooper.com/products/EDELIXIR",
+        "url_afiliado": "https://edelixir.com/affiliates.html"
+    },
+    {
+        "nome_produto": "FIXPAIN",
+        "url_produto": "https://cbsnooper.com/products/FIXPAIN",
+        "url_afiliado": "https://www.unlockyourspine.com/partners"
+    },
+    {
+        "nome_produto": "9ARCHANGLZ",
+        "url_produto": "https://cbsnooper.com/products/9ARCHANGLZ",
+        "url_afiliado": "https://www.thecosmoswithlove.com/9archanglz-affiliate"
+    },
+    {
+        "nome_produto": "J1R2C",
+        "url_produto": "https://cbsnooper.com/products/J1R2C",
+        "url_afiliado": "https://johncrestani.com/jvs/"
+    },
+    {
+        "nome_produto": "LIPOSLEND",
+        "url_produto": "https://cbsnooper.com/products/LIPOSLEND",
+        "url_afiliado": "https://liposlend.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "CLEANESTBD",
+        "url_produto": "https://cbsnooper.com/products/CLEANESTBD",
+        "url_afiliado": "https://cleanestbody.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "O30HS",
+        "url_produto": "https://cbsnooper.com/products/O30HS",
+        "url_afiliado": "https://over30hormonesolution.com/affiliate-info/"
+    },
+    {
+        "nome_produto": "GREENGLUCO",
+        "url_produto": "https://cbsnooper.com/products/GREENGLUCO",
+        "url_afiliado": "https://greenglucose.com/info/affiliates.html"
+    },
+    {
+        "nome_produto": "LOSTWAYS2",
+        "url_produto": "https://cbsnooper.com/products/LOSTWAYS2",
+        "url_afiliado": "https://www.thelostways2.com/affiliates/affiliate_page.php"
+    },
+    {
+        "nome_produto": "GLUCOFENCE",
+        "url_produto": "https://cbsnooper.com/products/GLUCOFENCE",
+        "url_afiliado": "https://gluco-fence.com/affiliates"
+    },
+    {
+        "nome_produto": "BSUGARBLAS",
+        "url_produto": "https://cbsnooper.com/products/BSUGARBLAS",
+        "url_afiliado": "https://bloodsugarblaster.com/affiliate-enter-bsb-cb"
+    },
+    {
+        "nome_produto": "TRYPROSTA",
+        "url_produto": "https://cbsnooper.com/products/TRYPROSTA",
+        "url_afiliado": "https://prostabiome.com/fsaffiliates"
+    },
+    {
+        "nome_produto": "ROOTCHAKRA",
+        "url_produto": "https://cbsnooper.com/products/ROOTCHAKRA",
+        "url_afiliado": "https://www.thecosmoswithlove.com/rootchakra-affiliate"
+    },
+    {
+        "nome_produto": "BBYSLEEP",
+        "url_produto": "https://cbsnooper.com/products/BBYSLEEP",
+        "url_afiliado": "https://babysleepmiracle.com/affiliates"
+    },
+    {
+        "nome_produto": "KEYSLIM",
+        "url_produto": "https://cbsnooper.com/products/KEYSLIM",
+        "url_afiliado": "https://keyslimdrops.com/affs"
+    },
+    {
+        "nome_produto": "VISTACLEAR",
+        "url_produto": "https://cbsnooper.com/products/VISTACLEAR",
+        "url_afiliado": "https://go.vistaclear2020.com/affs/"
+    },
+    {
+        "nome_produto": "ARTERIS",
+        "url_produto": "https://cbsnooper.com/products/ARTERIS",
+        "url_afiliado": "https://arterisplus.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "DOCSREM10",
+        "url_produto": "https://cbsnooper.com/products/DOCSREM10",
+        "url_afiliado": "https://www.docshomeremedies.com/affiliates/"
+    },
+    {
+        "nome_produto": "SSRY16",
+        "url_produto": "https://cbsnooper.com/products/SSRY16",
+        "url_afiliado": "https://www.diysanctuary.net/affiliates"
+    },
+    {
+        "nome_produto": "PRAKTICAL",
+        "url_produto": "https://cbsnooper.com/products/PRAKTICAL",
+        "url_afiliado": "https://www.thecosmoswithlove.com/praktical-tools"
+    },
+    {
+        "nome_produto": "CSOUNDTUNE",
+        "url_produto": "https://cbsnooper.com/products/CSOUNDTUNE",
+        "url_afiliado": "https://cellularsoundtuning.com/affiliate/home.php"
+    },
+    {
+        "nome_produto": "LOTTERY20K",
+        "url_produto": "https://cbsnooper.com/products/LOTTERY20K",
+        "url_afiliado": "http://www.lotterywinneruniversity.com/affiliates"
+    },
+    {
+        "nome_produto": "1AEROSLIM",
+        "url_produto": "https://cbsnooper.com/products/1AEROSLIM",
+        "url_afiliado": "https://getaeroslim.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "LOTTERY60K",
+        "url_produto": "https://cbsnooper.com/products/LOTTERY60K",
+        "url_afiliado": "http://www.lottoprofits.com/affiliates"
+    },
+    {
+        "nome_produto": "TRESSANEW",
+        "url_produto": "https://cbsnooper.com/products/TRESSANEW",
+        "url_afiliado": "https://www.tressanew.com/affiliate"
+    },
+    {
+        "nome_produto": "ROCKHARDX",
+        "url_produto": "https://cbsnooper.com/products/ROCKHARDX",
+        "url_afiliado": "https://www.thenewalpha.com/rock-hard-affiliates/"
+    },
+    {
+        "nome_produto": "ADONISEFF",
+        "url_produto": "https://cbsnooper.com/products/ADONISEFF",
+        "url_afiliado": "https://www.adonisgoldenratio.com/terms/affiliate"
+    },
+    {
+        "nome_produto": "BEFUNGUS",
+        "url_produto": "https://cbsnooper.com/products/BEFUNGUS",
+        "url_afiliado": "https://affiliates.rangii.com"
+    },
+    {
+        "nome_produto": "BLOODSPLUS",
+        "url_produto": "https://cbsnooper.com/products/BLOODSPLUS",
+        "url_afiliado": "https://go.healthylivingassociation.org/bss-affiliate-tools"
+    },
+    {
+        "nome_produto": "RESPARK",
+        "url_produto": "https://cbsnooper.com/products/RESPARK",
+        "url_afiliado": "http://resparktheromance.com/affiliates.php"
+    },
+    {
+        "nome_produto": "DAG8FIG",
+        "url_produto": "https://cbsnooper.com/products/DAG8FIG",
+        "url_afiliado": "https://www.secretseductionspray.com/swipes_2023"
+    },
+    {
+        "nome_produto": "MILLIONB",
+        "url_produto": "https://cbsnooper.com/products/MILLIONB",
+        "url_afiliado": "https://jv.limitlessfactor.com"
+    },
+    {
+        "nome_produto": "VENUSIND",
+        "url_produto": "https://cbsnooper.com/products/VENUSIND",
+        "url_afiliado": "https://venusfactor.com/affiliates/"
+    },
+    {
+        "nome_produto": "BPTHRIVE",
+        "url_produto": "https://cbsnooper.com/products/BPTHRIVE",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "CYWEI99",
+        "url_produto": "https://cbsnooper.com/products/CYWEI99",
+        "url_afiliado": "https://vibrationjumping.com/affiliate"
+    },
+    {
+        "nome_produto": "SINGORAMA",
+        "url_produto": "https://cbsnooper.com/products/SINGORAMA",
+        "url_afiliado": "https://singorama.com/affiliate-area/"
+    },
+    {
+        "nome_produto": "DUOTRIM",
+        "url_produto": "https://cbsnooper.com/products/DUOTRIM",
+        "url_afiliado": "https://duotrim.com/affiliates"
+    },
+    {
+        "nome_produto": "MMSUPPS",
+        "url_produto": "https://cbsnooper.com/products/MMSUPPS",
+        "url_afiliado": "http://go.musclemonsters.com/affiliates"
+    },
+    {
+        "nome_produto": "WATERLIB2",
+        "url_produto": "https://cbsnooper.com/products/WATERLIB2",
+        "url_afiliado": "https://www.DetergentTruth.co/jv-resources"
+    },
+    {
+        "nome_produto": "CR8CHAKRA",
+        "url_produto": "https://cbsnooper.com/products/CR8CHAKRA",
+        "url_afiliado": "https://www.thecosmoswithlove.com/create-chakra-affiliate"
+    },
+    {
+        "nome_produto": "BRIDPORT1",
+        "url_produto": "https://cbsnooper.com/products/BRIDPORT1",
+        "url_afiliado": "https://www.bridporthealth.com/affiliate-resources"
+    },
+    {
+        "nome_produto": "AMISHCHARM",
+        "url_produto": "https://cbsnooper.com/products/AMISHCHARM",
+        "url_afiliado": "https://amishmanifestation.com"
+    },
+    {
+        "nome_produto": "LOTTERY10K",
+        "url_produto": "https://cbsnooper.com/products/LOTTERY10K",
+        "url_afiliado": "https://www.lottoannihilator.com/affiliates"
+    },
+    {
+        "nome_produto": "MONEYCELLS",
+        "url_produto": "https://cbsnooper.com/products/MONEYCELLS",
+        "url_afiliado": "https://themoneycells.com/affiliates.php"
+    },
+    {
+        "nome_produto": "MANGREENS",
+        "url_produto": "https://cbsnooper.com/products/MANGREENS",
+        "url_afiliado": "https://chadhowse.clickfunnels.com/affiliate-tools"
+    },
+    {
+        "nome_produto": "INFECTBOOK",
+        "url_produto": "https://cbsnooper.com/products/INFECTBOOK",
+        "url_afiliado": "https://go.selfrely.com/link-maker-pagerm58neiy"
+    },
+    {
+        "nome_produto": "COSMICANGL",
+        "url_produto": "https://cbsnooper.com/products/COSMICANGL",
+        "url_afiliado": "https://www.thecosmoswithlove.com/cosmic-angel-affiliate"
+    },
+    {
+        "nome_produto": "CLEARKARMA",
+        "url_produto": "https://cbsnooper.com/products/CLEARKARMA",
+        "url_afiliado": "https://docs.google.com/document/d/1Fesg2k_isposbxRtw1Xb-5uiR3xcIQQK9oqY0gsmPQY/edit?userstoinvite=javierchua2407%40gmail.com&ts=5eba1eed&actionButton=1&fbclid=IwAR22eZF9wr2sdx1gt8XzsqpcKZ20UIOEK93gBU9EoGojz-MWLwg7fKHRytA"
+    },
+    {
+        "nome_produto": "COHYPNOSIS",
+        "url_produto": "https://cbsnooper.com/products/COHYPNOSIS",
+        "url_afiliado": "http://www.conversational-hypnosis.com/affiliate.php"
+    },
+    {
+        "nome_produto": "REVITAAPRO",
+        "url_produto": "https://cbsnooper.com/products/REVITAAPRO",
+        "url_afiliado": "https://revitaapro.com/aff/"
+    },
+    {
+        "nome_produto": "SPIRITANML",
+        "url_produto": "https://cbsnooper.com/products/SPIRITANML",
+        "url_afiliado": "https://www.thecosmoswithlove.com/spirit-animal-affiliate"
+    },
+    {
+        "nome_produto": "VISIUM",
+        "url_produto": "https://cbsnooper.com/products/VISIUM",
+        "url_afiliado": "https://visiumplus.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "4WDLLC",
+        "url_produto": "https://cbsnooper.com/products/4WDLLC",
+        "url_afiliado": "https://sales.4warddefense.com/cbaff/"
+    },
+    {
+        "nome_produto": "PHDAILY",
+        "url_produto": "https://cbsnooper.com/products/PHDAILY",
+        "url_afiliado": "https://www.primehealthsource.com/affiliates-cb.php"
+    },
+    {
+        "nome_produto": "FIRMTIGHT",
+        "url_produto": "https://cbsnooper.com/products/FIRMTIGHT",
+        "url_afiliado": "http://criticalbench.com/partners/"
+    },
+    {
+        "nome_produto": "COSMICLUV",
+        "url_produto": "https://cbsnooper.com/products/COSMICLUV",
+        "url_afiliado": "https://www.thecosmoswithlove.com/cosmicluv-affiliate"
+    },
+    {
+        "nome_produto": "SURVIVECCK",
+        "url_produto": "https://cbsnooper.com/products/SURVIVECCK",
+        "url_afiliado": "http://survivallife.com/credit-card-knife/affiliates/"
+    },
+    {
+        "nome_produto": "THESUPERAB",
+        "url_produto": "https://cbsnooper.com/products/THESUPERAB",
+        "url_afiliado": "https://superabundancesystem.com/affiliate/home.php"
+    },
+    {
+        "nome_produto": "HOWMENWORK",
+        "url_produto": "https://cbsnooper.com/products/HOWMENWORK",
+        "url_afiliado": "http://thatsnothowmenwork.com/affiliates.php"
+    },
+    {
+        "nome_produto": "HREVOLT",
+        "url_produto": "https://cbsnooper.com/products/HREVOLT",
+        "url_afiliado": "http://www.hypothyroidismrevolution.com/affiliates/"
+    },
+    {
+        "nome_produto": "2022EXPERT",
+        "url_produto": "https://cbsnooper.com/products/2022EXPERT",
+        "url_afiliado": "https://www.perrybelcher.com/cb-affiliate-perry-belcher"
+    },
+    {
+        "nome_produto": "COOLEASE",
+        "url_produto": "https://cbsnooper.com/products/COOLEASE",
+        "url_afiliado": "https://getcoolease.com/affiliate-enter-ce-cb"
+    },
+    {
+        "nome_produto": "GTRUSTESP",
+        "url_produto": "https://cbsnooper.com/products/GTRUSTESP",
+        "url_afiliado": "https://glucotrustesp.com/affiliates"
+    },
+    {
+        "nome_produto": "FROKNOWS",
+        "url_produto": "https://cbsnooper.com/products/FROKNOWS",
+        "url_afiliado": "http://froknowsphoto.com/affiliates/"
+    },
+    {
+        "nome_produto": "LEANOTOX",
+        "url_produto": "https://cbsnooper.com/products/LEANOTOX",
+        "url_afiliado": "https://www.leanotox.com/affiliates"
+    },
+    {
+        "nome_produto": "PASPLIT",
+        "url_produto": "https://cbsnooper.com/products/PASPLIT",
+        "url_afiliado": "https://doctoramend.com/new-affiliates"
+    },
+    {
+        "nome_produto": "MAGICKMONY",
+        "url_produto": "https://cbsnooper.com/products/MAGICKMONY",
+        "url_afiliado": "https://www.thecosmoswithlove.com/praktical-money-magick"
+    },
+    {
+        "nome_produto": "HYPNOCERT",
+        "url_produto": "https://cbsnooper.com/products/HYPNOCERT",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "MENSWELL",
+        "url_produto": "https://cbsnooper.com/products/MENSWELL",
+        "url_afiliado": "https://jh.musclemonsters.com/affiliates/"
+    },
+    {
+        "nome_produto": "GLUCOGUARD",
+        "url_produto": "https://cbsnooper.com/products/GLUCOGUARD",
+        "url_afiliado": "https://www.jaylabpro.com/clickbank-affiliate-tools.html"
+    },
+    {
+        "nome_produto": "HIDRAGENIX",
+        "url_produto": "https://cbsnooper.com/products/HIDRAGENIX",
+        "url_afiliado": "https://hidragenix.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "7MINUTEM",
+        "url_produto": "https://cbsnooper.com/products/7MINUTEM",
+        "url_afiliado": "https://sevenminutemindfulness.com/affiliates/"
+    },
+    {
+        "nome_produto": "ALINEPMFM",
+        "url_produto": "https://cbsnooper.com/products/ALINEPMFM",
+        "url_afiliado": "https://morningfatmelter.com/aff-tools"
+    },
+    {
+        "nome_produto": "FOUNDERS2K",
+        "url_produto": "https://cbsnooper.com/products/FOUNDERS2K",
+        "url_afiliado": "https://affiliates.biopls.org"
+    },
+    {
+        "nome_produto": "XPROSPER",
+        "url_produto": "https://cbsnooper.com/products/XPROSPER",
+        "url_afiliado": "http://www.drenneagram.com/affiliatetools.php"
+    },
+    {
+        "nome_produto": "CHRONOBST",
+        "url_produto": "https://cbsnooper.com/products/CHRONOBST",
+        "url_afiliado": "https://chronoboost.net/affs/"
+    },
+    {
+        "nome_produto": "PRMLFLOWFR",
+        "url_produto": "https://cbsnooper.com/products/PRMLFLOWFR",
+        "url_afiliado": "https://www.primalflowfr.com/affiliation/"
+    },
+    {
+        "nome_produto": "SIMPLYENOF",
+        "url_produto": "https://cbsnooper.com/products/SIMPLYENOF",
+        "url_afiliado": "https://simplyenof.com/pages/cb-affiliates"
+    },
+    {
+        "nome_produto": "AGELESSLX",
+        "url_produto": "https://cbsnooper.com/products/AGELESSLX",
+        "url_afiliado": "https://agelesslx.com/pages/affiliate-tools"
+    },
+    {
+        "nome_produto": "ASMARTS2",
+        "url_produto": "https://cbsnooper.com/products/ASMARTS2",
+        "url_afiliado": "https://www.patriotpoweredpartners.com/don-t-tread-on-me-flag-affiliate-resources-page1615926907141"
+    },
+    {
+        "nome_produto": "SRIYANTRA8",
+        "url_produto": "https://cbsnooper.com/products/SRIYANTRA8",
+        "url_afiliado": "https://manifestationmagic.co/sriyantra/affiliate/home.php"
+    },
+    {
+        "nome_produto": "TRPROF",
+        "url_produto": "https://cbsnooper.com/products/TRPROF",
+        "url_afiliado": "https://www.alaziac.com/tccjv.php"
+    },
+    {
+        "nome_produto": "ETEE1",
+        "url_produto": "https://cbsnooper.com/products/ETEE1",
+        "url_afiliado": "https://www.shopetee.com/pages/affiliate-portal"
+    },
+    {
+        "nome_produto": "DAGPRAYER",
+        "url_produto": "https://cbsnooper.com/products/DAGPRAYER",
+        "url_afiliado": "https://docs.google.com/document/d/1w9GFAjLW4i2-sjCf8tsGbbMfhWad4cKbESOSnIWhsL8/edit?usp=sharing"
+    },
+    {
+        "nome_produto": "FATTYLIVR",
+        "url_produto": "https://cbsnooper.com/products/FATTYLIVR",
+        "url_afiliado": "https://www.ReverseYourFattyLiver.com/affiliates"
+    },
+    {
+        "nome_produto": "TESOWS",
+        "url_produto": "https://cbsnooper.com/products/TESOWS",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "LIVINGTHIN",
+        "url_produto": "https://cbsnooper.com/products/LIVINGTHIN",
+        "url_afiliado": "http://truth-about-keto.com/affiliates/a"
+    },
+    {
+        "nome_produto": "SGRFLUSHPR",
+        "url_produto": "https://cbsnooper.com/products/SGRFLUSHPR",
+        "url_afiliado": "https://www.sugarflushpro.com/JV"
+    },
+    {
+        "nome_produto": "NATSTACK",
+        "url_produto": "https://cbsnooper.com/products/NATSTACK",
+        "url_afiliado": "https://www.naturalstacks.com/pages/clickbank-affiliates"
+    },
+    {
+        "nome_produto": "TWCLEANSE",
+        "url_produto": "https://cbsnooper.com/products/TWCLEANSE",
+        "url_afiliado": "http://www.totalwellnesscleanse.com/affiliates.html"
+    },
+    {
+        "nome_produto": "UHTSYSTEM",
+        "url_produto": "https://cbsnooper.com/products/UHTSYSTEM",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "JEEVAN91",
+        "url_produto": "https://cbsnooper.com/products/JEEVAN91",
+        "url_afiliado": null
+    },
+    {
+        "nome_produto": "BRINK1951",
+        "url_produto": "https://cbsnooper.com/products/BRINK1951",
+        "url_afiliado": "http://openthoumineeyes.com/devotional/Affiliate-page.html"
+    },
+    {
+        "nome_produto": "CALLISTODI",
+        "url_produto": "https://cbsnooper.com/products/CALLISTODI",
+        "url_afiliado": "https://diabetesescapeplan.com/affiliates/"
+    },
+    {
+        "nome_produto": "MEDICALBR",
+        "url_produto": "https://cbsnooper.com/products/MEDICALBR",
+        "url_afiliado": "https://realmedicalhelpnow.com/affiliate/"
+    },
+    {
+        "nome_produto": "FPAPROD",
+        "url_produto": "https://cbsnooper.com/products/FPAPROD",
+        "url_afiliado": "https://affiliates.familyprotectionassociation.com/"
+    },
+    {
+        "nome_produto": "TURMERICX",
+        "url_produto": "https://cbsnooper.com/products/TURMERICX",
+        "url_afiliado": "https://www.dailyturmeric.com/affiliates"
+    },
+    {
+        "nome_produto": "PURPLEBURN",
+        "url_produto": "https://cbsnooper.com/products/PURPLEBURN",
+        "url_afiliado": "https://purpleburnpro.com/help/affiliates.php"
+    },
+    {
+        "nome_produto": "JESUSDIET",
+        "url_produto": "https://cbsnooper.com/products/JESUSDIET",
+        "url_afiliado": "https://thejesusdiet.info/affiliates"
+    },
+    {
+        "nome_produto": "GLUTARAISE",
+        "url_produto": "https://cbsnooper.com/products/GLUTARAISE",
+        "url_afiliado": "https://glutaraise.com/affiliate/index.php"
+    },
+    {
+        "nome_produto": "TESTOSIL",
+        "url_produto": "https://cbsnooper.com/products/TESTOSIL",
+        "url_afiliado": "https://www.alphamalesecret.com/affiliate/"
+    },
+    {
+        "nome_produto": "VITALOSS",
+        "url_produto": "https://cbsnooper.com/products/VITALOSS",
+        "url_afiliado": "https://www.mcclearysupplements.com/vitaloss-affiliates"
+    }
+]

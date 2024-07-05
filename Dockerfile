@@ -1,42 +1,34 @@
 # Use an official Python runtime as a parent image
-FROM python:3.10.12
+FROM python:3.10.12-slim
 
 # Set the working directory in the container
 WORKDIR /ninja
 
-# Copy the current directory contents into the container at /ninja
-COPY . /ninja
-
-# Create a directory for logs, if necessary
-RUN mkdir __logger
-
 # Install necessary system utilities and libraries
 RUN apt-get update && apt-get install -y \
-    wget \
-    unzip \
-    libglib2.0-0 \
-    libnss3 \
-    libgconf-2-4 \
-    libfontconfig1 \
-    xvfb \
-    && rm -rf /var/lib/apt/lists/* \
-    && apt-get clean
+    cron \
+    tzdata \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-# Configuration of environment variables for headless operation
-ENV DISPLAY=:99
+# Set the timezone to America/Sao_Paulo
+ENV TZ=America/Sao_Paulo
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-# Upgrade pip and install required Python packages
-RUN pip install --upgrade pip \
-    && pip install -r requirements.txt \
-    && pip install gunicorn
+# Copy cron job definition into the container
+COPY cron-jobs /etc/cron.d/cron-jobs
 
-# Expose port 80 to the host machine for external access
-EXPOSE 80
+# Copy Python scripts and ETL directory into the container
+COPY diario.py semanal.py quinzenal.py ./
+COPY etl ./etl
 
-# Define environment variable to specify the port Flask should listen on
-ENV FLASK_RUN_PORT 80
+# Install Python dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Command to start the application using Gunicorn on port 80
-CMD ["gunicorn", "-b", "0.0.0.0:80", "app:app"]
+# Add cron jobs
+RUN chmod 0644 /etc/cron.d/cron-jobs
+RUN crontab /etc/cron.d/cron-jobs
 
-#v1.2
+# Start cron service
+CMD ["cron", "-f"]

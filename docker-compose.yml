@@ -1,12 +1,13 @@
-version: '3.8'
+version: '3.0 etl'
 
 services:
-  flaskapp:
-    image: felipealfah/ninjaapi:1.2
+  ninjaapi:
+    image: fulled/ninjaetl3.4.1
     ports:
       - "80:80"
     depends_on:
       - chrome
+      - selenium-hub  # Certifique-se de que depende do hub Selenium
     networks:
       - app-network
 
@@ -29,21 +30,20 @@ services:
     networks:
       - app-network
 
-  # Descomente para usar Firefox
-  firefox:
-     image: selenium/node-firefox:4.20
-     shm_size: 2gb
-     depends_on:
-       - selenium-hub
-     environment:
-      SE_EVENT_BUS_HOST: selenium-hub
-      SE_EVENT_BUS_PUBLISH_PORT: 4442
-      SE_EVENT_BUS_SUBSCRIBE_PORT: 4443
-     networks:
-       - app-network
+  # Firefox Node (descomentado se necessário)
+  # firefox:
+  #   image: selenium/node-firefox:4.20
+  #   shm_size: 2gb
+  #   depends_on:
+  #     - selenium-hub
+  #   environment:
+  #     SE_EVENT_BUS_HOST: selenium-hub
+  #     SE_EVENT_BUS_PUBLISH_PORT: 4442
+  #     SE_EVENT BUS_SUBSCRIBE_PORT: 4443
+  #   networks:
+  #     - app-network
 
 networks:
   app-network:
     name: app-network
     driver: bridge
-
