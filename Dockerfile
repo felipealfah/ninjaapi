@@ -24,7 +24,8 @@ COPY etl ./etl
 
 # Install Python dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip \
+    && pip install --no-cache-dir -r requirements.txt
 
 # Add cron jobs
 RUN chmod 0644 /etc/cron.d/cron-jobs
