@@ -1,0 +1,3335 @@
+{
+    "data_criacao": "2024-07-29 14:41:59",
+    "produtos": [
+        {
+            "title": "Fitspresso",
+            "description": "Fitspresso is a natural formula that supports healthy weight loss.",
+            "conversion_rate": "2.80%",
+            "product_link": "https://getfitspresso.org/video/bg",
+            "allowed_geos": "Link inside the offer",
+            "restrictions": "Link inside the offer",
+            "average_payout": "$140.00"
+        },
+        {
+            "title": "SugarDefender",
+            "description": "Support healthy blood sugar levels, boost your all-day natural energy, and promote your sharp thinking with the help of BLOOD SUGAR FORMULA by Sugar Defender RESEARCH!",
+            "conversion_rate": "2.30%",
+            "product_link": "https://sugardefender24.com/b/101.php",
+            "allowed_geos": "USA, CA, AT, AU, BE, CH, DE, DK, FI, FR, UK, IT, LU, NL, NO, SE, SG;",
+            "restrictions": "No Rebrokering, No Incent, No SMS, NO Call Centers, No SPAM, No Brand Bidding or SEO on the VSLs; Affiliates may NOT use words such as 'fraud', 'scam' or similar terminology in their promotions including but not limited to, Ad content, landing pages, video titles, written content, images, or other metadata.",
+            "average_payout": "$140.00"
+        },
+        {
+            "title": "Sumatra Slim Belly Tonic",
+            "description": "Sumatra Slim Belly Tonic is an all-natural formula that can assist in eliminating excess body fat while maintaining long-term results.",
+            "conversion_rate": "2.60%",
+            "product_link": "https://sumatraslimbellytonic.com/welcome/",
+            "allowed_geos": "USA, UK, IE, AU, NZ, CA, EU",
+            "restrictions": "NO Brand Bidding, No Discounts, No Incent, No 'This is Scam' review pages or with negative wording, No SMS",
+            "average_payout": "$135.00"
+        },
+        {
+            "title": "Boostaro",
+            "description": "Boostaro is a powerful supplement that supports healthy erections the natural way.",
+            "conversion_rate": "2.55%",
+            "product_link": "https://goboostaro.com/video/bg",
+            "allowed_geos": "Link inside the offer",
+            "restrictions": "Link inside the offer",
+            "average_payout": "$135.00"
+        },
+        {
+            "title": "Neotonics",
+            "description": "Neotonics is a scientifically-formulated mix that gathers no less than 500 million units of extra-strong bacteria and 9 potent natural ingredients into one probiotic gummy that targets the root cause of skin and gut aging.",
+            "conversion_rate": "2.60%",
+            "product_link": "https://theneotonics.com/video.php",
+            "allowed_geos": "US, CA, AU, UK, NZ, IE",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Kerassentials",
+            "description": "Kerassentials maintains the health of your nails and skin using natural and pure ingredients.",
+            "conversion_rate": "2.50%",
+            "product_link": "https://thekerassentials.com/video.php",
+            "allowed_geos": "USA, CA, IE, UK, AU, NZ",
+            "restrictions": "No SPAM, no SMS, No Incentives",
+            "average_payout": "$125.00"
+        },
+        {
+            "title": "All Day Slimming Tea",
+            "description": "The only scientifically proven slimming tea that will rejuvenate the dead mitochondria in your cells so they produce energy and burn fat 24/7 like they did when you were young, while at the same time stop fat production in your body. ",
+            "conversion_rate": "2.40%",
+            "product_link": "https://getalldayslimmingtea.com/start",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$145.00"
+        },
+        {
+            "title": "Metanail",
+            "description": "Introducing METANAIL - the ONLY anti-fungal complete solution which is BOTH a dropper and a supplement! This unique approach is guaranteed to make everyone immediately try it!",
+            "conversion_rate": "2.10%",
+            "product_link": "https://metanailcomplex.pro/welcome/",
+            "allowed_geos": "US, CA, UK, AU",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Kerafen",
+            "description": "Kerafen combats toenail fungus using a powerful blend of 15 carefully selected natural ingredients for healthy toenails.",
+            "conversion_rate": "1.86%",
+            "product_link": "https://kerafen.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Prostadine",
+            "description": "Prostadine is a scientist-formulated mix that gathers 9 scientifically proven, extra-strong ingredients into one unique dropper that targets the root cause of prostate enlargement and urinary tract infections, clearing and flushing out the mineral buildup from your system.",
+            "conversion_rate": "2.20%",
+            "product_link": "https://theprostadine.com/video.php",
+            "allowed_geos": "USA, CA, IE, UK, AU, NZ",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Energeia",
+            "description": "Energeia is the only formula in the world that combines GHG, Nigella Sativa and Caralluma Fimbriata, to 'flip on' the lipase switch inside the cells.",
+            "conversion_rate": "2.20%",
+            "product_link": "https://myenergeia.com/offer/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$130.00"
+        },
+        {
+            "title": "Glucoswitch",
+            "description": "Powerful blood sugar support formula.",
+            "conversion_rate": "2.15%",
+            "product_link": "https://glucoswitch.co/",
+            "allowed_geos": "USA, CA, UK, AU",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Amiclear",
+            "description": "AMICLEAR - Activates Energy, Metabolism, Blood Sugar! Novel scientific approach for High Blood Sugar and Type 2 Diabetes.  ",
+            "conversion_rate": "2.10%",
+            "product_link": "https://tryamiclear.com/b/order-now.php",
+            "allowed_geos": "USA, CA, AT, AU, BE, CH, DE, DK, FI, FR, UK, IT, LU, NL, NO, SE, SG;",
+            "restrictions": "No Rebrokering, No Incent, No SMS, NO Call Centers, No SPAM, No Brand Bidding or SEO on the VSLs; Affiliates may NOT use words such as 'fraud', 'scam' or similar terminology in their promotions including but not limited to, Ad content, landing pages, video titles, written content, images, or other metadata.",
+            "average_payout": "$115.00"
+        },
+        {
+            "title": "Quietum Plus",
+            "description": "A 100% natural blend featuring 12 high-quality plant extracts, designed to support overall ear and brain health in a convenient daily capsule.",
+            "conversion_rate": "2.04%",
+            "product_link": "https://thequietumplus.com/video.php",
+            "allowed_geos": "US, CA, UK, IE, AU, NZ",
+            "restrictions": "No Spam, No Brand Bidding, No Incent, No SMS",
+            "average_payout": "$115.00"
+        },
+        {
+            "title": "Gluco Freeze",
+            "description": "The first all-natural supplement specially made to target the real root cause of high blood sugar.",
+            "conversion_rate": "2.50%",
+            "product_link": "https://glucofreezeurgent.com/special-announcement/index.html",
+            "allowed_geos": "USA",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Tonic Greens",
+            "description": "Super anti oxidant blend that helps eliminate the herpes virus from your body within a short period of time.",
+            "conversion_rate": "3.20%",
+            "product_link": "https://tonic.phytogreens.net/vslv1",
+            "allowed_geos": "US, CA, UK, AU, NZ",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Synogut",
+            "description": "The only 100% natural blend that addresses the root cause of digestive disorders: the gut lining eating microbes.",
+            "conversion_rate": "2.30%",
+            "product_link": "https://thesynogut.com/video.php",
+            "allowed_geos": "US, CA, UK, IE, AU, NZ",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Endo Peak",
+            "description": "CUTTING-EDGE Male Enhancement! The Herbal Science Breakthrough in Men's Sexual Health!",
+            "conversion_rate": "1.88%",
+            "product_link": "https://endopeak24.com/b/order-now.php",
+            "allowed_geos": "USA, CA, AT, AU, BE, CH, DE, DK, FI, FR, UK, IT, LU, NL, NO, SE, SG",
+            "restrictions": "No Rebrokering, No Incent, No SMS, NO Call Centers, No SPAM, No Brand Bidding or SEO on the VSLs; Affiliates may NOT use words such as 'fraud', 'scam' or similar terminology in their promotions including but not limited to, Ad content, landing pages, video titles, written content, images, or other metadata",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Sight Care",
+            "description": "Vision BREAKTHROUGH that quickly restores your eyesight to perfect 20/20 vision, quickly and naturally",
+            "conversion_rate": "2.90%",
+            "product_link": "https://getsightcarefast.net/video/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$136.00"
+        },
+        {
+            "title": "Glucotil",
+            "description": "Maintain balanced blood sugar levels, enhance natural energy, and boost mental clarity with Glucotil, all powered by a Japanese remedy for type 2 diabetes support.",
+            "conversion_rate": "1.65%",
+            "product_link": "https://glucotil.com/vsl",
+            "allowed_geos": "USA",
+            "restrictions": "No Incent, No Co-Reg, No SMS, No Brand Bidding, NO SEO to VSL, No Rebrokering",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "FastLeanPro",
+            "description": "Revolutionary Weight Loss Formula.      ",
+            "conversion_rate": "2.61%",
+            "product_link": "https://thefastleanpro.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Fluxactive Complete",
+            "description": "Fluxactive is a vital prostate wellness formula designed to offer complete support and normal functions of the bladder, prostate and reproductive system.",
+            "conversion_rate": "2.65%",
+            "product_link": "https://fluxactive.cc/vslv1",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "EyeFortin",
+            "description": "The Natural Ultra Absorbable Dropper That Supports Strong Vision.",
+            "conversion_rate": "2.53%",
+            "product_link": "https://theeyefortin.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$115.00"
+        },
+        {
+            "title": "FlowForce Max",
+            "description": "Original Prostate Shrinking Formula. Powerful Pitch, Multiple.",
+            "conversion_rate": "2.30%",
+            "product_link": "https://theflowforcemax.com/video.php",
+            "allowed_geos": "US, CA, AU, UK, NZ, IE",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Plantsulin",
+            "description": "A Blood Sugar Support supplement that’s packed with all natural ingredients to help support Blood Sugar Levels within normal range, as well as, may help in Improving Beta Cell Regeneration & may help in maintaining Healthy Blood Sugar. ",
+            "conversion_rate": "1.80%",
+            "product_link": "https://plantinsulin.com/video/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$130.00"
+        },
+        {
+            "title": "VisiSoothe",
+            "description": "VisiSoothe is an amazing natural method that can help restore fading eyesight back to crystal clear 20/20 vision.",
+            "conversion_rate": "2.59%",
+            "product_link": "https://visisoothe.com/special-announcement/index.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "LeanBliss",
+            "description": "Natural “Ozempic” Formula To Lose Weight & Stabilize Blood Sugar,",
+            "conversion_rate": "2.24%",
+            "product_link": "https://theleanbliss.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$108.00"
+        },
+        {
+            "title": "DentiCore",
+            "description": "The Unique Dental Solution That Supports Healthy Teeth & Oxygenates Gums.  ",
+            "conversion_rate": "2.71%",
+            "product_link": "https://thedenticore.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "PureLumin Esssence",
+            "description": "The Natural Method That Supports Dark-Spots Free Skin.",
+            "conversion_rate": "2.81%",
+            "product_link": "https://thepureluminessence.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "ProDentim",
+            "description": "Nuevos Probióticos Especialmente Diseñados Para La Salud De Tus Dientes Y Encías.",
+            "conversion_rate": "2.80%",
+            "product_link": "https://getelprodentim.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "NanoDefense Pro",
+            "description": "The Unique Nanotechnology Solution That Supports Healthy Nails And Skin.",
+            "conversion_rate": "2.80%",
+            "product_link": "https://thenanodefensepro.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "KeraBiotics",
+            "description": "The Advanced Probiotic Mix That Supports Healthy Toenails KeraBiotics is a meticulously-crafted natural formula designed to help people dealing with nail fungus.",
+            "conversion_rate": "2.80%",
+            "product_link": "https://thekerabiotics.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "ProNail Complex",
+            "description": "ProNail Complex is a meticulously-crafted natural formula which combines extremely potent oils and skin-repairing vitamins. ",
+            "conversion_rate": "2.46%",
+            "product_link": "https://thepronailcomplex.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Balmorex",
+            "description": "Introducing BALMOREX - a unique, custom formula back & joint pain cream product guaranteed to deliver outstanding results! Good-bye pain - hello freedom!",
+            "conversion_rate": "2.41%",
+            "product_link": "https://balmorexpro.com/welcome",
+            "allowed_geos": "US, CA, UK, AU, NZ",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "MenoPhix",
+            "description": "MenoPhix is the ultimate menopause solution that naturally soothes symptoms with 6 incredible all-natural ingredients designed to boost estrogen levels.  ",
+            "conversion_rate": "2.50%",
+            "product_link": "https://1.menophix.com/v-page-l1",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Gluco6",
+            "description": "Researchers Discover The Shocking Root Cause Of Blood Sugar Imbalance.",
+            "conversion_rate": "2.10%",
+            "product_link": "https://gluco6.com/discover",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "PotentStream",
+            "description": "PotentStream is designed to address prostate health by targeting the toxic, hard water minerals that can create a dangerous buildup inside your urinary system.",
+            "conversion_rate": "2.70%",
+            "product_link": "https://thepotentstream.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "TribalForce X",
+            "description": "Original Penis Enhancing Formula. ",
+            "conversion_rate": "2.80%",
+            "product_link": "https://thetribalforcex.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Cerebrozen",
+            "description": "Brainiac Ingredients: Packed with brain-boosting goodness, Cerebrozen's formula is like a brainstorm in a bottle. Your customers can say goodbye to tinnitus and hello to clarity!  ",
+            "conversion_rate": "2.12%",
+            "product_link": "https://cerebrozen.com/b/order-now.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "DigestSync",
+            "description": "DigestSync is a specialized formula designed to support the vagus nerve, essential for managing the movement of food from the stomach to the intestines. Our formula supports a healthy inflammatory response, along with the normal functioning of the vagus nerve.",
+            "conversion_rate": "2.60%",
+            "product_link": "https://thedigestsync.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "ProvaDent",
+            "description": "Provadent is a supplement- it's a soft chewable ‘treat’ that prevents cavities and enhances oral and overall health.  ",
+            "conversion_rate": "2.40%",
+            "product_link": "https://dentalsugarhack.me/discovery",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "ProstaBiome",
+            "description": "A Japanese breakfast ritual, that within minutes starts to eliminate prostate parasites, killing them and flushing them out of your body completely!  ",
+            "conversion_rate": "1.89%",
+            "product_link": "https://prostabiome.com/b/watch/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "InvigoRise",
+            "description": "InvigoRise is not just a supplement – it's your passport to the vibrant, potent life you deserve.",
+            "conversion_rate": "2.30%",
+            "product_link": "https://discount.tryinvigorise.com/invigorise_me1/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Cellucare",
+            "description": "CELLUCARE is designed to assist in maintaining healthy blood sugar levels and support weight management. It has helped many individuals, allowing them to work towards their health goals from the comfort of their homes.",
+            "conversion_rate": "2.25%",
+            "product_link": "https://getcellucare.com/b/report.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Primordial Vigor X",
+            "description": "Primordial Vigor X is the strongest, most effective 100% natural male enhancing formula you've ever come across. Based on the most recent scientific studies, this new method will help you add inches to your penis size in just a few weeks, without the use of pumps, creams, or any other so-called solu...",
+            "conversion_rate": "2.20%",
+            "product_link": "https://primordialvigorx.com/video",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Prosta Stream",
+            "description": "An all-natural supplement that will allow to target the real root cause of BPH: a severe inflammation caused by the body confusing DHT hormones for an infection. It will also turbo-boost hormone receptors and immune system to break out the prostate growth cycle.",
+            "conversion_rate": "1.74%",
+            "product_link": "https://theprostastream.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Bazopril",
+            "description": "Bazopril™ is designed to support a balanced and healthy blood pressure levels with special nutrients that help regulate blood flow and blood vessels in the heart.",
+            "conversion_rate": "2.19%",
+            "product_link": "https://getbazopril.com/vsl/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Red Boost",
+            "description": "The most potent, Fast-Acting formula for increasing Male Sexual performance",
+            "conversion_rate": "2.18%",
+            "product_link": "https://myredtonic.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$115.00"
+        },
+        {
+            "title": "Volumil",
+            "description": "The ultimate Amish formula for improving your hearing, without any dangerous surgery, expensive hearing aids and no dietary restrictions.",
+            "conversion_rate": "0.03%",
+            "product_link": "https://volumil.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$118.00"
+        },
+        {
+            "title": "Dentafend",
+            "description": "This 1 Key Nutrient Fixes Your Gum Disease And Rebuilds Your Teeth",
+            "conversion_rate": "1.91%",
+            "product_link": "https://dentafend.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "FortBite",
+            "description": "Brand New Unique Volcanic Clay for Teeth & Gums Sells Like Crazy!  ",
+            "conversion_rate": "1.60%",
+            "product_link": "https://thefortbite.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "GutOptim",
+            "description": "GutOptim contains 10 easily absorbable ingredients that aim to offer full support for your stomach and accompany you on your journey towards a healthy gut",
+            "conversion_rate": "2.30%",
+            "product_link": "https://thegutoptim.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Arthronol",
+            "description": "Scientifically-backed all natural joint supplement with a strong VSL using a Doctor of Physical Therapy / retired US Army Medical Officer as a spokesperson.  ",
+            "conversion_rate": "1.88%",
+            "product_link": "https://www.arthronol.com/",
+            "allowed_geos": "USA",
+            "restrictions": "Não disponível",
+            "average_payout": "$131.00"
+        },
+        {
+            "title": "Solar Switch",
+            "description": "Complete Step-By-Step video guide for building a foldable, adjustable, and portable solar panel system.",
+            "conversion_rate": "10.00%",
+            "product_link": "https://www.solarswitch4all.net/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$52.00"
+        },
+        {
+            "title": "Power Bite",
+            "description": "PowerBite: This Unique “Thermal Calcium” Is Here! PowerBite is the only teeth and gum-supporting formula which contains a unique mineral blend in the form of an easy-to-use dental candy.",
+            "conversion_rate": "2.36%",
+            "product_link": "http://thepowerbite.com/video.php",
+            "allowed_geos": "US, CA, UK, IE, AU, NZ",
+            "restrictions": "No Spam, No Incentives",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Aizen Power",
+            "description": "Dominate The Male Enhancement Niche Today with Aizen Power & Watch Your Profits Grow Stronger, Bigger, Larger!",
+            "conversion_rate": "1.57%",
+            "product_link": "https://aizenpower101.com/video.php",
+            "allowed_geos": "US, CA, UK, IE, AU, NZ",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "LiberatorX2",
+            "description": "A completely natural formula that increases the size of the penis by more than 4.3 inches in less than a few weeks. no matter the current length and girth of your manhood, and even if you’re 18 or 80 years old.",
+            "conversion_rate": "1.60%",
+            "product_link": "https://liberatorx2.com/report",
+            "allowed_geos": "Full list within the offer;",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Blood Sugar Blaster",
+            "description": "Blood Sugar Blaster promotes healthy blood sugar by providing 20 vital bio-available fruit, flower and bark extracts with essential vitamin and mineral support.",
+            "conversion_rate": "1.94%",
+            "product_link": "https://bloodsugarblaster.com/index-vsl-bsb-bg",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Honey Burn",
+            "description": "HoneyBurn is the first and only purple honey designed for weight loss. This sweet treat boosts lipase production and accelerates your ability to burn fat.",
+            "conversion_rate": "2.10%",
+            "product_link": "https://thehoneyburn.com/video.php",
+            "allowed_geos": "US, CA, AU, UK, NZ, IE",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "The Alpha Tonic",
+            "description": "The Most POTENT formula for Boosting Male Sex Drive, Energy & Peak Masculine Performance at any age",
+            "conversion_rate": "1.88%",
+            "product_link": "https://myalphatonic.com/breakthrough",
+            "allowed_geos": "USA, CA, UK, AU, NZ, IE",
+            "restrictions": "Não disponível",
+            "average_payout": "$125.00"
+        },
+        {
+            "title": "Illuderma",
+            "description": "Revolutionary dark spots formula, 100% backed by science",
+            "conversion_rate": "2.40%",
+            "product_link": "https://theilluderma.com/video.php",
+            "allowed_geos": "US, CA, AU, UK, NZ, IE",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "GlucoBerry",
+            "description": "GlucoBerry™ is a brand-new, doctor-formulated blood sugar supplement formulated using Ivy League research, and backed by real-world results.",
+            "conversion_rate": "2.31%",
+            "product_link": "https://www.buygoods.com/product/glucoberry_main_1/8012/47",
+            "allowed_geos": "Worldwide",
+            "restrictions": "Não disponível",
+            "average_payout": "$103.00"
+        },
+        {
+            "title": "ZenCortex",
+            "description": "ZENCORTEX – the ultimate solution for tinnitus and hearing health!",
+            "conversion_rate": "2.00%",
+            "product_link": "https://zencortex24.com/b/101.php",
+            "allowed_geos": "USA, CA, AU, BE, CH, DE, DK, FI, FR, UK, IT, LU, NL, NO, SE, SG",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Savannah Black Surge",
+            "description": "Enlarge your penis and improve sexual performance using this natural gorilla ritual.",
+            "conversion_rate": "1.98%",
+            "product_link": "https://savannahblacksurge.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "No Incentive; No Co-Reg, No SMS, No Brand Bidding",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Nerve Control 911",
+            "description": "The formula of Nerve Control 911 allows it to penetrate damaged nerves and repair them as the core.",
+            "conversion_rate": "2.13%",
+            "product_link": "https://bg.nervecontrol911.com/nc911erfmv1/index.php",
+            "allowed_geos": "Worldwide",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "LipoSlend",
+            "description": "The Natural “At-Home Liposuction Method” That Supports Healthy & Steady Weight Loss.",
+            "conversion_rate": "1.89%",
+            "product_link": "https://theliposlend.com/video.php",
+            "allowed_geos": "US, CA, AU, UK, NZ, IE",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Energize Brew",
+            "description": "Energize Brew is a revitalizing green coffee diet supplment blend infused with potent herbs to elevate your energy levels and sharpen mental clarity.",
+            "conversion_rate": "2.10%",
+            "product_link": "https://herbalenergizebrew.com/vsl/",
+            "allowed_geos": "USA",
+            "restrictions": "NO SMS, No incentives, No Celebs",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Free Sugar Pro",
+            "description": "The Unique Solution That Improve Healthy Glucose Levels and Natural Weight Loss.  ",
+            "conversion_rate": "1.81%",
+            "product_link": "https://www.freesugarpro.com/vsl-v1",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Wild Stallion Pro",
+            "description": "Wild Stallion Pro is a synergy of science and nature that contains essential nutrients proven to help men boost their bedroom performance.  ",
+            "conversion_rate": "2.11%",
+            "product_link": "https://wildstallionpro.com/report",
+            "allowed_geos": "USA",
+            "restrictions": "NO SMS",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "TerraCalm",
+            "description": "Revolutionary Anti-Fungal French Clay.  ",
+            "conversion_rate": "2.30%",
+            "product_link": "https://theterracalm.com/video.php",
+            "allowed_geos": "US, CA, AU, UK, NZ, IE",
+            "restrictions": "No Incentives, No spam, No SMS",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "VigorPlux",
+            "description": "Gummies for improving potency and men's health.",
+            "conversion_rate": "1.42%",
+            "product_link": "https://vigorpluxshop.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Gluco Proven",
+            "description": "Supports healthy blood sugar levels.",
+            "conversion_rate": "1.23%",
+            "product_link": "https://glucoproven.com/special-announcement/index.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "ReFirmance",
+            "description": "The Natural “Lift Serum” That Supports A Healthy & Toned Skin.  ",
+            "conversion_rate": "2.00%",
+            "product_link": "https://therefirmance.com/video.php",
+            "allowed_geos": "US, CA, AU, UK, NZ, IE",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "RingHush",
+            "description": "Best Tinnitus, hearing loss, and memory product.",
+            "conversion_rate": "1.60%",
+            "product_link": "https://ringhush.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "No Incent, No SMS,  No co-reg., No Brand Bidding",
+            "average_payout": "$112.00"
+        },
+        {
+            "title": "Reliver Pro",
+            "description": "Brand new formula supports optimal liver function and healthy weight loss.  ",
+            "conversion_rate": "1.25%",
+            "product_link": "https://tryreliver.com/discovery/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "AquaPeace",
+            "description": "Revolutionary Deep Sea Hearing Formula. Powerful Pitch, MultipleIntros Available, 100% Backed By Science.",
+            "conversion_rate": "1.28%",
+            "product_link": "https://theaquapeace.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$125.00"
+        },
+        {
+            "title": "Pineal XT",
+            "description": "Pineal XT - Top Converting Pineal Gland and Manifestation Offer. Brand new unique offer designed to help support the pineal gland, and aid with manifestation.",
+            "conversion_rate": "1.52%",
+            "product_link": "https://pxt.pinealxt.com/byg/presentation/index.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "RevaSlim",
+            "description": "Newest weight loss offer on the market!",
+            "conversion_rate": "2.00%",
+            "product_link": "https://revaslim.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Clear Nails Max",
+            "description": "Discover 5 Simple Ways to Boost Nail Health... So You Can Flaunt Beautiful, Clear Nails Once Again!",
+            "conversion_rate": "1.98%",
+            "product_link": "https://clearnailsmax.com/bg/vsl/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "AeroSlim",
+            "description": "Unique Formula To Increase Your Metabolic Respiration Rate.",
+            "conversion_rate": "2.15%",
+            "product_link": "https://theaeroslim.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Puralean",
+            "description": "PURALEAN is one of the only solutions anywhere formulated with a Liver-Purifying & Fat-Burning Blend of Mediterranean plant-based nutrients that optimize healthy liver function, a new cause of unexplained weight gain.",
+            "conversion_rate": "2.11%",
+            "product_link": "https://healthium.life/bg-puralean-vsl",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$115.00"
+        },
+        {
+            "title": "ProDentim",
+            "description": "Brand New Probiotics Specially Designed For The Health Of Your Teeth And Gums.",
+            "conversion_rate": "2.37%",
+            "product_link": "https://theprodentim.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$125.60"
+        },
+        {
+            "title": "NeuroZoom",
+            "description": "New Memory Product. Complete support for healthy memory, concentration and mental acuity.",
+            "conversion_rate": "2.16%",
+            "product_link": "https://tryneurozoom.com/welcome/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$115.00"
+        },
+        {
+            "title": "DentaTonic",
+            "description": "The Unique “Dental Filtration Breakthrough” That Supports Healthy Teeth & Gums.  ",
+            "conversion_rate": "2.10%",
+            "product_link": "https://thedentatonic.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Elon Musk Badges",
+            "description": "The Elon Musk Badge is a collectible masterpiece commemorating the visionary's impact on technology and space travel. With only 250 minted, this rare item captures the essence of Musk's legacy and serves as a beacon of inspiration for the future.",
+            "conversion_rate": "1.65%",
+            "product_link": "https://www.elonbadge.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "CogniCarePro",
+            "description": "CogniCare Pro is a top-tier brain health supplement designed to enhance memory, focus, and cognitive function.",
+            "conversion_rate": "1.90%",
+            "product_link": "https://getcognipro.com/b/report.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Joint N-11",
+            "description": "Formula that strengthens joint mobility and soothes joint pain while relieving stiffness. It includes Niacinamide as a primary ingredient, which treats the 2 causes of joint problems: inflammation and cartilage decay.",
+            "conversion_rate": "1.67%",
+            "product_link": "https://freedomfromyourjointpain.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "Abdomax",
+            "description": "Abdomax is a powerful and unique gut/digestion supplement.",
+            "conversion_rate": "1.41%",
+            "product_link": "https://goabdomax.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Collagen Refresh",
+            "description": "Collagen Refresh™ is an innovative collagen supplement formulated using brand-new Ivy League research and backed by real-world results.",
+            "conversion_rate": "2.51%",
+            "product_link": "https://www.buygoods.com/product/crefresh_main_1/8379/2",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Revival Tonic",
+            "description": "This product supports a healthy weight with 100% natural ingredients without having to give up your favorite foods!",
+            "conversion_rate": "2.87%",
+            "product_link": "https://therevivaltonic.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "VistaClear",
+            "description": "Vista Clear is conveniently packed with over 26 essential antioxidants, rare cleansing herbs, powerful specific eye health support vitamins and grade A nutrients to help support your vision.",
+            "conversion_rate": "1.41%",
+            "product_link": "https://get.vistaclear2020.com/video/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$130.00"
+        },
+        {
+            "title": "ClickDesigns",
+            "description": "A remarkably 'point-and-click' easy to use, yet beautifully powered software with 1,000's of professionally designed and done for you customizable templates!",
+            "conversion_rate": "3.40%",
+            "product_link": "https://clickdesigns.com/bg/cd/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$83.00"
+        },
+        {
+            "title": "MenoRescue",
+            "description": "The next generation in menopause offers from an Award-Winning Team.  ",
+            "conversion_rate": "1.87%",
+            "product_link": "https://www.buygoods.com/product/menorescue_main_1/8378/2",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "BioVanish",
+            "description": "It's a delicious cocoa-flavored drink mix that's packed full of 9-c fats.",
+            "conversion_rate": "1.64%",
+            "product_link": "https://www.buygoods.com/product/biovanish_main_1/8517/2",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Resveratone",
+            "description": "Traditional Japanese Herb Melts 53 Pounds In Weeks",
+            "conversion_rate": "1.90%",
+            "product_link": "https://resveratone.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Spinal Force",
+            "description": "This Village-Made Chinese Pain Reliever Eliminates Back And Joint Pain!",
+            "conversion_rate": "1.90%",
+            "product_link": "https://spinalforce.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Flexorol",
+            "description": "Flexorol will rid you of that debilitating, life-wrecking pain. They will also boost your energy levels, strengthen your bones and muscles and even help you lose that extra weight.",
+            "conversion_rate": "1.87%",
+            "product_link": "https://flexorol.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$112.00"
+        },
+        {
+            "title": "SonoFit",
+            "description": "By addressing the root cause of hearing loss, SonoFit acts like an “inner ear bandage”, soothing and helping the eardrum recover, while protecting it from future damage.",
+            "conversion_rate": "2.14%",
+            "product_link": "https://thesonofit.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$107.00"
+        },
+        {
+            "title": "Q Charge",
+            "description": "Q Charge has the best formula. In addition to the cognitive benefits, Q Charge provides powerful anti-aging antioxidants that support immunity, overall vitality and well-being, along with, often deficient, vitamins B12 and D3.",
+            "conversion_rate": "2.10%",
+            "product_link": "https://qchargeshop.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$130.50"
+        },
+        {
+            "title": "VidaCalm",
+            "description": "Vidacalm - A unique 18-in-1 tinnitus and hearing formula based on cutting-edge neurocognitive science and hundreds of years of traditional herbal wisdom. ",
+            "conversion_rate": "2.25%",
+            "product_link": "https://vidacalm.com/v1-study",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "SlimSwitch",
+            "description": "Support healthy weight loss with SlimSwitch™, formulated using the latest Ivy League research and backed by real-world results.",
+            "conversion_rate": "1.45%",
+            "product_link": "https://www.buygoods.com/product/slimswitch_main_1/8473/3",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "Cacao Bliss",
+            "description": "This chocolate contains an incredibly powerful kind of antioxidant to help support cellular health, including magnesium and many other essential vitamins and minerals.",
+            "conversion_rate": "1.89%",
+            "product_link": "https://earthechoproducts.com/cacao-lp-bg-vsl",
+            "allowed_geos": "USA",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Cavityn",
+            "description": "Unique composite rebuilds teeth 10x stronger than implants, strengthen gums and targets bad breath culprit",
+            "conversion_rate": "1.40%",
+            "product_link": "https://cavityn.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$115.00"
+        },
+        {
+            "title": "PurDentix",
+            "description": "PurDentix is designed to assist in rebalancing the healthy bacteria in your mouth to support dental and oral health. ",
+            "conversion_rate": "1.50%",
+            "product_link": "https://getpurdentix.org/video/bg",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Supranail",
+            "description": "Complete Support For Healthy & Beautiful Nails & Feet!",
+            "conversion_rate": "2.10%",
+            "product_link": "https://trysupranail.com/v1-emotional",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Revitalize",
+            "description": "Revitalize is a hair regrowth serum with 9 scientifically proven natural ingredients to promote hair regrowth and stop hair loss.",
+            "conversion_rate": "2.83%",
+            "product_link": "https://shop.derosehealth.com/revitalize-buy-goods",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$95.00"
+        },
+        {
+            "title": "Blood Sugar Premier",
+            "description": "Formula that includes a premium blend of herbs that will help you naturally support healthy blood sugar. Some of its ingredients are Berberine, Curcumin, and Piperine, all combined are great at helping you naturally support healthy blood sugar.",
+            "conversion_rate": "1.50%",
+            "product_link": "https://yourhealthybloodsugar.net/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "Turmeric",
+            "description": "Turmeric is a treasured spice that has been enjoyed for thousands of years. It is a member of the ginger family and is best known for its anti-inflammatory properties. ",
+            "conversion_rate": "1.38%",
+            "product_link": "https://getsciencenatural.com/turmeric",
+            "allowed_geos": "Worldwide;",
+            "restrictions": "Não disponível",
+            "average_payout": "$63.00"
+        },
+        {
+            "title": "Blisterol",
+            "description": "Eliminate the herpes simplex virus and protect your organism from cold sore outbursts.",
+            "conversion_rate": "1.34%",
+            "product_link": "https://blisterol.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Auritine",
+            "description": "A natural product with the power to eliminate tinnitus, help you regain your hearing and protect your brain and precious memories, all of that in just weeks.",
+            "conversion_rate": "2.03%",
+            "product_link": "https://auritine.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$102.00"
+        },
+        {
+            "title": "Joint Genesis",
+            "description": "Joint Genesis™ is a brand-new, doctor-formulated joint health supplement born out of Ivy League research, and backed by real-world results.  This unique and cutting-edge ingredient blend supports joint health in a newly-discovered way: by rehydrating and thickening up the naturally jello-like synovi...",
+            "conversion_rate": "2.40%",
+            "product_link": "https://www.buygoods.com/product/jointgenesis_main_1/8099/3",
+            "allowed_geos": "Não disponível",
+            "restrictions": "No SMS, No Brand and Trademark Bidding, No Google",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Salute to America 250 Limited Edition Cards",
+            "description": "Limited edition “Salute to America 250”  cards celebrate 250 years of US history. Each beautifully designed card features a prominent figure or important event with a description. Don’t miss out on this unique and valuable collectible set!",
+            "conversion_rate": "1.80%",
+            "product_link": "https://salutetoamerica250.online/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "No SMS",
+            "average_payout": "$220.00"
+        },
+        {
+            "title": "Memo Max Pro",
+            "description": "The only natural memory treatment which destroys the brain-eating enzyme that causes dementia. All the ingredients in Memo Max Plus work in perfect synergy to create the internal reaction that’s needed to target STEP and block it from deleting human memories. ",
+            "conversion_rate": "2.34%",
+            "product_link": "https://thememomaxpro.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$123.76"
+        },
+        {
+            "title": "Flexomend",
+            "description": "This supplement restores your joints’ health and mobility and gets rid of the inflammation.",
+            "conversion_rate": "1.56%",
+            "product_link": "https://flexomend.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "No incent, No SMS, No Co-reg., No Brand Bidding",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Puradrop Gummies",
+            "description": "Infused with superfoods that support metabolism, fat burn & weight loss, Puradrop gummies are delicious & easy to take!",
+            "conversion_rate": "1.70%",
+            "product_link": "https://puradrop.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "No SMS",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Duo Trim",
+            "description": "The Only Dual-Supplement Offer combining Weight-Loss with Gut Health!",
+            "conversion_rate": "1.23%",
+            "product_link": "https://www.duotrim.com/bg",
+            "allowed_geos": "Não disponível",
+            "restrictions": "No SMS, No Brand Bidding, No Scam Review",
+            "average_payout": "$179.13"
+        },
+        {
+            "title": "Ocusil",
+            "description": "This product will ensure that your eyes will reach their maximum visual potential, giving you better sharpness, skyrocketing energy levels and even boost your memory and focus.",
+            "conversion_rate": "1.89%",
+            "product_link": "https://ocusil.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "No SMS, No incentive, No brand bidding, No Co-Reg.",
+            "average_payout": "$115.59"
+        },
+        {
+            "title": "Nervogen Pro",
+            "description": "A non-invasive and risk-free supplement specifically calculated and adjusted to give the best possible results against neuropathy and nerve damage disorders helping tensed up muscles and painful nerve-endings achieve relief. ",
+            "conversion_rate": "1.64%",
+            "product_link": "https://thenervogen.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$109.00"
+        },
+        {
+            "title": "Moringa",
+            "description": "Moringa oleifera is an exotic plant that provides anti-oxidant protection for your body that helps consumers support their cholesterol levels, eliminate brain fog and helps your digestive system detox.",
+            "conversion_rate": "1.40%",
+            "product_link": "https://getsciencenatural.com/moringa/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$58.00"
+        },
+        {
+            "title": "Prostate 911",
+            "description": "Maximum strength prostate supplement that supports a healthy prostate, helps relieve urinary issues and enhances sexual function.",
+            "conversion_rate": "1.41%",
+            "product_link": "https://bg.getprostate911.com/bigvsl/bgcv1/index.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$122.00"
+        },
+        {
+            "title": "Ageless Body System Super C Serum",
+            "description": "Ageless Body System is an Anti-Aging Product that helps remove dark spots, wrinkles, fine lines. It's primary ingrident is a korean flower extract.",
+            "conversion_rate": "2.41%",
+            "product_link": "https://theagelessbodysystem.com/abs2/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "Sugar Balance",
+            "description": "The most effective and highest quality glucose regulator Available Today",
+            "conversion_rate": "1.61%",
+            "product_link": "https://getsugarbalance.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Dentitox Pro",
+            "description": "The only 100% natural blend that addresses the root cause of gum disease, cavities and tooth decay: The acidic toxins and chemicals found in processed foods. ",
+            "conversion_rate": "2.03%",
+            "product_link": "https://thedentitox.net/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$102.00"
+        },
+        {
+            "title": "Glucodyn",
+            "description": "Molecular Breakthrough Regulates Glucose Levels And Fixes Type 2 Diabetes",
+            "conversion_rate": "1.90%",
+            "product_link": "https://glucodyn.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Glucotrust",
+            "description": "Discover A Method To Support Healthy Blood Sugar Levels!",
+            "conversion_rate": "1.50%",
+            "product_link": "https://getglucotrust.me/discovery/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Fungus Elixir",
+            "description": "Sacred formula that helps with toenail fungus, cracks, and restores the toenail's health.",
+            "conversion_rate": "1.54%",
+            "product_link": "https://funguselixir.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "VitaFirm",
+            "description": "This science-backed supplement was designed to support a healthy and rock-hard libido in men.",
+            "conversion_rate": "1.78%",
+            "product_link": "https://vitafirmsecret.com/special-announcement/index.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$104.00"
+        },
+        {
+            "title": "Gluco Control",
+            "description": "Promotes healthier blood sugar levels, move freely, reduce cravings, and even support optimum metabolism",
+            "conversion_rate": "1.60%",
+            "product_link": "https://getglucocontrol.com/bg/",
+            "allowed_geos": "USA, CA;",
+            "restrictions": "No Brand Bidding, No Google, No Email, No SMS;",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "ProvaSlim",
+            "description": "From The Creators Of GlucoTrust Comes The Next MONSTER Weight Loss Offer For 2023 & Beyond!  ",
+            "conversion_rate": "1.35%",
+            "product_link": "https://provaslim.me/discovery",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "ProstateFlux",
+            "description": "ProstateFlux Pack: 14-in-1 vital prostate wellness formula Designed to offer complete support. Supports the normal functions of the bladder, prostate and reproductive system.",
+            "conversion_rate": "1.55%",
+            "product_link": "https://new.prostateflux.com/vslv1",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$130.00"
+        },
+        {
+            "title": "Cardio Defend",
+            "description": "Exotic “Sticky Beans” Quickly Improves Heart Health!",
+            "conversion_rate": "1.88%",
+            "product_link": "https://getcardiodefend.org/video/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Vivo Tonic",
+            "description": "The natural, safe and scientifically proven solution for lowering blood sugar and treating - not just managing - type II diabetes from Home, inspired by the blood sugar stabilizing diet of the Hindu Monks of Kathmandu.",
+            "conversion_rate": "1.82%",
+            "product_link": "https://get.vivotonic.com/video",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Organic Fungus Nuker",
+            "description": "Organic Fungus Myco Nuker is a fungus cure solution which helps to kill the fungus and increase the power to fight with infections.   Organic Fungus Myco Nuker is the 100% natural and proven solution for treating your fungus. The included vitamins, minerals and fruit extracts help to get the energy ...",
+            "conversion_rate": "1.97%",
+            "product_link": "http://organicfungusnuker.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Neuro Calm Pro",
+            "description": "A supplement designed to support overall hearing health and promote a sense of calm for the nervous system",
+            "conversion_rate": "1.83%",
+            "product_link": "https://theneurocalmpro.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$103.00"
+        },
+        {
+            "title": "Vive Biotics",
+            "description": "Probiotics Drops for Digestive Health and Immune System Support.",
+            "conversion_rate": "1.83%",
+            "product_link": "http://www.guthealthhazard.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$93.00"
+        },
+        {
+            "title": "Perfect Flush",
+            "description": "10 NATURAL SUBSTANCES THAT CAN DISLODGE & CLEANSE UP TO 20 POUNDS OF ROTTING POOP FROM YOUR COLON...",
+            "conversion_rate": "1.52%",
+            "product_link": "https://www.perfecthealthstyles.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$92.00"
+        },
+        {
+            "title": "Folicrex",
+            "description": "A 100% natural blend supplement that goes directly to the root cause of your hair loss: the inflammation of your gut, scalp and follicles.",
+            "conversion_rate": "2.49%",
+            "product_link": "https://folicrex.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$125.00"
+        },
+        {
+            "title": "ErecPrime",
+            "description": "ErecPrime is a cutting-edge ED product. The Herbal Science Breakthrough in Men's Sexual Health.",
+            "conversion_rate": "1.92%",
+            "product_link": "https://erecprime24.com/b/order-now.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$118.00"
+        },
+        {
+            "title": "Septifix",
+            "description": "SEPTIFIX tabs are septic tank treatment tablets that are solid, environmentally safe, and OXYGEN releasing. After you flush them down your toilet, they will easily solve all your septic tank's problems!",
+            "conversion_rate": "1.81%",
+            "product_link": "https://getseptifix.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$91.00"
+        },
+        {
+            "title": "MetamorphX",
+            "description": "The new weight loss offer that Melts Fat Daily, even if your Metabolism Feels “Stuck”!  ",
+            "conversion_rate": "2.10%",
+            "product_link": "https://getmetamorphx.com/video/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Inchagrow",
+            "description": "ADVANCED Male Enhancement, Inchagrow the Herbal Science Breakthrough in Men's Sexual Health",
+            "conversion_rate": "1.94%",
+            "product_link": "https://warriorupgrade.com/b/101.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$108.00"
+        },
+        {
+            "title": "Primal Grow Pro",
+            "description": "The only natural supplement based on the 2,000-years old African “super-penis” enhancement formula, using top quality ingredients, with 100% effective properties and no secondary side effects. ",
+            "conversion_rate": "2.30%",
+            "product_link": "https://primalgrowpro101.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Neurodrine",
+            "description": "Neurodrine™ is designed to support memory, learning, and brain health. The powerful ingredients inside promote better memory and focus.",
+            "conversion_rate": "1.75%",
+            "product_link": "https://brainexclusive.com/nrdrVsl1.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$29.52"
+        },
+        {
+            "title": "IGenics",
+            "description": "This supplement is stopping the root cause of vision loss in its tracks.",
+            "conversion_rate": "1.87%",
+            "product_link": "https://www.buygoods.com/product/gen1/7163/2",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Glucotrust",
+            "description": "Glucotrust FR: The TOP Blood Sugar Regulator Supplement that is Booming in the Global French Market  ",
+            "conversion_rate": "1.92%",
+            "product_link": "https://glucotrustfr.org/solution/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$126.00"
+        },
+        {
+            "title": "Ultimate OFF-GRID Generator",
+            "description": "A complete DIY guide that anyone can follow to build their own high-efficient generator from scratch.",
+            "conversion_rate": "2.30%",
+            "product_link": "https://personalenergysecrets.com/uofg/index_ultimate.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$50.00"
+        },
+        {
+            "title": "Zoracel Dental Gummies",
+            "description": "Dental gummies help support good bacteria to shield itself from cavities, or teeth rotting.",
+            "conversion_rate": "1.60%",
+            "product_link": "https://zoracel.com/v2/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "Keratone",
+            "description": "Banish Fungus and regrow perfect healthy nails",
+            "conversion_rate": "1.66%",
+            "product_link": "https://keratone.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "BioPls Slim Pro",
+            "description": "This simple natural way has helped thousands and counting lose weight.... So if you're looking to Shed some unwanted weight. Then give Biopls Slim Pro a try. ",
+            "conversion_rate": "2.16%",
+            "product_link": "https://biopls.co/bg4/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "Peak BioBoost",
+            "description": "Peak BioBoost is a doctor formulated, science-backed prebiotic fiber blend to help you enjoy 'perfect poops' on a daily basis.  ",
+            "conversion_rate": "1.48%",
+            "product_link": "https://www.mypeakbiome.com/bg/prebio-vsl",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Knee Pain Relief Codes + 2 FREE Ebooks",
+            "description": "Former NBA Player Shares Knee Pain Solutions with The Public.",
+            "conversion_rate": "1.65%",
+            "product_link": "https://www.kneepainreliefcodes.com/sales-page1697581552519",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$50.00"
+        },
+        {
+            "title": "MycoSoothe",
+            "description": "Fight skin and nail fungus naturally",
+            "conversion_rate": "1.50%",
+            "product_link": "https://bg.trymycosoothe.com/vsl/medop/mkkmv3_0/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "GlucoPure",
+            "description": "GlucoPure's blend of exotic nutrients support healthy blood sugar levels and easier weight loss.",
+            "conversion_rate": "1.50%",
+            "product_link": "https://getglucopure.me/discovery",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Vision Premium",
+            "description": "A program so powerful, it’s designed to improve perfect eye health and give anyone who uses it crystal clear 20/20 vision in a matter of weeks.",
+            "conversion_rate": "1.87%",
+            "product_link": "https://www.justbevital.com/vision-premium-buygoods/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Neurotest",
+            "description": "Unique formula supports higher testosterone and sexual performance in men.",
+            "conversion_rate": "1.23%",
+            "product_link": "https://tryneurotest.com/bg.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "GL 90 Blood Sugar Support",
+            "description": "GL-90’s formula uses carefully selected ingredients that help with healthy blood sugar",
+            "conversion_rate": "1.50%",
+            "product_link": "https://www.gl-90.com/bg/gl-90-powerful",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "TitanFlow",
+            "description": "A powerful urinary flow without thinking twice about your prostate.",
+            "conversion_rate": "2.30%",
+            "product_link": "https://www.buygoods.com/product/titanflow_main_1/9280/3",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Blood Sugar Complete",
+            "description": "Scientific Blood Sugar Complete wellness formula - Designed to offer complete blood sugar support. Supports the normal functions of the the pancreas, liver and metabolic system.",
+            "conversion_rate": "1.88%",
+            "product_link": "https://new.getbloodsugarcomplete.xyz/vslv1",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Solar Switch",
+            "description": "Complete Step-By-Step video guide for building a foldable, adjustable, and portable solar panel system.",
+            "conversion_rate": "1.76%",
+            "product_link": "https://www.solarswitch4all.net/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$72.00"
+        },
+        {
+            "title": "Joint Eternal",
+            "description": "Joint Eternal is a powerful joint support supplement with a God-based story behind its creation.",
+            "conversion_rate": "2.50%",
+            "product_link": "https://jointeternal.com/jointreleif/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "The Lost Super Foods Physical Product",
+            "description": "The Lost SuperFoods provides over 126 forgotten survival foods and storage hacks, representing a vital book to place in your survival stockpile.",
+            "conversion_rate": "1.60%",
+            "product_link": "https://forgottensuperfoods.com/book/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$78.00"
+        },
+        {
+            "title": "Hydrossential",
+            "description": "Every bottle is made here, in the USA, in our FDA approved and GMP certified facility, under sterile, strict and precise standards. Hyrdossential is an anti-aging supplement for flawless skin.",
+            "conversion_rate": "1.31%",
+            "product_link": "https://thehydrossential.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Sonus Complete",
+            "description": "Sonus Complete is non-invasive and risk-free supplement that will help your damaged brain networks to fight tinnitus, it aims to give your mind the relief to achieve anything you want while feeling amazing in the process.",
+            "conversion_rate": "2.84%",
+            "product_link": "http://sonuscomplete.com/get.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$115.00"
+        },
+        {
+            "title": "Clarisil PRO",
+            "description": "The all natural Navajo formula that restores your hearing without drugs, expensive surgery or dangerous exercises.",
+            "conversion_rate": "1.30%",
+            "product_link": "https://clarisilpro.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Leptofix",
+            "description": "A 100% natural blend of 22 carefully mixed plant extracts and vitamins into an easy to swallow capsule to take once a day,  that goes to the real root cause of weight gain: fixing the leptin disruption cycle.",
+            "conversion_rate": "1.50%",
+            "product_link": "https://leptofix.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "MemoSurge",
+            "description": "Rogue Chemical Linked To Memory Loss!",
+            "conversion_rate": "1.30%",
+            "product_link": "https://memosurge.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Clavusin",
+            "description": "Exotic Herb Flushes Out Nail Fungus",
+            "conversion_rate": "1.50%",
+            "product_link": "https://clavusin.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "7 Days to Drink Less",
+            "description": "Georgia Foster's Alcohol Reduction digital offer called 7 Days To Drink Less is an amazing, proven online program with over 108,000 customers worldwide.",
+            "conversion_rate": "1.22%",
+            "product_link": "https://7daystodrinkless.com/bg-7ddl",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$112.00"
+        },
+        {
+            "title": "MetaZyne",
+            "description": "A natural blend to assist with weight loss. The world’s first natural blend that addresses the root cause of your weight gain, a vicious cycle happening inside the fat cells of your body that blocks your body’s ability to burn fat correctly and damages your overall health in the process.",
+            "conversion_rate": "1.60%",
+            "product_link": "https://metazyne.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Floralite",
+            "description": "The powerful probiotic blend replenishes the good bacteria in your gut",
+            "conversion_rate": "1.40%",
+            "product_link": "https://tryfloralite.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Ocutamin",
+            "description": "Ocutamin addresses the real root cause of your vision loss in an extremely safe and natural way.",
+            "conversion_rate": "1.25%",
+            "product_link": "https://ocutamin.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "VisiPrime",
+            "description": "Helps you regain your 20/20 vision by targeting the root cause of your impairment.",
+            "conversion_rate": "1.30%",
+            "product_link": "https://visiprime.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Eagle Eye X20",
+            "description": "The secret solution to crystal clear 20/20 vision",
+            "conversion_rate": "1.50%",
+            "product_link": "https://eagleeyex20.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "LeanBiome",
+            "description": "LeanBiome is a brand-new, doctor-formulated weight loss supplement formulated using the latest Ivy League research, and backed by real-world results.",
+            "conversion_rate": "1.69%",
+            "product_link": "https://www.buygoods.com/product/leanbiome_main_1/7478/2",
+            "allowed_geos": "USA;",
+            "restrictions": "No Brand Bidding, No Google, No SMS;",
+            "average_payout": "$101.00"
+        },
+        {
+            "title": "Phytocet",
+            "description": "Brand new Nano Technology Pain Relief supplement offer!  ",
+            "conversion_rate": "1.60%",
+            "product_link": "https://getphytocet.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Emperor's Vigor Tonic",
+            "description": "Original ED Destroying Formula.  This innovative formula is designed with your well-being in mind.  Emperor’s Vigor Tonic aims to support male health by using a blend of carefully selected ingredients.",
+            "conversion_rate": "2.20%",
+            "product_link": "https://theemperorsvigortonic.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Shifting Vibrations",
+            "description": "How to Manifest Money effortlessly like the Top 0.1%",
+            "conversion_rate": "1.40%",
+            "product_link": "https://astralhq.com/shiftingvibrations-manifest-bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "Herpafend",
+            "description": "Herpafend is an all-natural formula that can assist in suppression of the herpes virus.",
+            "conversion_rate": "1.60%",
+            "product_link": "https://herpafend.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Claritox Pro",
+            "description": "Formula that supports the health of your brain, while maintaining a healthy balance system, to prevent dizziness, risky injuries and even disability. ",
+            "conversion_rate": "2.10%",
+            "product_link": "https://theclaritox.com/video.php",
+            "allowed_geos": "US, Canada, UK, Ireland, Australia, New Zealand;",
+            "restrictions": "No incent, No Spam, No SMS;",
+            "average_payout": "$108.00"
+        },
+        {
+            "title": "Keyslim Drops",
+            "description": "The famous “Drip & Drop” weight loss supercharger is here! Over 24 powerhouse herbs, vitamins and grade A nutrients designed to deliver unmatched results for everyone. Eat less. Burn More. Look Amazing!",
+            "conversion_rate": "1.01%",
+            "product_link": "https://keyslimdrops.cc/home",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Ageless-T",
+            "description": "Ageless T clinically proven to enhance your Testosterone levels.  ",
+            "conversion_rate": "1.34%",
+            "product_link": "https://agelesstmiracle.com/v2/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "GlucoRelief",
+            "description": "GlucoRelief is the supplement that you need to maintain healthy blood sugar levels.",
+            "conversion_rate": "2.20%",
+            "product_link": "https://www.glucorelief.com/exclusive",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Timeless Beauty",
+            "description": " Timeless Beauty is a proven all-natural product delivers dramatic results in as little as 3 days.",
+            "conversion_rate": "2.21%",
+            "product_link": "https://shop.derosehealth.com/bg/timeless-beauty",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Nitric Boost Ultra",
+            "description": "Revolutionary New ED Solution brought to you by seasoned industry experts, Nitric Boost Ultra contains clinically studied ingredients to tackle ED issues at their core",
+            "conversion_rate": "1.80%",
+            "product_link": "https://getnitricboost.me/discovery",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$83.38"
+        },
+        {
+            "title": "Hidragenix",
+            "description": "New Winner In The Weight Loss Niche Converts Like Hotcakes. $3+ average EPCs, Video presented by a top doctor. Apply Now!",
+            "conversion_rate": "2.30%",
+            "product_link": "https://thehidragenix.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Revisil",
+            "description": "The Okinawan “Age-Backwards” Ritual That Broke The Cosmetics Industry In Half",
+            "conversion_rate": "1.60%",
+            "product_link": "https://revisil.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "LeanFlux",
+            "description": "Support healthy weight loss with LeanFlux's proprietary blend of 8  nutrients and plants backed by clinical research.",
+            "conversion_rate": "1.65%",
+            "product_link": "https://new.leanflux.com/vslv1",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$130.00"
+        },
+        {
+            "title": "Cetadusse",
+            "description": "Cetadusse is a supplement specifically formulated to support healthy blood sugar levels. It is based on extensive research and contains a combination of scientifically proven ingredients that help regulate blood sugar, promote metabolic health, and enhance overall well-being",
+            "conversion_rate": "1.40%",
+            "product_link": "https://bg.cetadusse.com/vsl/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "SharpEar",
+            "description": "The only 100% natural blend that addresses the root cause of hearing loss: the ear-brain connection through a mix of 8 plant extracts and natural substances.",
+            "conversion_rate": "2.20%",
+            "product_link": "https://sharpear101.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Q Shield Immunity Booster",
+            "description": "Q Shield is an all natural supplement, that boosts your immune system, is also gentle on the body and easy to take.",
+            "conversion_rate": "2.03%",
+            "product_link": "https://www.qshieldplus.com/optin1648408745306",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$109.00"
+        },
+        {
+            "title": "Cleanest Body",
+            "description": "This Mayan cleanse supports a healthy weight and gut",
+            "conversion_rate": "1.30%",
+            "product_link": "https://thecleanestbody.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$124.00"
+        },
+        {
+            "title": "VitalFlow",
+            "description": "VitalFlow soothes and relieves the inflammatory effects of your DHT-buildup and therefore lowers the risk of an enlarged prostate significantly.",
+            "conversion_rate": "1.65%",
+            "product_link": "https://vitalflow.net/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Totally Bangin Self Tan Mousse",
+            "description": "Natural Self Tanner for 40+ ",
+            "conversion_rate": "1.33%",
+            "product_link": "https://totallybangin.com/index-bg",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "Restolin",
+            "description": "The amazing 100% natural supplement that not only stops but actually fights hair loss  through a mix of vitamins, herbs, and minerals sourced all over the world, from the purest plantations and remote small farms, all perfectly combined into the most powerful hair-restoration formula.",
+            "conversion_rate": "1.31%",
+            "product_link": "https://therestolin.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "TheyaVue",
+            "description": "TheyaVue is a supplement that supports and maintain their crystal clear vision.",
+            "conversion_rate": "2.37%",
+            "product_link": "https://trytheyavue.com/bg/research",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Brain C-13 - 30-Day Supply",
+            "description": "Imagine if recharging your brain was as easy fueling your car at the gas station. With Zenith Brain C-13, you can feel your brain come to life without the jitters that things like coffee, energy drinks, or those hyped up 4-hour energy shots give you.",
+            "conversion_rate": "0.90%",
+            "product_link": "https://betterbrainperformance.net/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$50.00"
+        },
+        {
+            "title": "NervoLink",
+            "description": "Simple Way To Support HealthyNerves In Your Arms And Feet A formula designed to support the health of your peripheral nerves, while boosting your energy levels!",
+            "conversion_rate": "2.10%",
+            "product_link": "https://thenervolink.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$102.00"
+        },
+        {
+            "title": "Skinny Love",
+            "description": "Take “Skinny Love” Every Day and Watch Your Fat Melt Away! (Faster Than You Ever Thought Possible)",
+            "conversion_rate": "2.00%",
+            "product_link": "https://www.justbevital.com/skinny-love-bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "NuRal",
+            "description": "This new memory product has unique ingredients new to the US market.",
+            "conversion_rate": "1.45%",
+            "product_link": "https://getnural.com/memory-breakthrough-tsl58231/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Derma Prime Plus",
+            "description": "Derma Prime Plus is a natural skincare formula that helps to improve your skin and leave it blemish-free. Designed and formulated by a researcher named Ally Ray, the supplement is effective, natural, and long-lasting. It has become the talk of the town with hundreds and thousands of consumers praisi...",
+            "conversion_rate": "1.30%",
+            "product_link": "https://thedermaprimeplus.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$102.00"
+        },
+        {
+            "title": "The Hair Growth Formula",
+            "description": "The Hair Growth Formula is an all-natural, step-by-step treatment plan that treats mild to severe hair loss with no side effects of harmful chemicals. Unlike other popular hair loss treatments such as Minoxidil, Rogaine, or Propecia, is that it is 100% natural.   The cheapest hair treatment availabl...",
+            "conversion_rate": "2.30%",
+            "product_link": "https://the-hair-growth-formula.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$21.53"
+        },
+        {
+            "title": "Reversirol",
+            "description": "An easy to follow protocol designed for any type 2 diabetic, pre-diabetic and even for people who just want to lose some weight and feel great in their body again. The supplement forms a natural immune barrier to protect the body from the EDCs infestation and repair the damage it has caused.",
+            "conversion_rate": "1.20%",
+            "product_link": "https://reversirol.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Prostamend",
+            "description": "A one of a kind extremely powerful blend that repairs your prostate, shields you from the dangerous effects",
+            "conversion_rate": "1.18%",
+            "product_link": "https://prostamend.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Nucentix: GS-85",
+            "description": "GS-85 maintaines healthy blood sugar,  and is manufactured right here in the United StatesGS-85 is manufactured in a GMP certified and FDA compliant facility right here in the United StatesGS-85 is manufactured in a GMP certified and FDA compliant facility right here in the United StatesGS-85 is man...",
+            "conversion_rate": "1.40%",
+            "product_link": "https://doctor.nucentix.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Glucea Blood Sugar",
+            "description": "Second ritual that supports healthy blood sugar levels",
+            "conversion_rate": "1.30%",
+            "product_link": "https://www.getglucea.com/bg/v1",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Pineal Guardian",
+            "description": "A powerful formula that’s been meticulously crafted to rapidly improve your memories and protect against the onset of cognitive decline quickly.",
+            "conversion_rate": "1.50%",
+            "product_link": "https://thepinealguardian.com/byg/indexvs.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Ground Power Generator System",
+            "description": "Digital product that will help you become 'energy independent' on your own. The guide includes easy step by step instructions that include photos and videos so you know how to make your own Ground Power Generator System.",
+            "conversion_rate": "2.03%",
+            "product_link": "http://www.groundpowergenerator.online/vslbg.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$37.82"
+        },
+        {
+            "title": "Pineal Guard",
+            "description": "Pineal Guard - Third Eye Activation Supplement for 2024! brand-new supplement that not only helps to detoxify the pineal gland but to fully activate it!",
+            "conversion_rate": "1.50%",
+            "product_link": "https://pinealguard.com/byg/go/indexvs.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "ProstaPure Advantage",
+            "description": "Revolutionary 2024* Scientific Breakthrough Transforms Prostate Supplements!",
+            "conversion_rate": "1.38%",
+            "product_link": "https://prostapure24.com/ancient-secret",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Sleep - ESS60",
+            "description": "Two simple ingredients Olive Oil and a Nobel Prize winning molecule called ESS60 backed by Peer Reviewed Research.  Sleep supports your mental, physical and emotion wellbeing.  Take our product in the morning, yes in the morning, and report mental focus and energy during the day and then better slee...",
+            "conversion_rate": "1.21%",
+            "product_link": "https://supplement.myvitalc.com/ess60-sleep-supplement-bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Trichofol",
+            "description": "The all natural Samurai formula that rejuvenates your hair follicles and gives you back your lost hair",
+            "conversion_rate": "1.35%",
+            "product_link": "https://trichofol.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Woodwork101",
+            "description": "A database of detailed videos and blueprints in crystal clear, mouth-watering HD that will take you by the hand and show you that DIY home projects done the right way are easy, fun, and always of top quality right way are easy, fun, and always of top quality",
+            "conversion_rate": "1.54%",
+            "product_link": "https://www.woodwork1on1.org/lpnoact",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$50.00"
+        },
+        {
+            "title": "Liquid Meditation",
+            "description": " A natural shortcut to boost your memory.",
+            "conversion_rate": "1.30%",
+            "product_link": "https://www.buygoods.com/product/liquidmeditation_zlofficial_main_1/5660/406",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$96.00"
+        },
+        {
+            "title": "Acidaburn",
+            "description": "A completely natural yet potent weapon against obesity and its related complications. It utilizes a four-way strategy to bring down appetite, fight cravings, boost metabolism, and enhance digestion. These four components work together simultaneously to promote weight loss naturally and easily.",
+            "conversion_rate": "1.12%",
+            "product_link": "https://acidaburn.com/bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$97.53"
+        },
+        {
+            "title": "Sleep Guard Plus",
+            "description": "Rare Herb that Fixes Insomnia",
+            "conversion_rate": "1.40%",
+            "product_link": "https://sleepguardplus.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Fat Burn Combo",
+            "description": "A brand new natural supplement that guaratees healthy weightloss, awakening the fat-burning metabolism and keeping it on high alert to tackle the real root cause of weigth gain.",
+            "conversion_rate": "1.40%",
+            "product_link": "https://fatburncombo.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$107.00"
+        },
+        {
+            "title": "Ignite",
+            "description": "Ignite is a powerful and unique weight loss drop supplement.",
+            "conversion_rate": "1.26%",
+            "product_link": "https://ignitedropdaily.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Pharaoh Power x 1 Bottle",
+            "description": "Introducing Pharaoh Power - the ultimate male enhancement supplement inspired by the virility and strength of ancient Egyptian pharaohs.     ",
+            "conversion_rate": "2.80%",
+            "product_link": "https://pharaohspower.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$120.00"
+        },
+        {
+            "title": "Super Memory Formula",
+            "description": "Super Memory Formula is a groundbreaking, research-supported, brain health breakthrough that helps you unlock your brain's full potential",
+            "conversion_rate": "1.20%",
+            "product_link": "https://getsupermemoryformula.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "NervesAid",
+            "description": "Revolutionary NervesAid has already empowered more than 3000 individuals to take control of their nerve health and enhance the quality of their life.",
+            "conversion_rate": "1.46%",
+            "product_link": "https://nervesaid.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Immunity Blend",
+            "description": "Three simple ingredients Olive Oil, MCT Oil and a Nobel Prize winning molecule called ESS60 backed by Peer Reviewed Research.  An over active immune system can be detrimental.  Our Immunity Blend is focused providing improved immunity while still maintaining the optimal balance throughout your immun...",
+            "conversion_rate": "1.09%",
+            "product_link": "https://immunity.myvitalc.com/myvitalc-sales-page-bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "Triple Naturals | All Offers",
+            "description": "Triple Naturals is a family-driven premium quality, natural and organic supplement brand that is trusted by generations of loyal consumers because our unique fusion of nature and science enables you to discover your best life.  Our mission is to help you on your journey to find the origin of your su...",
+            "conversion_rate": "1.70%",
+            "product_link": "https://triplebloodboost.com/v1",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$80.00"
+        },
+        {
+            "title": "Gluco Premium",
+            "description": "Scientists Found The Earth’s Most Effective BLOOD SUGAR Protocol.",
+            "conversion_rate": "2.00%",
+            "product_link": "https://www.justbevital.com/gluco-premium/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Grow Max Pro - 1 Bottle",
+            "description": "A completely natural formula that increases the size of your penis by more than 4.3 inches in less than a few weeks, no matter the current length and girth of your manhood, if you’re 18 or even if you're 80 years old.",
+            "conversion_rate": "1.10%",
+            "product_link": "https://growmaxpro.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Folixine",
+            "description": "You can finally regrow your hair to its full potential.",
+            "conversion_rate": "1.17%",
+            "product_link": "https://folixine.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "UltraK9 Pro",
+            "description": "UltraK9 Pro contains a spectrum of carefully selected primal nutrients, which can turn any dog back into the fierce, healthy and energetic wolf that they are deep inside.",
+            "conversion_rate": "1.18%",
+            "product_link": "https://theultrak9pro.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$200.00"
+        },
+        {
+            "title": "ProtoFlow",
+            "description": "Protoflow is the next-gen male wellness formula. It is designed to offer complete support to the bladder, prostate and reproductive system, 24/7, 365 days.",
+            "conversion_rate": "1.20%",
+            "product_link": "https://tryprotoflow.com/welcome/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "Vital Force",
+            "description": "What Is Vital Force? Recent Harvard research suggests that the VITAL FORCE pills can do huge impact on our health!",
+            "conversion_rate": "1.23%",
+            "product_link": "https://www.vitalforcedetox.com/buy-goods",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Gut Vita",
+            "description": "The world's most unique products specifically designed to tackle digestive health issues  ",
+            "conversion_rate": "1.38%",
+            "product_link": "https://yourgutvita.com/discovery",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Good Dirt Vitamins 1 Bottle",
+            "description": "Multi-Vitamin: A MultiVitamin supplement for the nutrition lost over the last several decades of modern farming methods by using targeted supplementation.",
+            "conversion_rate": "1.10%",
+            "product_link": "https://www.gooddirtvitamins.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$70.00"
+        },
+        {
+            "title": "Skinny Cleanse",
+            "description": "This Natural  Cleanse Supports A Healthy Weight And Gut, Maintain a clean body and support your weight loss journey using this natural solution.",
+            "conversion_rate": "1.22%",
+            "product_link": "https://www.justbevital.com/cleanse-bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$102.00"
+        },
+        {
+            "title": "Patriot Badge",
+            "description": "Introducing the Limited Edition Patriot Badge featuring a stunning design symbolizing freedom and patriotism. The badge showcases Lady Liberty holding a torch and an olive branch, with radiant rays in the background, and is inscribed with 'GOD BLESS AMERICA' and 'UNITED WE STAND.' This collectible b...",
+            "conversion_rate": "1.25%",
+            "product_link": "https://www.getpatriotbadge.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "LivLean",
+            "description": "Livlean is the natural dietary supplement made as the discovery to lose weight by improving your liver health. It has the fat-burning secret that can eliminate the nasty fat deposit on your pancreas and liver to make you lose the excess weight from your body.",
+            "conversion_rate": "1.89%",
+            "product_link": "https://liverbellyswitch.com/bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$91.37"
+        },
+        {
+            "title": "JointsAid",
+            "description": "CARTILAGE REJUVENATION Trusted by Champions: The Professional’s Choice for Joint Health and Performance.",
+            "conversion_rate": "1.66%",
+            "product_link": "https://jointsaid.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Trumpinator Bobblehead",
+            "description": "Celebrate The Return Of Our President! With Your Own Limited Edition Trump Bobblehead!",
+            "conversion_rate": "1.70%",
+            "product_link": "https://offers.proudpatriots.com/buygoods-order-form-trumpinator",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$35.00"
+        },
+        {
+            "title": "Joint Pain Killer 1 Bottle",
+            "description": "This amazing supplement strengthens joint mobility and flexibility, helping to alleviate joint pain while nourishing the joints for optimal results. Its main ingredients work to restore joint health and prevent cartilage decay.",
+            "conversion_rate": "1.20%",
+            "product_link": "https://jointpainkiller.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "The Abundance Goddess",
+            "description": "This book sums up the spiritual knowledge of the author's life and the best practices to create a profound spiritual healing tool.",
+            "conversion_rate": "1.20%",
+            "product_link": "https://www.echilibro.com/video.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$50.00"
+        },
+        {
+            "title": "BP Zone - 30-Day Supply",
+            "description": "Formula that combines the secrets of heart-healthy natural ingredients to promote healthy blood pressure. BP Zone helps to set you free from the constant worry about your blood pressure numbers. Supports a healthy, non-inflamed state in your arteries and also promotes the relaxation of cells, allowi...",
+            "conversion_rate": "0.90%",
+            "product_link": "https://bloodpressureforlife.net/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "Arteris Plus",
+            "description": "One Simple Way To Maintain Healthy Blood Pressure Levels.  ",
+            "conversion_rate": "1.75%",
+            "product_link": "https://thearterisplus.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$109.01"
+        },
+        {
+            "title": "Digestyl",
+            "description": "The only 100% natural product that fights the root cause of your digestive problems",
+            "conversion_rate": "1.23%",
+            "product_link": "https://digestyl.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Dark Horizon + 2 FREE Ebooks",
+            "description": "The truth about AI",
+            "conversion_rate": "2.64%",
+            "product_link": "https://thefinalcollapse.com/pcb_ai_collapse_bg/vsl",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$65.00"
+        },
+        {
+            "title": "Barbarian XL - 30-Day Supply",
+            "description": "Supplement that helps maintain rock-hard erections, and brings back your manly drive. Barbarian XL contains 5 ingredients: Boswellia extract (Frankincense), Ashwagandha, Tongkat Ali, Korean Red Ginseng, and Shalijit Plus a handful of vitamins and minerals like vitamin D, vitamin B6, magnesium and zi...",
+            "conversion_rate": "2.20%",
+            "product_link": "https://silentmaleplague.net/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "SlumberStrap + Digital Bonus",
+            "description": "The SlumberStrap is crafted with a latex-free neoprene design that gently cradles your head. The SlumberStrap will help you reduce snoring and sleep apnea, you will have less dry mouth and sore throats upon waking that will allow you a more restful night’s sleep for you and your partner.",
+            "conversion_rate": "1.55%",
+            "product_link": "https://deals.zoomwellness.com/slumberstrap/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$30.00"
+        },
+        {
+            "title": "Keravita Pro",
+            "description": "Supplement with 26 carefully selected ingredients, designed to support the body's natural balance and overall wellness.",
+            "conversion_rate": "1.92%",
+            "product_link": "https://getkeravitapro.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "MorningFatMelter",
+            "description": "Morning Fat Melter is a 100% natural supplement that rejuvenates the dead mitochondria in cells so they produce energy and burn fat 24/7.",
+            "conversion_rate": "1.20%",
+            "product_link": "https://yesmorningfatmelter.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$95.00"
+        },
+        {
+            "title": "Rise",
+            "description": "Rise is based on 22 years of clinical experience to treat the root cause of anxiety and stress.     ",
+            "conversion_rate": "1.25%",
+            "product_link": "https://ndronline.us/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$114.00"
+        },
+        {
+            "title": "The Science of Wealth Mastery",
+            "description": "The most powerful mind body connection program for people who want the flow of abundance 10x faster based on Albert Einstein and Thomas Edison’s concept about frequency, energy, vibration and power of feeling good.",
+            "conversion_rate": "1.51%",
+            "product_link": "https://scienceofwealthmastery.com/v3/go/index.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$85.00"
+        },
+        {
+            "title": "PurpleBurn Pro",
+            "description": "PurpleBurn Pro: The Tastiest Way To Lose Weight PurpleBurn Pro is the very first complex immuno-slimming formula that doesn’t just target specific weight gain. This proprietary formula will get the immune system on board, so it will fight fat instead of ignoring it, as it did until now.",
+            "conversion_rate": "1.19%",
+            "product_link": "https://thepurpleburnpro.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Marine Flex Ultra",
+            "description": "Marine Tribal Secret for Complete and long lasting joint pain relief. ISR method.  INTERRUPT - Pain & Inflamation - SUPPORT - the production of joint lubricent - REPAIR -the cartilage & other joint cells.",
+            "conversion_rate": "1.12%",
+            "product_link": "https://bg.buymarineflex.com/VSL1/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Sanguinem Pressura",
+            "description": "Sanguinem Pressura's incredible formula brings together high quality raw ingredients sourced from different parts of the world that work in synergy for maximum performance.",
+            "conversion_rate": "1.63%",
+            "product_link": "https://sanguinempressura.com/special-offer/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "MetaBurst",
+            "description": "Support healthy weight loss with MetaBurst's proprietary blend of 23 powerful exotic ingredients and weight loss plan backed by clinical research",
+            "conversion_rate": "1.55%",
+            "product_link": "https://ps1000.com/bgvsl/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Slim Leaf",
+            "description": "Slim Leaf is a nutritional supplement designed to support healthy weight management and help improve glucose utilization.",
+            "conversion_rate": "1.22%",
+            "product_link": "https://tryslimleaf.com/bg/indexwritten.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$70.00"
+        },
+        {
+            "title": "GlucoFlush",
+            "description": "Healthy blood sugar levels, steady weight loss, clockwork digestion.",
+            "conversion_rate": "1.90%",
+            "product_link": "https://theglucoflush.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$31.99"
+        },
+        {
+            "title": "Skinny Coffee",
+            "description": "It's Time for a Better Body. Feel Fuller For Longer & Conquer Those Cravings!",
+            "conversion_rate": "1.24%",
+            "product_link": "https://www.justbevital.com/skinny-coffee-bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "One Golden Rose",
+            "description": "Crafted for the extraordinary, Golden Rose symbolizes a bond that never fades!",
+            "conversion_rate": "0.85%",
+            "product_link": "https://luxgoldrose.com/real-gold-rose-bg",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$119.00"
+        },
+        {
+            "title": "Zeneara",
+            "description": "Reveals The 5-Second 'Mute Button' To Silence Ear Ringing And Fight Against Brain Damage Naturally.",
+            "conversion_rate": "0.90%",
+            "product_link": "https://zeneara.com/byg/go/indexvs.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "LipoSlim Premium",
+            "description": "For any woman looking to lose weight without restrictive diets, grueling exercise plans, or toxic “medications”.",
+            "conversion_rate": "1.61%",
+            "product_link": "https://www.justbevital.com/liposlim/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "SlimPulse",
+            "description": "Weight Loss supplement that supports healthy metabolism, appetite control and energy boost",
+            "conversion_rate": "1.42%",
+            "product_link": "https://slimpulse.co/",
+            "allowed_geos": "Worldwide",
+            "restrictions": "Não disponível",
+            "average_payout": "$95.00"
+        },
+        {
+            "title": "Omega 3-7-9 - 30-Day Supply + Digital Bonus",
+            "description": "Supplement that contains Omega 3 and its Companion Nutrients, Omega 7 and Omega 9 that will fight inflammation to help you resist serious diseases and boost and protect your memory. ",
+            "conversion_rate": "1.25%",
+            "product_link": "https://trueomegahealth.net/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "Energy Cube System",
+            "description": "The Energy Cube is an easy to follow, step-by-step system that anyone can use to slash their electric bill by 75% or more. The guide is made up of step-by-step instructions that show you how to become energetically independent. Each guide is full of pictures and videos so you see exactly what to do.",
+            "conversion_rate": "1.55%",
+            "product_link": "https://energycubesystem.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$30.32"
+        },
+        {
+            "title": "ProMind Complex",
+            "description": "A formula designed to clear the brain of the plaque-forming bacteria and protect the mind against debilitating dental nerve bacteria that climbs up to the brain and triggers plaque formation.",
+            "conversion_rate": "1.86%",
+            "product_link": "https://thepromindcomplex.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$115.00"
+        },
+        {
+            "title": "Visium Plus",
+            "description": "The only natural supplement which addresses the real cause of vision problems – the micro fat clogs that block the eye veins.",
+            "conversion_rate": "2.50%",
+            "product_link": "https://thevisiumplus.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "The Ultimate Energizer Guide",
+            "description": "A DIY guide that teaches anyone how to build their own efficient and fuel-free generator from scratch.",
+            "conversion_rate": "1.43%",
+            "product_link": "https://ultimateenergyindependence.com/bg/index_tue.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$50.00"
+        },
+        {
+            "title": "Gluco Alert",
+            "description": "It’s impressive to hear about Gluco Alert’s comprehensive approach to blood sugar support and its effectiveness across a wide range of ages. The use of pure plant ingredients and natural minerals, backed by modern scientific principles, underscores its commitment to providing a gentle yet powerful s...",
+            "conversion_rate": "1.42%",
+            "product_link": "https://glucoalert.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Omyum SuperNatural",
+            "description": "OMYUM SuperNatural™ is a delicious and functional chocolate-flavored coffee alternative that boosts metabolism, energy, mood and mental focus. Made with 12 organic ingredients.   ",
+            "conversion_rate": "1.45%",
+            "product_link": "https://omyumhealth.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$105.00"
+        },
+        {
+            "title": "Abundant",
+            "description": "Abundant is a tasty and convenient gummy supplement that is packed with essential vitamins to promote hair growth for women with alopecia or hair loss. With Abundant, women of any age can achieve the long, luscious, and beautiful hair they desire in a quick and hassle-free way.",
+            "conversion_rate": "1.18%",
+            "product_link": "https://tryabundant.com/special/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$95.00"
+        },
+        {
+            "title": "Alpha Drive",
+            "description": "Natural sexual performance booster!",
+            "conversion_rate": "1.33%",
+            "product_link": "https://alphadrive24.com/male-potency-bg",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Synergex 7",
+            "description": "Synergex 7 is a synergistic blend of 7 all-natural ingredients to support male sexual health",
+            "conversion_rate": "1.45%",
+            "product_link": "http://synergex7.com/bg",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "FlexiEase",
+            "description": "This Breakthrough 'FlexiEase' Cream Helps You And Your Loved Ones Reduce Pain.… While Protecting Against Nagging Joint and Muscle Aches.",
+            "conversion_rate": "1.51%",
+            "product_link": "https://happierhealthiersupplements.com/promo",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Shoku Solution + Shoku Accelerator",
+            "description": "From Cinderella Solution team, Best new digital weight loss offer for 2024!!",
+            "conversion_rate": "1.38%",
+            "product_link": "https://www.flavourpairingworks.com/shoku-solutionbg",
+            "allowed_geos": "Worldwide;",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "NeuroBrain",
+            "description": "Neuro Brain is a dietary supplement designed to enhance cognitive function, improve memory, and increase mental clarity. It typically contains a blend of natural ingredients such as vitamins, minerals, and herbal extracts aimed at supporting brain health and optimizing neurological performance.",
+            "conversion_rate": "1.51%",
+            "product_link": "https://www.neuro-brain.shop/120db1c6-e48b1c90",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "METACELL 1 Bottle Limited Time Discount",
+            "description": "The Mediterranean Diet Weight Loss Formula. Based on the world's most searched for Weight Loss Diet, METACELL optimizes DHEA hormone levels, the root cause of unexplained weight gain.",
+            "conversion_rate": "1.15%",
+            "product_link": "https://metacell.online/bg",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Sonovive",
+            "description": "SonoVive is a clinically proven and all-natural supplement that will allow you to target the real root cause of hearing loss, regenerate your brain cells and supercharge your hair cells roots in order to turn on the sound in your ears.",
+            "conversion_rate": "1.10%",
+            "product_link": "https://thesonovive.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$108.00"
+        },
+        {
+            "title": "Fierce Body Reboot Protocol",
+            "description": "The Fierce Body Reboot is a 28-day jumpstart fasting protocol that helps you reboot your metabolism and burn fat ALL DAY. It's more than just a meal plan. It also provides you with the missing ingredients to add to your routine to supercharge your metabolism and turn your body into a fat-burning mac...",
+            "conversion_rate": "1.11%",
+            "product_link": "https://www.maxbodyreboot.com/fierce-bg",
+            "allowed_geos": "USA;",
+            "restrictions": "Não disponível",
+            "average_payout": "$40.00"
+        },
+        {
+            "title": "Erectonol",
+            "description": "Powerful ED offer that supports natural erections using high quality ingredients. Highly credible and backed-up by scientific research.",
+            "conversion_rate": "1.45%",
+            "product_link": "https://erectonol.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Forti Prime",
+            "description": "Forti Prime is a formula that will support the health of your immune system in a new and revolutionary way! Erase your HSV!",
+            "conversion_rate": "1.71%",
+            "product_link": "https://thefortiprime.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$107.35"
+        },
+        {
+            "title": "Spartan Home Training USA",
+            "description": "Amazing home training program, that will help with losing weight and feeling healthy.",
+            "conversion_rate": "1.75%",
+            "product_link": "https://spartanhometraining.com/quiz/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$59.00"
+        },
+        {
+            "title": "Gluco Fence",
+            "description": "Discover A Method To Support Healthy Blood Sugar Levels!",
+            "conversion_rate": "1.45%",
+            "product_link": "https://glucofence.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$108.00"
+        },
+        {
+            "title": "Cleanse Premium",
+            "description": "Cleanse Premium is the first natural digestive flush that clears trapped debris from your diverticular pockets and returns your colon health back to normal.",
+            "conversion_rate": "1.31%",
+            "product_link": "https://www.justbevital.com/diverticulites/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Gluco Shield Pro",
+            "description": "Perfect yet potent formula,made only from natural ingredients, vitamins and mineralssuch as Rhodiola, Chamomile, Lemon Balm, Skullcap,Hawthorn , Bacopa, Magnolia, Passion Flower, Valerian,L-T heanine, Oat Straw, St. John's Wart, Hops, VitaminsB1, B2, B6, Zinc, Magnesium, Calcium.",
+            "conversion_rate": "1.57%",
+            "product_link": "https://theglucoshieldpro.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Mycosyn",
+            "description": "The supplement claims to be a natural alternative that could fight against any type of fungus, bacteria or germs that might infest the skin or nails.",
+            "conversion_rate": "1.54%",
+            "product_link": "https://themycosynpro.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "ChronoBoost",
+            "description": "This product is a perfect source for sleep, mind and energy with essential nutrients & vitamins.",
+            "conversion_rate": "1.01%",
+            "product_link": "https://chronoboost.pro/video",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$103.00"
+        },
+        {
+            "title": "Gluco 24",
+            "description": "Gluco24 is a science-backed supplement that supports healthy blood sugar levels AND weight loss for men and women.  ",
+            "conversion_rate": "1.31%",
+            "product_link": "https://gluco24.com/tsl/bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Ultra Prosta-Fix",
+            "description": "ULTRA Prosta-Fix is a 100% healty supplement that helps support your normal functions of the bladder, prostate and reproductive system 24/7. ",
+            "conversion_rate": "1.10%",
+            "product_link": "https://ultraprostafix.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Night Fat Burn",
+            "description": "Burn Fat while you sleep! FakeNatty™ Night Fat Burn  Blend of natural ingredients with advanced fat-burning formula that supports fat burning while you sleep.",
+            "conversion_rate": "1.45%",
+            "product_link": "https://fakenattysupps.com/night-fat-burn/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "LavaSlim",
+            "description": "LavaSlim: a volcanic weight loss innovation crafted for the French market. Promote a trusted, natural secret for rapid, lasting results. Fuel change, energize lives, and ignite a slimmer future with LavaSlim's power.",
+            "conversion_rate": "1.26%",
+            "product_link": "https://www.lavaslim.net/decouverte/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Skinny Signal Complex",
+            "description": "Skinny Signal is a brand-new, doctor-formulated weight loss supplement formulated using the latest Ivy League research, and backed by real-world results.",
+            "conversion_rate": "1.55%",
+            "product_link": "https://www.skinnysignalbreakthrough.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "LeptiSense",
+            "description": "LeptiSense (7 Powerful Ingredients, One Ultimate Formula).  The ingredients in LeptiSense supports healthy weight loss in 11 'Gold Standard' randomized, double-blind, placebo-controlled, human clinical studies. ",
+            "conversion_rate": "1.71%",
+            "product_link": "https://smarterhungercontrol.com/BG/bglptn.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "ANTI TAR® TripleGuard",
+            "description": "Our premium cigarette filter is the ultimate game-changer, with triple filtration system providing smokers with a revolutionary way to reduce harmful chemicals without compromising on taste and airflow. ",
+            "conversion_rate": "1.27%",
+            "product_link": "https://www.antitar.com/buygoods-antitar-tsl/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$85.00"
+        },
+        {
+            "title": "HimEros",
+            "description": "New Testosterone offer for 2023. Based on the synergistic power of the Ingredients.",
+            "conversion_rate": "1.20%",
+            "product_link": "https://gethimeros.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Neuro Rise",
+            "description": "NeuroRise’s incredible formula brings together high quality raw ingredients sourced from different parts of the world that work in synergy for maximum performance. It is the only natural supplement that supports healthy hearing with proven results.",
+            "conversion_rate": "1.30%",
+            "product_link": "https://tryneurorise.com/b/order-now.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Los secretos de la conducta con correa",
+            "description": "Cómo conseguir que tu perro no tire de la correa en cuestion de semanas!  ",
+            "conversion_rate": "1.31%",
+            "product_link": "https://es.fantasticanis.com/conducta-con-correa-bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$40.00"
+        },
+        {
+            "title": "DentiVive",
+            "description": "A completely natural solution that can safely be used to rebuild the gums and teeth starting today. ",
+            "conversion_rate": "2.31%",
+            "product_link": "https://thedentivive.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$53.07"
+        },
+        {
+            "title": "ProNerve6",
+            "description": "An all natural formula chosen to give the best possible results against nerve pain and nerve damge.  ",
+            "conversion_rate": "1.51%",
+            "product_link": "http://www.pronerve6today.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "15 Minute Manifestation",
+            "description": "15 Minute ManifestationDigital product that includes a 15 minutes a day program that will help you re-wire your mind for unlimited success, and to be remembered as a family of great abundance. Eliminate self-sabotage, while enabling the mindset of taking massive action. ",
+            "conversion_rate": "1.17%",
+            "product_link": "https://15minutemanifestation.com/sp/vsl/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$40.00"
+        },
+        {
+            "title": "Steel Bite Pro",
+            "description": "The 100% natural solution made of 23 plants, herbs, minerals and vitamins to rebuild gums and teeth. ",
+            "conversion_rate": "1.23%",
+            "product_link": "https://thesteelbitepro.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "Foliprime",
+            "description": "A powerfull oil that will support the health of your hair and scalp in a new and revolutionary way using effective, natural and pure ingredients.  ",
+            "conversion_rate": "1.23%",
+            "product_link": "https://thefoliprime.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$78.50"
+        },
+        {
+            "title": "Air Fountain",
+            "description": "Step-By-Step video guide for building a condensation water harvester.",
+            "conversion_rate": "1.20%",
+            "product_link": "https://www.megadroughtusa.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$52.00"
+        },
+        {
+            "title": "Eye Health",
+            "description": "Clinical Effects Eye Health and Vision Support promotes long term eye health with a proprietary blend of research-backed eye vitamins.",
+            "conversion_rate": "1.24%",
+            "product_link": "https://www.buyclinicaleffects.com/products/eye-health",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$85.00"
+        },
+        {
+            "title": "Gluco Care",
+            "description": "Support Optimal Blood Sugar Levels with Gluco Care! Put an optimized formulation of potent antioxidants to work for your body today.",
+            "conversion_rate": "1.25%",
+            "product_link": "https://www.glucocare.net/bg-optin",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "BP120",
+            "description": "An all-natural blood pressure supplement!  ",
+            "conversion_rate": "1.09%",
+            "product_link": "https://www.bphealthyproducts.com/bg/vsl.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Weight Loss Master Class",
+            "description": "Doctor Of Physical Therapy, Personal Trainer, Nutrition And Health Coach Delivers 12 Week Video Course To Achieve Maximum Health And Lasting Weight Loss For Life Without Unrealistic Dieting!",
+            "conversion_rate": "1.28%",
+            "product_link": "http://www.weightlossmasteryclass.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$65.00"
+        },
+        {
+            "title": "Fast Brain Booster",
+            "description": "Fast Brain Booster is a 100% natural supplement that helps support your brain and cognitive functions 24/7. Maintain a sharp memory and support your brain health using this clinically proven supplement. Support memory and focus with this amazing 'brain trick' that supports the link between your neur...",
+            "conversion_rate": "1.23%",
+            "product_link": "https://fastbrainbooster.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Hair Therapy Shampoo 1 Month Supply",
+            "description": "The Rapunzel Ritual is all about repairing your broken hair folicles to minimize the process of losing your hair.",
+            "conversion_rate": "1.06%",
+            "product_link": "https://www.buyrapunzelritual.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$70.00"
+        },
+        {
+            "title": "Elixir of Youth",
+            "description": "Elixir of Youth ASHWAGANDHA is a medicinal herb with multiple possible health benefits.This product is effective for reducing stress, heart health, mental health, increase fertility, blood sugar, reduce inflammation, brain function, improve sleep.",
+            "conversion_rate": "1.05%",
+            "product_link": "https://immunesyst.com/ashwagandha-formula-bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Protocols For Tech Neck & Shoulder Relief",
+            "description": "Use This Natural Protocol For Relief From Tension Headaches & Tech Neck Discomfort!  ",
+            "conversion_rate": "1.29%",
+            "product_link": "https://www.angleswellness.com/techneckreliefprotocols-1",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$40.00"
+        },
+        {
+            "title": "Unlock Your Golf Swing",
+            "description": "Swing the Club Faster, Stronger, & Easier With This Quick Protocol!  ",
+            "conversion_rate": "1.29%",
+            "product_link": "https://www.angleswellness.com/unlockyourgolfswingnow-1",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$40.00"
+        },
+        {
+            "title": "Hair Revital X - 30-Day Supply",
+            "description": "Formula that delivers a pure dose of Saw Palmetto extract, which attempts to stimulate your Hair Growth Cycle. The Hair Revital X System includes both an oral supplement and a topical spray to help your follicles grow and regrow thick, healthy hair. Fortifies health of follicles and hair cells.",
+            "conversion_rate": "2.20%",
+            "product_link": "https://healthyhairremedy.net/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "Cold War Generator",
+            "description": "Learn how to build an electricity generator that costs less than $108 so you can slash your bill by 30%, 60%, 80% or more.",
+            "conversion_rate": "2.12%",
+            "product_link": "https://coldwargenerator.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$75.00"
+        },
+        {
+            "title": "Male Dominator",
+            "description": "Great ED product, helping with Men's Sexual Health.",
+            "conversion_rate": "1.09%",
+            "product_link": "https://maledominator.com/report",
+            "allowed_geos": "Full list within the offer;",
+            "restrictions": "Não disponível",
+            "average_payout": "$115.00"
+        },
+        {
+            "title": "Quick Fit",
+            "description": "Quick Fit is a 100% natural supplement, that helps you lose weight healthy and sustainably by boosting your metabolism.",
+            "conversion_rate": "1.19%",
+            "product_link": "https://quickfitmelanie.com/optin1647626503982",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "Clear Crystal Vision",
+            "description": "Introducing Clear Crystal Vision, the advanced eye supplement for optimal vision. With a powerful natural formula, it supports eye health, reduces inflammation, and maintains a healthy visual system. With regular use, Clear Crystal Vision enhances quality of life by supporting clear vision, reducing...",
+            "conversion_rate": "1.09%",
+            "product_link": "https://clearcrystalvision.com/index_sp/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$102.00"
+        },
+        {
+            "title": "Longevity Activator - 30-Day Supply",
+            "description": "Longevity Activator is a supplement that works to keep your body younger at the cellular level. That means with Longevity Activator you get to enjoy youthful skin, pain-free joints, sharper brain function, and so much more.",
+            "conversion_rate": "2.22%",
+            "product_link": "https://longevityactivator.net/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "IKIGAI",
+            "description": "70% of Americans suffer from stress. 75% are obese or overweight. Stress is the underlying reason for weight gain due to high cortisol levels.    IKIGAI provides them with the reason to take action.",
+            "conversion_rate": "1.33%",
+            "product_link": "https://ikigai-formula.com/max",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "Back To The Blueprint Workout Program",
+            "description": "Promote the at-home workout program that is getting dads back into the best shape of their lives.  ",
+            "conversion_rate": "1.12%",
+            "product_link": "http://go.bedadstrong.com/bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$50.00"
+        },
+        {
+            "title": "Derma Plus",
+            "description": "#1 ANTI AGING SOLUTION LOOK YEARS YOUNGER IN MINUTES!",
+            "conversion_rate": "1.17%",
+            "product_link": "https://www.justbevital.com/dermaplus-bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Nerve Fuel",
+            "description": "Best formula in the market today to help with nerve pain and nerve damage!",
+            "conversion_rate": "1.15%",
+            "product_link": "https://nervepainhelper.com/b/index_0823.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Fountain Of Youth Beauty Bundle",
+            "description": "Clean & non toxic anti aging skin care system discovered because of an autoimmune issue.  ",
+            "conversion_rate": "1.21%",
+            "product_link": "http://peakbloomskincare.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$83.00"
+        },
+        {
+            "title": "Infinite Energy System",
+            "description": "A step-by-step video guide that shows everyone how to build their own generator for less than $200 and slash their power bills by 80% today... not tomorrow or in a month.",
+            "conversion_rate": "1.20%",
+            "product_link": "https://off-gridindependence.com/index-infinite-tue.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$50.00"
+        },
+        {
+            "title": "Turbotest",
+            "description": "Turbotest is a popular high selling testosterone support product that boasts very large portions of natural ingredients shown to support healthy testosterone production which is needed for healthy sexual function, muscles, strength, energy and confidence.",
+            "conversion_rate": "1.19%",
+            "product_link": "https://naturecastproducts.com/turbotest/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$85.00"
+        },
+        {
+            "title": "Liver Guard Plus",
+            "description": "Liver Guard Plus is a 100% healty supplement that helps support your normal functions of liver system 24/7. ",
+            "conversion_rate": "1.25%",
+            "product_link": "https://liverguardplus.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Fat Belly Diminisher System",
+            "description": "Discover how to powerfully lose weight easily and effortlessly every day using a simple 2-step formula within 4 short weeks. The Fat Belly Diminisher system has helped customers lose weight without requiring complicated information or adhering to a strict diet.  ",
+            "conversion_rate": "1.12%",
+            "product_link": "https://fatbellydiminisher.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$86.00"
+        },
+        {
+            "title": "Against All Odds E-Book + 8 FREE Products",
+            "description": "How to Survive the End of the World AGAINST ALL ODDS when all hell breaks loose E-Book",
+            "conversion_rate": "1.10%",
+            "product_link": "https://www.against-odds.online/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$28.00"
+        },
+        {
+            "title": "Fighter body masterclass - Become a warrior now",
+            "description": "Combat Club is a fully guided fighting, fitness, and fatloss program for men who are ready to become the best version of themselves.",
+            "conversion_rate": "1.15%",
+            "product_link": "https://fightgecko.com/combatclubbg",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$40.00"
+        },
+        {
+            "title": "Neuro Switch Ebook Bundle",
+            "description": "The Neuro Switch Method is a program that combines nutrition and brain-based strategies to reprogram how we perceive and consume food, all while building healthy eating habits",
+            "conversion_rate": "1.11%",
+            "product_link": "https://kknutrition.com.au/neurobundle",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$85.00"
+        },
+        {
+            "title": "Air Purifier Pro System",
+            "description": "Digital product that provides easy instructions to build your own salt therapy device in less than 2 hours, install it wherever you want inside your home and improve your respiratory diseases or skin problems.",
+            "conversion_rate": "1.14%",
+            "product_link": "http://www.airpurifiersystem.online/vslbg.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$31.07"
+        },
+        {
+            "title": "Stronghold Protocol",
+            "description": "A step-by-step guide showing you exactly how to set up, install and operate your own 'unbreakable home defense system'",
+            "conversion_rate": "1.24%",
+            "product_link": "https://strongholdprotocol.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$30.00"
+        },
+        {
+            "title": "Secrets To Meeting Women",
+            "description": "Course on teaching guys how to be a master at meeting and dating women.",
+            "conversion_rate": "1.07%",
+            "product_link": "https://lifeadvancementfoundation.com/vsl-bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$50.00"
+        },
+        {
+            "title": "Smarter Selling Systems",
+            "description": "Online Sales Training and Development System. Build a Better You in less than 5 minutes daily with our premium content. Our online Sales Training will help you to be a more prepared, engaged, and effective Salesperson.   ",
+            "conversion_rate": "1.15%",
+            "product_link": "https://www.smartersellingsystems.com/vsl-4",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$30.00"
+        },
+        {
+            "title": "Sugar Detox Formula",
+            "description": "It's one of the only products in the world with a proprietary blend of the highest quality nutrients and plants that research has shown to support the body's natural detoxifying process especially when it comes to sugar.",
+            "conversion_rate": "1.33%",
+            "product_link": "https://www.sugardetox.com/buygoods",
+            "allowed_geos": "USA, CA, UK, AU;",
+            "restrictions": "Não disponível",
+            "average_payout": "$103.00"
+        },
+        {
+            "title": "Oliver Doodle Dandy Deluxe Collection Physical",
+            "description": " From the freedoms we cherish, the opportunities we have, and the accomplishments of legendary Americans, Oliver Doodle Dandy teaches the incredible story of our great nation.",
+            "conversion_rate": "1.10%",
+            "product_link": "https://store.oliverdoodledandy.com/patriotic-gift-2022-bg",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$40.00"
+        },
+        {
+            "title": "Custom past life painting & Psychic reading",
+            "description": "Many lonely pet owners see their pet as their child. Psychic Katie paints who pets were in their human past lives. ",
+            "conversion_rate": "1.10%",
+            "product_link": "https://furbabypastlife.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$110.00"
+        },
+        {
+            "title": "ActiFlow",
+            "description": "Actiflow is a brand-new prostate/men's health offer with a very enticing hook!",
+            "conversion_rate": "1.31%",
+            "product_link": "https://myactiflow.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Pawbiotics",
+            "description": "The Natural Formula That Supports Your Dog’s Health Pawbiotix is the only nutritional formula designed to help your dog achieve optimal and balanced levels of all five healthy gut bacteria they need to thrive.",
+            "conversion_rate": "1.24%",
+            "product_link": "https://thepawbiotix.com/video.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Rangii",
+            "description": "Brand new formula specifically designed to support and maintain your nails and skin.   ",
+            "conversion_rate": "1.19%",
+            "product_link": "https://befungusfree.com/v",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$100.00"
+        },
+        {
+            "title": "Liberty Fathers",
+            "description": "Mount Rushmore just got BIGGER! From Washington to Biden: This digital album introduces you to ALL 46 US presidents - not just the ones carved in stone. Discover the rich tapestry of American history through the lives of its leaders in this digital album.",
+            "conversion_rate": "1.12%",
+            "product_link": "https://libertyfathers.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$35.00"
+        },
+        {
+            "title": "Easy Power Plan E-book",
+            "description": "Easy Power Plan Will Change Our World Forever. Learn how to build an electricity generator step-by-step so you can slash your bill and become 'energy independent'. Discover how to build an ultra-low maintenance, highly efficient power generator that rivals traditional sources. Our guide includes bl...",
+            "conversion_rate": "1.95%",
+            "product_link": "https://besteasyguides.com/wp/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$85.00"
+        },
+        {
+            "title": "The Survival Guide - Ultimate",
+            "description": "The only survival guide which will melt fear and doubt from your  heart and give you the absolute power to make it through any virus, flu or pandemic crisis and really any other crisis as well.",
+            "conversion_rate": "1.88%",
+            "product_link": "https://ultimate.topsurvive.com/video",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$50.00"
+        },
+        {
+            "title": "15 Minutes Weight Loss",
+            "description": "Hypnotic Weight Loss recordings, each 15 minutes long and expertly crafted to harness the subconscious mind's ability to accelerate metabolism. These hypnotic sessions are designed to support your weight loss journey by enhancing metabolic functions through deep relaxation and positive suggestion. B...",
+            "conversion_rate": "1.54%",
+            "product_link": "https://15minutemanifestation.com/sp/vsl/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$30.00"
+        },
+        {
+            "title": "Keto In One",
+            "description": "The ultimate Keto recipe cookbook. Every recipe can be made in ONE pot, skillet, or plate, meaning no fumbling around the stove with multiple saucepans trying to cook 10 ingredients at once!",
+            "conversion_rate": "1.20%",
+            "product_link": "https://deals.wellme.com/ketoinone/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$20.00"
+        },
+        {
+            "title": "Midsection Meltdown Protocol",
+            "description": "The Midsection Meltdown Protocol is a comprehensive step-by-step guide that includes a specific list of foods, herbs, amino acids, snacks and minerals to flush all the toxic deadly fat from your body, the tracking formula to keep track of your progress, a simple and easy 3-minute targeted sequence, ...",
+            "conversion_rate": "0.92%",
+            "product_link": "http://midsectionmeltdownprotocol.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$0.00"
+        },
+        {
+            "title": "Water Freedom System",
+            "description": "The “Water Freedom System” will help you generate your own water, survive and thrive no matter how big the next drought will be.",
+            "conversion_rate": "1.13%",
+            "product_link": "https://www.waterfreedomsystem.net/mweb/index_water.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$29.97"
+        },
+        {
+            "title": "Fungus Key Pro (Spanish)",
+            "description": "Fungus Key PRO es un libro electrónico de mayor venta, ahora disponible en español, que cuenta con un método 100% natural y probado para manejar la enfermedad del hongo del dedo del pie, en un tiempo muy corto. Es la alternativa libre de efectos secundarios a la medicina convencional que según el si...",
+            "conversion_rate": "0.00%",
+            "product_link": "http://fungus-key-pro.net/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$0.00"
+        },
+        {
+            "title": "Family Self-Defense",
+            "description": "Digital product that includes the astonishing training and the three bonus programs and will finally learn the truth about self-defense and protecting your family. ",
+            "conversion_rate": "0.82%",
+            "product_link": "https://defenseforall.online/vsl.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$38.00"
+        },
+        {
+            "title": "Wake The Fork Up",
+            "description": "The Fat Burning Fingerprint is a 21-day fat-blasting online protocol designed to make you drop up to 17 pounds in 3 weeks or less. This simple 2-step system will have you eating more of your favorite foods, while flushing away your fat with a 3-minute morning routine. Works for anyone at any age in ...",
+            "conversion_rate": "0.82%",
+            "product_link": "https://fatburningfingerprint.com/fbf-home-control-10-bg",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$38.00"
+        },
+        {
+            "title": "Vision 20 - 30-Day Supply",
+            "description": "Vision 20’s precision formula combines 10 nutrients that help protect against the toxins that damage your eye cells and hurt your vision. They include a key “activator” compound that helps your body absorb these nutrients and rescue your eyesight. Vision 20 is based on scientific research of the ing...",
+            "conversion_rate": "1.50%",
+            "product_link": "https://visionforalifetime.net/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$90.00"
+        },
+        {
+            "title": "Say No To Fungus",
+            "description": "Say No to Fungus is a new step-by-step system that helps to eliminate all forms of nail fungus. The system is designed for anyone, even those who develop fungus as a result of a weak immune system, diabetes, chronic disease, or simply by virtue or wearing closed toe shoes every day.   To date, the p...",
+            "conversion_rate": "0.68%",
+            "product_link": "http://saynotofungus.com/sp/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$0.00"
+        },
+        {
+            "title": "Japanese Toe Nail Fungus Code",
+            "description": "Japanese Toenail Fungus Code is a program that offers an entirely natural remedy for toenail fungus. It shows unconventional methods to manage toenail fungus without the use of drugs, pills, creams or even lasers. The author of the Japanese Toenail Fungus Code, namely Dr. Ishiguro, came up with the ...",
+            "conversion_rate": "0.00%",
+            "product_link": "https://japanesetoenailfunguscode.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$18.53"
+        },
+        {
+            "title": "Grow Max Pro",
+            "description": "ED product with a completely natural formula",
+            "conversion_rate": "0.11%",
+            "product_link": "https://growmaxpro.com/report",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$104.04"
+        },
+        {
+            "title": "Total Blackout Protocol",
+            "description": "Discover 100's of scenarios, techniques and tactics of Unique Survival Strategies and equip yourself with the proper skills, knowledge and resources to ensure that you and your family will thrive and prosper in any crisis situation. Starting today, you will never be caught off-guard again. - 100% Sa...",
+            "conversion_rate": "0.00%",
+            "product_link": "https://www.totalblackoutprotocol.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$30.00"
+        },
+        {
+            "title": "Unlock Your Hip Flexors",
+            "description": "Embark on a transformative journey with our comprehensive program designed to release tight hip flexors. Follow our expertly crafted methods to not only increase strength and improve health but also sustain high energy levels throughout your day. Whether your goal is to alleviate discomfort, enhance...",
+            "conversion_rate": "0.32%",
+            "product_link": "https://www.hipflexormethod.com/go/hip-flexors-2/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$14.37"
+        },
+        {
+            "title": "Natural Vision System",
+            "description": "An all-natural solution to get relief from vision problems and see better again  through getting rid of the circulation problem that causes 'Ocular Plaque Syndrome'.",
+            "conversion_rate": "0.02%",
+            "product_link": "https://nationalvisionimprovement.com/vsl/index.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$39.83"
+        },
+        {
+            "title": "The Ultimate Herpes Protocol",
+            "description": "Written for people with an interest in alternative health, the Ultimate Herpes Protocol is an ebook which describes a wide range of methods to self-treat herpes infections. The e-book is not meant as a replacement of conventional therapy but for informational purposes only",
+            "conversion_rate": "0.01%",
+            "product_link": "http://ultimateherpesprotocol.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$29.20"
+        },
+        {
+            "title": "Japanese Toe Nail Fungus Code(14_TL Variation 2)",
+            "description": "Japanese Toe Nail Fungus Code is a holistic approach to treat toenail fungus without using prescription drugs that have been known to cause liver failure.   In 4 steps and 14 days, your nails will be restored to their natural color and structure with ZERO side effects. ",
+            "conversion_rate": "0.00%",
+            "product_link": "https://www.buygoods.com/product/jtnfc-aff1-standard-exit-vwt-v2/4632/530",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$20.64"
+        },
+        {
+            "title": "American Survival Encyclopedia",
+            "description": "",
+            "conversion_rate": "0.00%",
+            "product_link": "https://www.buygoods.com/product/ase-aff1-standard/4738/2",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$0.08"
+        },
+        {
+            "title": "Natural Vitiligo Treatment System",
+            "description": "Michael Dawson’s “Natural Vitiligo Treatment System” is a boon to those who have suffered both the physical and psychological effects of vitiligo.   Michael Dawson is the author of this guide, and not only he did he suffer from Vitiligo, he also researched the condition for 7 years. He experienced h...",
+            "conversion_rate": "0.00%",
+            "product_link": "http://naturalvitiligotreatmentsystem.net/video.html",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$24.71"
+        },
+        {
+            "title": "Fungus Key Pro (Portuguese)",
+            "description": "The Fungus Key Pro is a program that is designed to help you heal from damages caused by fungus.  The entire remedy is based on the techniques used by the Vietnamese, which is a combination of various natural ingredients you can find around your home. The program puts all of these techniques into on...",
+            "conversion_rate": "0.00%",
+            "product_link": "https://funguskey-pro.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$0.00"
+        },
+        {
+            "title": "14 Days Keto Challenge",
+            "description": "Join the '14 Days Keto Challenge' and embark on a transformative journey to achieve your health and wellness goals. This digital program offers a structured approach to the ketogenic diet, providing a comprehensive roadmap for beginners and enthusiasts alike. Over two weeks, you'll discover deliciou...",
+            "conversion_rate": "0.00%",
+            "product_link": "http://14dayketochallenge.com/index-s.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$20.00"
+        },
+        {
+            "title": "Transformation Insiders Club",
+            "description": "By drastically reducing carbohydrate intake, and replacing them with the right type of friendly fats, it forces your body to produce ketones for fuel.This will eventually put your body into a metabolic state called 'ketosis'.",
+            "conversion_rate": "0.00%",
+            "product_link": "http://14dayketochallenge.com/index-s.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$27.70"
+        },
+        {
+            "title": "14 Days Keto Challenge",
+            "description": "New Diet Program That Teaches People How They Can Enjoy More Of Their Favorite Foods While Losing Weight. Includes Diet and Exercise Guides as well as Cheat Sheets and Blueprints for Faster Results.",
+            "conversion_rate": "0.00%",
+            "product_link": "http://14dayketochallenge.com/index-s.php",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$20.00"
+        },
+        {
+            "title": "Wicket Waist Trimmer",
+            "description": "Wicked Waist will help you achieve a smaller, flatter belly and keep your core tight. It is made of strong, 100% Latex-free material “itch free” velcro that holds it securely on your body.Repels moisture and keeps you dry and comfortable. Crank up your ‘Fat Thermostat’.",
+            "conversion_rate": "0.00%",
+            "product_link": "https://deals.zoomwellness.com/wickedwaist/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$31.32"
+        },
+        {
+            "title": "PentagonFit Tracker",
+            "description": "US military-style 'smart device' that boosts weight loss by getting the person moving, tracks the heart rate, keeps you energized and works just like the 'FitBit' at a fraction of the price.",
+            "conversion_rate": "0.00%",
+            "product_link": "https://www.pentagonfit.com/tr-bg/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$17.15"
+        },
+        {
+            "title": "Fairytale Sleep - Weighted Blanket (Large)",
+            "description": "Sleep soundly with our Weighted Fairytale Sleep Blanket. Weighted blankets are therapeutic blankets that weigh between 5 to 30 pounds. The pressure from the extra weight mimics a therapeutic technique called deep pressure stimulation. ",
+            "conversion_rate": "0.00%",
+            "product_link": "https://www.buygoods.com/product/gravity_blanket/6032/3",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$0.00"
+        },
+        {
+            "title": "Home Made Cures and Remedies",
+            "description": "An easy to follow guide, offering all the information needed and step-by-step instructions into recovering health back.",
+            "conversion_rate": "0.00%",
+            "product_link": "https://www.buygoods.com/product/home_made_cure/6096/3",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$0.00"
+        },
+        {
+            "title": "The Pornstar Protocol",
+            "description": "All for a one-time investment that’s less than 5% of what you would spendon expensive surgeries, risky pills, or humiliating devicesthat make you look far from sexy to your partner.",
+            "conversion_rate": "0.00%",
+            "product_link": "https://www.buygoods.com/product/pspvl/6215/3",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$47.93"
+        },
+        {
+            "title": "Gum&Teeth Fortifier",
+            "description": "A bio-guide to discover the essential natural ingredients that re-mineralize and fortify teeth and gums and what to look for in the ideal toothpaste, oral-care products, foods and drinks. ",
+            "conversion_rate": "0.00%",
+            "product_link": "https://gumdisease-fix.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$45.63"
+        },
+        {
+            "title": "Alka Water DIY",
+            "description": "A step-by-step guide showing exactly how to create a 'healthy water source' and how to never risk drinking impure water ever again. All of the materials needed to build this will cost $50 or less, and 90% of them can probably be found for free in the garage or at a junkyard.",
+            "conversion_rate": "0.11%",
+            "product_link": "https://www.alkawaterdiy.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$35.29"
+        },
+        {
+            "title": "Hormone Support",
+            "description": "To balance hormones from the inside-out, Hormone Support uses a unique combination of 100% natural ingredients. They may not be found in your local grocery store but, together, they are like a hormone-balancing task force. Here are just a few of the completely naturally occurring, key ingredients we...",
+            "conversion_rate": "0.00%",
+            "product_link": "https://over30hormonesolution.com/bg/truth/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$81.32"
+        },
+        {
+            "title": "Alka Weight Loss Secret",
+            "description": "The world’s first alkaline water based formula that tackles the root cause of unexplained belly fat, visceral, toxic cellulite and unwanted weight gain…",
+            "conversion_rate": "0.00%",
+            "product_link": "https://alkaweightlosssecret.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$35.31"
+        },
+        {
+            "title": "Best Manifestation",
+            "description": "Discover the Real ‘Secret’ Behind Manifestation andUncover the Astonishing Power You Have Over the UniverseSo You Can Start Living Your Wildest Fantasies by the End of Today",
+            "conversion_rate": "0.31%",
+            "product_link": "https://www.bestmanifestation.com/",
+            "allowed_geos": "Não disponível",
+            "restrictions": "Não disponível",
+            "average_payout": "$26.94"
+        }
+    ]
+}

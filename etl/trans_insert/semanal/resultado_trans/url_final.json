@@ -1,27 +1,32 @@
 [
     {
-        "nome_produto": "HIPFLEXORS",
-        "url_visitada": "https://cbsnooper.com/visit/HIPFLEXORS",
+        "nome_produto": "CRYSTLRST",
+        "url_visitada": "https://cbsnooper.com/visit/CRYSTLRST",
         "url_final": "orders.clickbank.net"
-    },
-    {
-        "nome_produto": "TRUVARIN",
-        "url_visitada": "https://cbsnooper.com/visit/TRUVARIN",
-        "url_final": "go.truvarin.com"
-    },
-    {
-        "nome_produto": "CRUNCHLESS",
-        "url_visitada": "https://cbsnooper.com/visit/CRUNCHLESS",
-        "url_final": "crunchless6pack.com"
     },
     {
         "nome_produto": "GLOWDEMO",
         "url_visitada": "https://cbsnooper.com/visit/GLOWDEMO",
-        "url_final": null
+        "url_final": "orders.clickbank.net"
     },
     {
-        "nome_produto": "TOUGHMIND",
-        "url_visitada": "https://cbsnooper.com/visit/TOUGHMIND",
-        "url_final": "reallifedefense.com"
+        "nome_produto": "REALITYENC",
+        "url_visitada": "https://cbsnooper.com/visit/REALITYENC",
+        "url_final": "orders.clickbank.net"
+    },
+    {
+        "nome_produto": "TRUWILDH20",
+        "url_visitada": "https://cbsnooper.com/visit/TRUWILDH20",
+        "url_final": "orders.clickbank.net"
+    },
+    {
+        "nome_produto": "TRUWILD",
+        "url_visitada": "https://cbsnooper.com/visit/TRUWILD",
+        "url_final": "orders.clickbank.net"
+    },
+    {
+        "nome_produto": "WILDENERGY",
+        "url_visitada": "https://cbsnooper.com/visit/WILDENERGY",
+        "url_final": "orders.clickbank.net"
     }
 ]

@@ -1443,6 +1443,19 @@
         "pais5":"united-arab-emirates"
     },
     {
+        "id_produto":333,
+        "nome_produto":"GLOWDEMO",
+        "url_final":"orders.clickbank.net",
+        "mes_atual":784382,
+        "mes_anterior":671454,
+        "dois_meses":955102,
+        "pais1":"united-states",
+        "pais2":"brazil",
+        "pais3":"united-kingdom",
+        "pais4":"france",
+        "pais5":"australia"
+    },
+    {
         "id_produto":192,
         "nome_produto":"FBRAINB",
         "url_final":"fastbrainbooster.com",
@@ -2405,17 +2418,17 @@
         "pais5":"romania"
     },
     {
-        "id_produto":333,
-        "nome_produto":"GLOWDEMO",
-        "url_final":null,
-        "mes_atual":null,
-        "mes_anterior":null,
-        "dois_meses":null,
-        "pais1":null,
-        "pais2":null,
-        "pais3":null,
-        "pais4":null,
-        "pais5":null
+        "id_produto":477,
+        "nome_produto":"REALITYENC",
+        "url_final":"orders.clickbank.net",
+        "mes_atual":784382,
+        "mes_anterior":671454,
+        "dois_meses":955102,
+        "pais1":"united-states",
+        "pais2":"brazil",
+        "pais3":"united-kingdom",
+        "pais4":"france",
+        "pais5":"australia"
     },
     {
         "id_produto":332,
@@ -2875,6 +2888,19 @@
     {
         "id_produto":322,
         "nome_produto":"EVERBELLA",
+        "url_final":"orders.clickbank.net",
+        "mes_atual":784382,
+        "mes_anterior":671454,
+        "dois_meses":955102,
+        "pais1":"united-states",
+        "pais2":"brazil",
+        "pais3":"united-kingdom",
+        "pais4":"france",
+        "pais5":"australia"
+    },
+    {
+        "id_produto":478,
+        "nome_produto":"TRUWILDH20",
         "url_final":"orders.clickbank.net",
         "mes_atual":784382,
         "mes_anterior":671454,
@@ -3848,6 +3874,19 @@
         "pais5":"portugal"
     },
     {
+        "id_produto":479,
+        "nome_produto":"TRUWILD",
+        "url_final":"orders.clickbank.net",
+        "mes_atual":784382,
+        "mes_anterior":671454,
+        "dois_meses":955102,
+        "pais1":"united-states",
+        "pais2":"brazil",
+        "pais3":"united-kingdom",
+        "pais4":"france",
+        "pais5":"australia"
+    },
+    {
         "id_produto":55,
         "nome_produto":"MENORESCUE",
         "url_final":"menorescue.com",
@@ -4717,6 +4756,19 @@
         "pais3":"brazil",
         "pais4":"united-states",
         "pais5":"south-africa"
+    },
+    {
+        "id_produto":476,
+        "nome_produto":"CRYSTLRST",
+        "url_final":"orders.clickbank.net",
+        "mes_atual":784382,
+        "mes_anterior":671454,
+        "dois_meses":955102,
+        "pais1":"united-states",
+        "pais2":"brazil",
+        "pais3":"united-kingdom",
+        "pais4":"france",
+        "pais5":"australia"
     },
     {
         "id_produto":221,
@@ -6173,5 +6225,18 @@
         "pais3":"united-kingdom",
         "pais4":"australia",
         "pais5":"new-zealand"
+    },
+    {
+        "id_produto":480,
+        "nome_produto":"WILDENERGY",
+        "url_final":"orders.clickbank.net",
+        "mes_atual":784382,
+        "mes_anterior":671454,
+        "dois_meses":955102,
+        "pais1":"united-states",
+        "pais2":"brazil",
+        "pais3":"united-kingdom",
+        "pais4":"france",
+        "pais5":"australia"
     }
 ]
