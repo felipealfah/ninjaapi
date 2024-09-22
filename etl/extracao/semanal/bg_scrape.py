@@ -135,8 +135,11 @@ finally:
     output_file = os.path.join('resultado_scrape', 'bg_scrape.json')
 
     # Salvar os resultados em um arquivo JSON (substitui se já existir)
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(final_result, f, ensure_ascii=False, indent=4)
-
-    logger.info(f'Resultados salvos em {output_file}')
+    try:
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(final_result, f, ensure_ascii=False, indent=4)
+        logger.info(f'Resultados salvos em {output_file}')
+    except IOError as e:
+        logger.error(f'Erro ao salvar os resultados em {output_file}: {e}')
+    
     logger.info(f'Total de produtos extraídos: {len(results)}')

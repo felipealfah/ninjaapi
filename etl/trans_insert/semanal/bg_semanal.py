@@ -19,18 +19,27 @@ logger = logging.getLogger(__name__)
 
 # Função para ler o arquivo JSON
 def read_json_file(file_path):
-    with open(file_path, 'r') as file:
-        return json.load(file)
+    try:
+        with open(file_path, 'r') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        logger.error(f'Arquivo JSON não encontrado: {file_path}')
+        raise
+    except json.JSONDecodeError:
+        logger.error(f'Erro ao decodificar o JSON do arquivo: {file_path}')
+        raise
 
 # Função para transformar os dados em um DataFrame
 def transform_data(data):
-    produtos = data["produtos"]
-
+    produtos = data.get("produtos", [])
+    if not produtos:
+        logger.warning("Nenhum produto encontrado no JSON.")
+    
     # Criar DataFrame
     df = pd.DataFrame(produtos)
 
-    # Renomear colunas conforme necessário
-    df = df.rename(columns={
+    # Verificar e adicionar colunas faltantes
+    required_columns = {
         "title": "nome_produto",
         "description": "desc_produto",
         "average_payout": "preco_comissao",
@@ -38,20 +47,32 @@ def transform_data(data):
         "conversion_rate": "conversao",
         "allowed_geos": "localidades",
         "restrictions": "restricoes",
-    })
+    }
 
-    # Converter tipos de dados e ajustar formatação
-    df["preco_comissao"] = df["preco_comissao"].str.replace("$", "").astype(float)
-    df["conversao"] = df["conversao"].str.replace("%", "").astype(float)
-    df["data"] = pd.to_datetime(data["data_criacao"])
+    for col in required_columns:
+        if col not in df.columns:
+            logger.warning(f"Coluna ausente no DataFrame: {col}")
+
+    # Renomear colunas conforme necessário
+    df = df.rename(columns=required_columns)
+
+    # Validar e converter tipos de dados
+    df["preco_comissao"] = pd.to_numeric(df["preco_comissao"].str.replace("$", ""), errors='coerce')
+    df["conversao"] = pd.to_numeric(df["conversao"].str.replace("%", ""), errors='coerce')
+
+    # Tratar a coluna 'data' e converter para datetime
+    df["data"] = pd.to_datetime(data.get("data_criacao", datetime.now().isoformat()), format='%Y-%m-%d %H:%M:%S', errors='coerce')
+
+    # Validação de dados
+    df = df.dropna(subset=["nome_produto", "url_produto", "preco_comissao"])
 
     return df
 
 # Função para extrair o domínio de uma URL
 def extract_domain(url):
-    parsed_url = urlparse(url)
-    if "www.buygoods.com/product" in url:
+    if not url:
         return "null"
+    parsed_url = urlparse(url)
     return parsed_url.netloc
 
 # Função para verificar se o produto existe e inserir/atualizar dados
@@ -68,9 +89,17 @@ def upsert_data(file_path):
             response = supabase.from_('produtos_fisicos').select('id_produto').eq('nome_produto', nome_produto).execute()
             if response.data:
                 id_produto = response.data[0]['id_produto']
-                logger.info(f"Produto {nome_produto} já existe com id {id_produto}. Atualizando bg_fisico.")
+                logger.info(f"Produto {nome_produto} já existe com id {id_produto}. Atualizando dados.")
 
-                # Inserir novo registro em bg_fisico, sem especificar id (autogerado)
+                # Atualizar produto existente na tabela produtos_fisicos
+                supabase.from_('produtos_fisicos').update({
+                    "url_produto": row["url_produto"],
+                    "url_final": url_final,
+                    "preco_comissao": row["preco_comissao"],
+                    "desc_produto": row["desc_produto"]
+                }).eq('id_produto', id_produto).execute()
+
+                # Inserir novo registro em bg_fisico
                 bg_fisico_data = {
                     "id_produto": id_produto,
                     "data": row["data"].strftime('%Y-%m-%d'),
@@ -78,7 +107,7 @@ def upsert_data(file_path):
                     "restricoes": row["restricoes"],
                     "conversao": row["conversao"]
                 }
-                logger.info(f"Inserindo novo registro em bg_fisico para id_produto: {id_produto}")
+                logger.info(f"Inserindo registro em bg_fisico para id_produto: {id_produto}")
                 supabase.from_('bg_fisico').insert(bg_fisico_data).execute()
             else:
                 logger.info(f"Produto {nome_produto} não existe. Inserindo novo produto.")
@@ -95,7 +124,7 @@ def upsert_data(file_path):
                 response = supabase.from_('produtos_fisicos').insert(novo_produto).execute()
                 id_produto = response.data[0]['id_produto']
 
-                # Inserir dados na tabela bg_fisico, sem especificar id (autogerado)
+                # Inserir dados na tabela bg_fisico
                 bg_fisico_data = {
                     "id_produto": id_produto,
                     "data": row["data"].strftime('%Y-%m-%d'),
@@ -103,7 +132,7 @@ def upsert_data(file_path):
                     "restricoes": row["restricoes"],
                     "conversao": row["conversao"]
                 }
-                logger.info(f"Inserindo novo registro em bg_fisico para novo produto com id_produto: {id_produto}")
+                logger.info(f"Inserindo registro em bg_fisico para novo produto com id_produto: {id_produto}")
                 supabase.from_('bg_fisico').insert(bg_fisico_data).execute()
 
     except Exception as e:

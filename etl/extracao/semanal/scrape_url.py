@@ -14,9 +14,9 @@ SUPABASE_URL = os.getenv('SUPABASE_URL')
 SUPABASE_API_KEY = os.getenv('SUPABASE_API_KEY')
 supabase = create_client(SUPABASE_URL, SUPABASE_API_KEY)
 
-# Função para buscar produtos onde url_final é null
-def fetch_products_without_url():
-    response = supabase.from_('produtos_fisicos').select('nome_produto').is_('url_final', None).execute()
+# Função para buscar todos os produtos onde id_plataforma é 1
+def fetch_products():
+    response = supabase.from_('produtos_fisicos').select('nome_produto, id_plataforma').eq('id_plataforma', 1).execute()
     if response.data:
         return response.data
     else:
@@ -26,7 +26,7 @@ def fetch_products_without_url():
 # Função principal
 def main():
     # Buscar produtos
-    produtos = fetch_products_without_url()
+    produtos = fetch_products()
     
     # Criar DataFrame
     if produtos:

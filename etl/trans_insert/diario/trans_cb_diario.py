@@ -1,8 +1,8 @@
-from dotenv import load_dotenv
 import os
 import json
 import pandas as pd
 from supabase import create_client, Client
+from dotenv import load_dotenv
 
 # Carregar variáveis de ambiente
 load_dotenv()
@@ -17,10 +17,18 @@ def read_json_file(file_path):
 
 # Função para transformar os dados em um DataFrame
 def transform_data(data):
-    produtos = data["Produtos"]
-
+    produtos = data.get("Produtos", [])
+    
+    if not produtos:
+        raise ValueError("Nenhum dado de produto encontrado.")
+    
     # Criar DataFrame
     df = pd.DataFrame(produtos)
+
+    # Verificar se as colunas esperadas estão presentes
+    expected_columns = {"Ranking", "Product", "Title", "Gravity", "Av_/Sale", "Rebill", "Data_Criacao"}
+    if not expected_columns.issubset(df.columns):
+        raise KeyError(f"As seguintes colunas estão faltando: {expected_columns - set(df.columns)}")
 
     # Renomear colunas conforme necessário
     df = df.rename(columns={
@@ -36,16 +44,12 @@ def transform_data(data):
     # Adicionar coluna url_produto como string vazia
     df["url_produto"] = ""
 
-    # Converter tipos de dados e ajustar formatação
-    df["preco_comissao"] = df["preco_comissao"].str.replace("$", "").astype(float)
-    df["preco_rebill"] = df["preco_rebill"].str.replace("$", "").astype(float)
-    df["valor_gravity"] = df["valor_gravity"].str.replace('.', '').astype(int)
+    # Limpar e converter os dados
+    df["preco_comissao"] = df["preco_comissao"].replace('[\$,]', '', regex=True).astype(float)
+    df["preco_rebill"] = df["preco_rebill"].replace('[\$,]', '', regex=True).astype(float)
+    df["valor_gravity"] = df["valor_gravity"].replace('[\.,]', '', regex=True).astype(int)
     df["ranking"] = df["ranking"].astype(int)
-    df["data"] = pd.to_datetime(df["data"])
-
-    # Verificação dos valores convertidos
-    print("Valores de preco_comissao:", df["preco_comissao"].head())
-    print("Valores de preco_rebill:", df["preco_rebill"].head())
+    df["data"] = pd.to_datetime(df["data"], errors='coerce')  # Coercão de erros para datas inválidas
 
     return df
 
@@ -59,56 +63,85 @@ def upsert_data(file_path):
             nome_produto = row["nome_produto"]
 
             # Verificar se o produto já existe na tabela produtos_fisicos
-            response = supabase.from_('produtos_fisicos').select('id_produto').eq('nome_produto', nome_produto).execute()
-            if response.data:
-                id_produto = response.data[0]['id_produto']
-                print(f"Produto {nome_produto} já existe com id {id_produto}. Atualizando cb_diario_fisico.")
+            response = supabase.from_('produtos_fisicos').select('id_produto', 'nome_produto').eq('nome_produto', nome_produto).execute()
+            
+            if response.data is not None:
+                if response.data:
+                    id_produto = response.data[0].get('id_produto')
+                    produto_atual = response.data[0]
+                    
+                    # Atualizar o nome do produto se necessário
+                    if produto_atual.get("nome_produto") != nome_produto:
+                        print(f"Nome do produto mudou para {nome_produto}. Atualizando no banco de dados.")
+                        update_response = supabase.from_('produtos_fisicos').update({"nome_produto": nome_produto}).eq('id_produto', id_produto).execute()
+                        if update_response.data is not None:
+                            print(f"Produto {nome_produto} atualizado com sucesso.")
+                        else:
+                            print(f"Erro ao atualizar produto {nome_produto}: {update_response.error}")
 
-                # Verificar se o registro já existe na tabela cb_diario_fisico
-                cb_response = supabase.from_('cb_diario_fisico').select('id_diario').eq('id_produto', id_produto).eq('data', row["data"].strftime('%Y-%m-%d')).execute()
-                if cb_response.data:
-                    # Atualizar registro existente em cb_diario_fisico
-                    cb_diario_data = {
-                        "valor_gravity": row["valor_gravity"],
-                        "ranking": row["ranking"]
-                    }
-                    print(f"Atualizando cb_diario_fisico com id_diario: {cb_response.data[0]['id_diario']}")
-                    supabase.from_('cb_diario_fisico').update(cb_diario_data).eq('id_diario', cb_response.data[0]['id_diario']).execute()
+                    # Atualizar dados na tabela cb_diario_fisico
+                    cb_response = supabase.from_('cb_diario_fisico').select('id_diario').eq('id_produto', id_produto).eq('data', row["data"].strftime('%Y-%m-%d')).execute()
+                    if cb_response.data is not None:
+                        if cb_response.data:
+                            cb_diario_data = {
+                                "valor_gravity": row["valor_gravity"],
+                                "ranking": row["ranking"]
+                            }
+                            print(f"Atualizando cb_diario_fisico com id_diario: {cb_response.data[0].get('id_diario')}")
+                            update_cb_response = supabase.from_('cb_diario_fisico').update(cb_diario_data).eq('id_diario', cb_response.data[0].get('id_diario')).execute()
+                            if update_cb_response.data is not None:
+                                print(f"cb_diario_fisico atualizado com sucesso.")
+                            else:
+                                print(f"Erro ao atualizar cb_diario_fisico: {update_cb_response.error}")
+                        else:
+                            cb_diario_data = {
+                                "id_produto": id_produto,
+                                "data": row["data"].strftime('%Y-%m-%d'),
+                                "valor_gravity": row["valor_gravity"],
+                                "ranking": row["ranking"]
+                            }
+                            print(f"Inserindo novo registro em cb_diario_fisico para id_produto: {id_produto}")
+                            insert_cb_response = supabase.from_('cb_diario_fisico').insert(cb_diario_data).execute()
+                            if insert_cb_response.data is not None:
+                                print(f"cb_diario_fisico inserido com sucesso.")
+                            else:
+                                print(f"Erro ao inserir cb_diario_fisico: {insert_cb_response.error}")
                 else:
-                    # Inserir novo registro em cb_diario_fisico, sem especificar id_diario
-                    cb_diario_data = {
-                        "id_produto": id_produto,
-                        "data": row["data"].strftime('%Y-%m-%d'),
-                        "valor_gravity": row["valor_gravity"],
-                        "ranking": row["ranking"]
+                    print(f"Produto {nome_produto} não encontrado. Inserindo novo produto.")
+
+                    # Inserir novo produto na tabela produtos_fisicos
+                    novo_produto = {
+                        "id_plataforma": 1,
+                        "nome_produto": nome_produto,
+                        "url_produto": row["url_produto"],
+                        "url_afiliado": "",
+                        "preco_comissao": row["preco_comissao"],
+                        "preco_rebill": row["preco_rebill"],
+                        "desc_produto": row["desc_produto"]
                     }
-                    print(f"Inserindo novo registro em cb_diario_fisico para id_produto: {id_produto}")
-                    supabase.from_('cb_diario_fisico').insert(cb_diario_data).execute()
+                    insert_response = supabase.from_('produtos_fisicos').insert(novo_produto).execute()
+                    if insert_response.data is not None:
+                        id_produto = insert_response.data[0].get('id_produto')
+                        print(f"Novo produto {nome_produto} inserido com id {id_produto}.")
+
+                        # Inserir dados na tabela cb_diario_fisico
+                        cb_diario_data = {
+                            "id_produto": id_produto,
+                            "data": row["data"].strftime('%Y-%m-%d'),
+                            "valor_gravity": row["valor_gravity"],
+                            "ranking": row["ranking"]
+                        }
+                        print(f"Inserindo novo registro em cb_diario_fisico para novo produto com id_produto: {id_produto}")
+                        insert_cb_diario_response = supabase.from_('cb_diario_fisico').insert(cb_diario_data).execute()
+                        if insert_cb_diario_response.data is not None:
+                            print(f"cb_diario_fisico inserido com sucesso.")
+                        else:
+                            print(f"Erro ao inserir cb_diario_fisico: {insert_cb_diario_response.error}")
+                    else:
+                        print(f"Erro ao inserir produto {nome_produto}: {insert_response.error}")
+
             else:
-                print(f"Produto {nome_produto} não existe. Inserindo novo produto.")
-
-                # Inserir novo produto na tabela produtos_fisicos
-                novo_produto = {
-                    "id_plataforma": 1,
-                    "nome_produto": nome_produto,
-                    "url_produto": row["url_produto"],
-                    "url_afiliado": "",
-                    "preco_comissao": row["preco_comissao"],
-                    "preco_rebill": row["preco_rebill"],
-                    "desc_produto": row["desc_produto"]
-                }
-                response = supabase.from_('produtos_fisicos').insert(novo_produto).execute()
-                id_produto = response.data[0]['id_produto']
-
-                # Inserir dados na tabela cb_diario_fisico, sem especificar id_diario
-                cb_diario_data = {
-                    "id_produto": id_produto,
-                    "data": row["data"].strftime('%Y-%m-%d'),
-                    "valor_gravity": row["valor_gravity"],
-                    "ranking": row["ranking"]
-                }
-                print(f"Inserindo novo registro em cb_diario_fisico para novo produto com id_produto: {id_produto}")
-                supabase.from_('cb_diario_fisico').insert(cb_diario_data).execute()
+                print(f"Erro ao consultar produto {nome_produto}: {response.error}")
 
     except Exception as e:
         print('Erro ao processar o arquivo JSON:', e)

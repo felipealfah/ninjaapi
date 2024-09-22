@@ -1,38 +1,49 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
 import os
 import json
+import logging
 
-# Crie uma instância do FastAPI
+# Importando o módulo njapi que contém a função get_screenshots
+from api_ninjapresell import njapi
+
+
+# Configurando o logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 app = FastAPI()
 
-# Defina o caminho para o arquivo JSON
-json_file_path = os.path.join(os.path.dirname(__file__), 'view', 'resultado', 'clickbank_resultado.json')
+json_file_path = '/ninja/etl/view/resultado/clickbank_resultado.json'
 
-# Rota para obter os dados do JSON
 @app.get("/clickbank")
 async def get_clickbank_data():
+    logging.info(f"Tentando acessar o arquivo JSON em: {json_file_path}")
     try:
-        # Verifique se o arquivo JSON existe
-        if not os.path.exists(json_file_path):
-            raise HTTPException(status_code=404, detail="Arquivo JSON não encontrado")
-        
-        # Leia o conteúdo do arquivo JSON
         with open(json_file_path, 'r') as json_file:
             data = json.load(json_file)
+            logging.info("Arquivo JSON carregado com sucesso.")
+            return JSONResponse(content=data)
+    except FileNotFoundError:
+        logging.error("Arquivo JSON não encontrado no caminho especificado.")
+        raise HTTPException(status_code=404, detail="Arquivo JSON não encontrado")
+    except json.JSONDecodeError:
+        logging.error("Falha ao decodificar o arquivo JSON.")
+        raise HTTPException(status_code=500, detail="Erro na leitura do arquivo JSON")
+
+@app.post("/bgninjapresell")
+async def get_presell_data(request: Request):
+    try:
+        body = await request.json()
+        url = body.get('url')
+        if not url:
+            raise HTTPException(status_code=400, detail="URL não fornecida")
         
-        # Retorne os dados como resposta JSON
-        return JSONResponse(content=data)
-
+        response_content = njapi.get_screenshots(url)
+        return JSONResponse(content=response_content)
+    except ValueError as e:
+        logging.error(f"Erro no processamento da URL: {str(e)}")
+        raise HTTPException(status_code=422, detail=f"Erro no processamento da URL: {str(e)}")
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logging.error(f"Erro ao processar screenshot: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Erro ao processar screenshot: {str(e)}")
 
-# Rota para verificar se a API está funcionando
-@app.get("/")
-async def root():
-    return {"message": "API para Clickbank está funcionando!"}
-
-# Comando para rodar o servidor Uvicorn se este script for executado diretamente
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)

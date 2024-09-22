@@ -23,64 +23,63 @@ def fazer_scrape(url_template):
         logging.info(f"Processando página {pagina}...")
         
         # Fazendo uma solicitação HTTP GET para obter o conteúdo da página
-        response = requests.get(url)
+        try:
+            response = requests.get(url)
+            response.raise_for_status()  # Levanta um erro para códigos de status HTTP 4xx/5xx
+        except requests.RequestException as e:
+            logging.error(f"Erro ao carregar a página {pagina}: {e}")
+            break
         
-        # Verificando se a solicitação foi bem-sucedida (código de status 200)
-        if response.status_code == 200:
-            # Log de sucesso ao obter a página
-            logging.info(f"Extração da página {pagina} bem-sucedida.")
-            
-            # Criando um objeto BeautifulSoup com o conteúdo HTML
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Verificando se a mensagem "No items found" está presente na página
-            no_items_message = soup.find("span", class_="font-medium py-8 text-gray-400 text-lg dark:text-white")
-            if no_items_message:
-                # Log de aviso e encerramento da extração se a mensagem for encontrada
-                logging.warning("Mensagem 'No items found. Try to broaden your search.' encontrada. Encerrando a extração.")
-                break
-            
-            # Encontrando a tabela
-            tabela = soup.find('table', class_='min-w-full')
-            
-            # Verificando se a tabela foi encontrada
-            if tabela:
-                # Iterando sobre as linhas da tabela
-                for linha in tabela.find_all('tr'):
-                    # Iterando sobre as células da linha
-                    celulas = linha.find_all('td')
-                    if celulas:
-                        # Verificando se há células suficientes
-                        if len(celulas) >= 7:
-                            # Extraindo os dados das células
-                            ranking = celulas[0].get_text().strip()
-                            product = celulas[1].get_text().strip()
-                            title = celulas[2].get_text().strip()
-                            gravity = celulas[3].get_text().strip()
-                            av_sale = celulas[5].get_text().strip()
-                            rebill = celulas[6].get_text().strip()
-                            
-                            # Adicionando os dados do produto à lista de produtos
-                            produtos.append({
-                                "Ranking": ranking,
-                                "Product": product,
-                                "Title": title,
-                                "Gravity": gravity,
-                                "Av_/Sale": av_sale,
-                                "Rebill": rebill,
-                                "Data_Criacao": data_de_criacao  # Adicionando a data de criação
-                            })
+        # Log de sucesso ao obter a página
+        logging.info(f"Extração da página {pagina} bem-sucedida.")
+        
+        # Criando um objeto BeautifulSoup com o conteúdo HTML
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Verificando se a mensagem "No items found" está presente na página
+        no_items_message = soup.find("span", class_="font-medium py-8 text-gray-400 text-lg dark:text-white")
+        if no_items_message:
+            # Log de aviso e encerramento da extração se a mensagem for encontrada
+            logging.warning("Mensagem 'No items found. Try to broaden your search.' encontrada. Encerrando a extração.")
+            break
+        
+        # Encontrando a tabela
+        tabela = soup.find('table', class_='min-w-full')
+        
+        # Verificando se a tabela foi encontrada
+        if tabela:
+            # Iterando sobre as linhas da tabela
+            for linha in tabela.find_all('tr'):
+                # Iterando sobre as células da linha
+                celulas = linha.find_all('td')
+                if celulas:
+                    # Verificando se há células suficientes
+                    if len(celulas) >= 7:
+                        # Extraindo os dados das células
+                        ranking = celulas[0].get_text().strip()
+                        product = celulas[1].get_text().strip()
+                        title = celulas[2].get_text().strip()
+                        gravity = celulas[3].get_text().strip()
+                        av_sale = celulas[5].get_text().strip()
+                        rebill = celulas[6].get_text().strip()
+                        
+                        # Adicionando os dados do produto à lista de produtos
+                        produtos.append({
+                            "Ranking": ranking,
+                            "Product": product,
+                            "Title": title,
+                            "Gravity": gravity,
+                            "Av_/Sale": av_sale,
+                            "Rebill": rebill,
+                            "Data_Criacao": data_de_criacao  # Adicionando a data de criação
+                        })
 
-                # Indo para a próxima página
-                pagina += 1
-            else:
-                # Se a tabela não for encontrada, a página está vazia
-                # Terminando a extração
-                logging.warning("Tabela não encontrada na página. Terminando a extração.")
-                break
+            # Indo para a próxima página
+            pagina += 1
         else:
-            # Log de erro ao fazer a solicitação HTTP
-            logging.error(f"Falha ao carregar a página {pagina}: {response.status_code}")
+            # Se a tabela não for encontrada, a página está vazia
+            # Terminando a extração
+            logging.warning("Tabela não encontrada na página. Terminando a extração.")
             break
     
     # Verificando se há produtos extraídos

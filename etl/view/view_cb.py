@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Carregar variáveis de ambiente
 load_dotenv()
 SUPABASE_URL = os.getenv('SUPABASE_URL')
-SUPABASE_API_KEY = os.getenv('SUPABASE_KEY')
+SUPABASE_API_KEY = os.getenv('SUPABASE_API_KEY')
 supabase = create_client(SUPABASE_URL, SUPABASE_API_KEY)
 
 # Função para consultar a view no Supabase
@@ -26,7 +26,7 @@ def fetch_data_from_view(view_name):
 # Função principal
 def main():
     # Nome da view que você quer consultar
-    view_name = 'view_produtos_clickbank_ff'
+    view_name = 'view_produtos_clickbank_api'
     
     # Consultar a view e construir o DataFrame
     data = fetch_data_from_view(view_name)
@@ -34,6 +34,17 @@ def main():
     if data:
         df = pd.DataFrame(data)
         
+        # Normalizar os nomes das colunas para evitar duplicações
+        df.columns = [col.lower() for col in df.columns]
+
+        # Renomear as colunas
+        df.rename(columns={
+            'first_see': 'primeira aparição',
+            'mes_atual': 'trafego_mes_atual',
+            'mes_anterior': 'trafego_mes_anterior',
+            'dois_meses': 'trafego_dois_meses_atras'
+        }, inplace=True)
+
         # Converter a coluna 'data' para datetime se necessário
         if 'data' in df.columns:
             df['data'] = pd.to_datetime(df['data'])
@@ -42,6 +53,23 @@ def main():
         else:
             ultima_atualizacao = None
         
+        # Identificar todas as colunas esperadas pela view
+        expected_columns = [
+            'id_produto', 'nome_produto', 'desc_produto', 'preco_comissao', 'url_afiliado', 
+            'trafego_mes_atual', 'trafego_mes_anterior', 'trafego_dois_meses_atras', 'pais1', 'pais2', 'pais3', 
+            'pais4', 'pais5', 'valor_gravity', 'ranking', 'data',
+            'gravity_dia', 'gravity_7d', 'gravity_15d', 'gravity_30d', 
+            'gravity_45d', 'gravity_60d', 'gravity_90d', 'primeira aparição'
+        ]
+        
+        # Garantir que todas as colunas esperadas estejam presentes no DataFrame
+        for col in expected_columns:
+            if col not in df.columns:
+                df[col] = None  # Adiciona a coluna com valores None se não existir
+
+        # Reordenar as colunas conforme a lista expected_columns
+        df = df[expected_columns]
+
         # Diretório para salvar o arquivo JSON
         resultado_scrape_dir = os.path.join(os.path.dirname(__file__), 'resultado')
 
