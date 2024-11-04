@@ -1,12 +1,12 @@
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Request, BackgroundTasks
 from fastapi.responses import JSONResponse
 import os
 import json
 import logging
+import subprocess
 
-# Importando o módulo njapi que contém a função get_screenshots
-from api_ninjapresell import njapi
-
+# Importando o módulo njapi e as funções validar_url e get_screenshots
+from api_ninjapresell.njapi import validar_url, get_screenshots
 
 # Configurando o logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -35,15 +35,86 @@ async def get_presell_data(request: Request):
     try:
         body = await request.json()
         url = body.get('url')
+
         if not url:
             raise HTTPException(status_code=400, detail="URL não fornecida")
-        
-        response_content = njapi.get_screenshots(url)
+
+        if not validar_url(url):
+            raise HTTPException(status_code=422, detail="URL inválida")
+
+        # Supondo que `get_screenshots` esteja bem definido e retorne o conteúdo necessário
+        response_content = get_screenshots(url)
         return JSONResponse(content=response_content)
+
     except ValueError as e:
         logging.error(f"Erro no processamento da URL: {str(e)}")
         raise HTTPException(status_code=422, detail=f"Erro no processamento da URL: {str(e)}")
+    except json.JSONDecodeError:
+        logging.error("Erro ao decodificar JSON da requisição.")
+        raise HTTPException(status_code=400, detail="Erro ao decodificar JSON da requisição.")
     except Exception as e:
         logging.error(f"Erro ao processar screenshot: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Erro ao processar screenshot: {str(e)}")
 
+
+# Função para rodar scripts e capturar saída
+def run_script(script_name):
+    result = subprocess.run(['python3', script_name], capture_output=True, text=True)
+    return result.stdout, result.returncode
+
+
+# Função para rodar o script diario.py
+def run_diario():
+    stdout, returncode = run_script('diario.py')
+    if returncode != 0:
+        logging.error(f"Erro ao executar diario.py: {stdout}")
+    else:
+        logging.info(f"Script diario.py concluído com sucesso: {stdout}")
+
+
+# Função para rodar o script semanal.py
+def run_semanal():
+    stdout, returncode = run_script('semanal.py')
+    if returncode != 0:
+        logging.error(f"Erro ao executar semanal.py: {stdout}")
+    else:
+        logging.info(f"Script semanal.py concluído com sucesso: {stdout}")
+
+
+# Função para rodar o script quinzenal.py
+def run_quinzenal():
+    stdout, returncode = run_script('quinzenal.py')
+    if returncode != 0:
+        logging.error(f"Erro ao executar quinzenal.py: {stdout}")
+    else:
+        logging.info(f"Script quinzenal.py concluído com sucesso: {stdout}")
+
+
+# Endpoint para rodar o script diario.py em segundo plano
+@app.post("/executar-diario")
+async def executar_diario(background_tasks: BackgroundTasks):
+    try:
+        background_tasks.add_task(run_diario)
+        return {"message": "Script diario.py iniciado em segundo plano"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Erro ao iniciar diario.py: {str(e)}")
+
+
+# Endpoint para rodar o script semanal.py em segundo plano
+@app.post("/executar-semanal")
+async def executar_semanal(background_tasks: BackgroundTasks):
+    try:
+        background_tasks.add_task(run_semanal)
+        return {"message": "Script semanal.py iniciado em segundo plano"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Erro ao iniciar semanal.py: {str(e)}")
+
+
+# Endpoint para rodar o script quinzenal.py em segundo plano
+@app.post("/executar-quinzenal")
+async def executar_quinzenal(background_tasks: BackgroundTasks):
+    try:
+        background_tasks.add_task(run_quinzenal)
+        return {"message": "Script quinzenal.py iniciado em segundo plano"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Erro ao iniciar quinzenal.py: {str(e)}")

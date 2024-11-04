@@ -19,8 +19,10 @@ def main():
     scrape_url_script = '/ninja/etl/extracao/semanal/scrape_url.py'
     trans_url_final_script = '/ninja/etl/trans_insert/semanal/trans_url_final.py'
     insert_url_final_script = '/ninja/etl/trans_insert/semanal/insert_url_final.py'
+
     bg_scrape = '/ninja/etl/extracao/semanal/bg_scrape.py'
     insert_bg_scrape = '/ninja/etl/trans_insert/semanal/bg_semanal.py'
+
     trans_cb_semanal = '/ninja/etl/trans_insert/semanal/trans_cb_semanal.py'
     scrape_url_cb_semanal='/ninja/etl/extracao/semanal/cb_semanal.py'
 
@@ -30,8 +32,10 @@ def main():
     run_script(bg_scrape)
     logging.info("Atualizando Buy Goods no Banco")
     run_script(insert_bg_scrape)
+    
     logging.info("Iniciando Scrapy de url")
     run_script(scrape_url_script)
+
     logging.info("Atualizando URL")
     run_script(trans_url_final_script)
     logging.info("Atualizando url no banco")
