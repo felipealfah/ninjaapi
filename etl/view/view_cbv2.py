@@ -39,7 +39,7 @@ def main():
     remover_pycache()
 
     # Nome da view que você quer consultar
-    view_name = 'view_produtos_clickbank_api'
+    view_name = 'view_produtos_clickbank_api_v2'
     
     # Consultar a view e construir o DataFrame
     data = fetch_data_from_view(view_name)
@@ -52,7 +52,7 @@ def main():
 
         # Renomear as colunas
         df.rename(columns={
-            'first_see': 'primeira aparição',
+            'first_see': 'primeira_aparicao',
             'mes_atual': 'trafego_mes_atual',
             'mes_anterior': 'trafego_mes_anterior',
             'dois_meses': 'trafego_dois_meses_atras'
@@ -66,13 +66,15 @@ def main():
         else:
             ultima_atualizacao = None
         
-        # Identificar todas as colunas esperadas pela view
+        # Identificar todas as colunas esperadas pela view, incluindo categorias e subcategorias
         expected_columns = [
             'id_produto', 'nome_produto', 'desc_produto', 'preco_comissao', 'url_afiliado', 
             'trafego_mes_atual', 'trafego_mes_anterior', 'trafego_dois_meses_atras', 'pais1', 'pais2', 'pais3', 
             'pais4', 'pais5', 'valor_gravity', 'ranking', 'data',
             'gravity_dia', 'gravity_7d', 'gravity_15d', 'gravity_30d', 
-            'gravity_45d', 'gravity_60d', 'gravity_90d', 'primeira aparição'
+            'gravity_45d', 'gravity_60d', 'gravity_90d', 'primeira_aparicao',
+            'categoria1', 'sub_categoria1', 'categoria2', 'sub_categoria2', 
+            'categoria3', 'sub_categoria3', 'categoria4', 'sub_categoria4'
         ]
         
         # Garantir que todas as colunas esperadas estejam presentes no DataFrame
@@ -91,7 +93,7 @@ def main():
             os.makedirs(resultado_scrape_dir)
         
         # Definindo o caminho completo para o arquivo JSON
-        arquivo_json = os.path.join(resultado_scrape_dir, 'clickbank_resultado.json')
+        arquivo_json = os.path.join(resultado_scrape_dir, 'clickbank_resultadov2.json')
         
         # Preparando o dicionário para salvar
         output_data = {

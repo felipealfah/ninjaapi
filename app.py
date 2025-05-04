@@ -5,8 +5,12 @@ import json
 import logging
 import subprocess
 
+from starlette.responses import RedirectResponse
+
 # Importando o módulo njapi e as funções validar_url e get_screenshots
 from api_ninjapresell.njapi import validar_url, get_screenshots
+# Importando o script de extração de URLs da subpasta etl_v2
+from etl_v2 import url_final_cb
 
 # Configurando o logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -14,12 +18,28 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 app = FastAPI()
 
 json_file_path = '/ninja/etl/view/resultado/clickbank_resultado.json'
+json_file_pathv2 = '/ninja/etl/view/resultado/clickbank_resultadov2.json'
 
 @app.get("/clickbank")
 async def get_clickbank_data():
     logging.info(f"Tentando acessar o arquivo JSON em: {json_file_path}")
     try:
         with open(json_file_path, 'r') as json_file:
+            data = json.load(json_file)
+            logging.info("Arquivo JSON carregado com sucesso.")
+            return JSONResponse(content=data)
+    except FileNotFoundError:
+        logging.error("Arquivo JSON não encontrado no caminho especificado.")
+        raise HTTPException(status_code=404, detail="Arquivo JSON não encontrado")
+    except json.JSONDecodeError:
+        logging.error("Falha ao decodificar o arquivo JSON.")
+        raise HTTPException(status_code=500, detail="Erro na leitura do arquivo JSON")
+    
+@app.get("/clickbankv2")
+async def get_clickbank_data():
+    logging.info(f"Tentando acessar o arquivo JSON em: {json_file_pathv2}")
+    try:
+        with open(json_file_pathv2, 'r') as json_file:
             data = json.load(json_file)
             logging.info("Arquivo JSON carregado com sucesso.")
             return JSONResponse(content=data)
@@ -118,3 +138,23 @@ async def executar_quinzenal(background_tasks: BackgroundTasks):
         return {"message": "Script quinzenal.py iniciado em segundo plano"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Erro ao iniciar quinzenal.py: {str(e)}")
+
+json_url_final_path = '/ninja/etl_v2/scrape_url_final.json'
+@app.get("/processar_urls")
+async def get_clickbank_data():
+    logging.info(f"Tentando acessar o arquivo JSON em: {json_url_final_path}")
+    try:
+        with open(json_url_final_path, 'r') as json_file:
+            data = json.load(json_file)
+            logging.info("Arquivo JSON carregado com sucesso.")
+            return JSONResponse(content=data)
+    except FileNotFoundError:
+        logging.error("Arquivo JSON não encontrado no caminho especificado.")
+        raise HTTPException(status_code=404, detail="Arquivo JSON não encontrado")
+    except json.JSONDecodeError:
+        logging.error("Falha ao decodificar o arquivo JSON.")
+        raise HTTPException(status_code=500, detail="Erro na leitura do arquivo JSON")
+    
+@app.get("/dashboard")
+async def redirect_to_dashboard():
+    return RedirectResponse(url="http://api.fulled.com.br:8501") 

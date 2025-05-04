@@ -1,0 +1,14 @@
+[
+    {
+        "id_produto": 983,
+        "nome_produto": "RAPOSO1",
+        "url_scrape": "https://cbsnooper.com/visit/RAPOSO1",
+        "url_final": "fighterabs.com"
+    },
+    {
+        "id_produto": 982,
+        "nome_produto": "MITOTHRIVE",
+        "url_scrape": "https://cbsnooper.com/visit/MITOTHRIVE",
+        "url_final": "youthfulagingsecret.com"
+    }
+]
