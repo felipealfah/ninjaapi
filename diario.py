@@ -20,6 +20,8 @@ def main():
     extracao_script = '/ninja/etl/extracao/diario/cb_scrape.py'
     trans_insert_script = '/ninja/etl/trans_insert/diario/trans_cb_diario.py'
     api_diario = '/ninja/etl/view/view_cb.py'
+    api_diario_v2 = '/ninja/etl/view/view_cbv2.py'
+    url_produtos = '/ninja/etl_v2/url_final_cb.py'
 
     # Execute the extraction script
     logging.info("Iniciando Extracao CB_scrapy")
@@ -38,6 +40,14 @@ def main():
     run_script(api_diario)
 
     logging.info("Api criada e atualizada")
+
+    run_script(url_produtos)
+    logging.info("urls de produtos verificadas.")
+
+ # Execute the script for exporting the data to the API
+    logging.info("Criando API v2")
+    run_script(api_diario_v2)
+
 
 if __name__ == "__main__":
     main()

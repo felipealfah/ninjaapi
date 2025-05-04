@@ -30,7 +30,7 @@ def read_json_file(file_path):
 
 # Função para extrair o domínio final usando Selenium Grid com tentativas
 def get_final_domain(url, retries=3, wait=15):
-    selenium_grid_url = 'http://api.fulled.com.br:4444/wd/hub'
+    selenium_grid_url = 'http://api.fulled.com.br:4444'
     chrome_options = Options()
     chrome_options.add_argument('--headless')
 

@@ -13,3 +13,4 @@ requests==2.32.3
 gunicorn==20.1.0
 Pillow==10.0.1  # Adicione esta linha
 supabase==2.7.4
+streamlit==1.40.1

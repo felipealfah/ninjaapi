@@ -35,12 +35,14 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 # Copy cron job definition into the container
 COPY cron-jobs /etc/cron.d/cron-jobs
 
-# Copy Python scripts and ETL directory into the container
+# Copy Python scripts and ETL directories into the container
 COPY diario.py semanal.py quinzenal.py app.py ./
 COPY etl ./etl
-
-# Copy the api_ninjapresell directory into the container
+COPY etl_v2 ./etl_v2
 COPY api_ninjapresell ./api_ninjapresell
+
+# Copy Streamlit files
+COPY etl/view/dash /ninja/dash
 
 # Copy the .env file into the container
 COPY .env .env
@@ -52,14 +54,15 @@ RUN chmod +x start.sh
 # Install Python dependencies
 COPY requirements.txt .
 RUN pip install --upgrade pip \
-    && pip install --no-cache-dir -r requirements.txt
+    && pip install --no-cache-dir -r requirements.txt \
+    && pip install streamlit  # Instala o Streamlit
 
-# Expose the port on which the FastAPI app will run
-EXPOSE 8000
+# Expose the ports for FastAPI and Streamlit
+EXPOSE 8000 8501
 
 # Add cron jobs
 RUN chmod 0644 /etc/cron.d/cron-jobs
 RUN crontab /etc/cron.d/cron-jobs
 
-# Command to run both cron and FastAPI
+# Command to run both cron, FastAPI, and Streamlit
 CMD ["./start.sh"]

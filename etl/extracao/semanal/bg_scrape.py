@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 # Configurar o WebDriver remoto
 options = webdriver.ChromeOptions()
 driver = webdriver.Remote(
-    command_executor='http://api.fulled.com.br:4444/wd/hub',
+    command_executor='http://api.fulled.com.br:4444',
     options=options
 )
 

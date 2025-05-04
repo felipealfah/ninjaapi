@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from supabase import create_client, Client
 from urllib.parse import urlparse
 from datetime import datetime
+import math
 
 # Carregar variáveis de ambiente
 load_dotenv()
@@ -47,6 +48,14 @@ def convert_to_date(date_string):
         print(f"Erro ao converter data {date_string}: {e}")
         return None
 
+# Função para tratar valores antes de atualizar o banco
+def sanitize_value(value):
+    if value is None:
+        return ""
+    if isinstance(value, float) and math.isnan(value):  # Verifica se é nan
+        return ""
+    return value
+
 # Função para atualizar o banco de dados
 def update_product_urls(data):
     for produto in data:
@@ -55,6 +64,16 @@ def update_product_urls(data):
         url_afiliado = produto.get('url_afiliado')
         first_seen_date = convert_to_date(produto.get('first_seen_date'))  # Convertendo a data
         url_final = extract_domain(url_afiliado)
+
+        # Categorias e subcategorias (sanitizar valores)
+        categoria1 = sanitize_value(produto.get('categoria1'))
+        sub_categoria1 = sanitize_value(produto.get('sub_categoria1'))
+        categoria2 = sanitize_value(produto.get('categoria2'))
+        sub_categoria2 = sanitize_value(produto.get('sub_categoria2'))
+        categoria3 = sanitize_value(produto.get('categoria3'))
+        sub_categoria3 = sanitize_value(produto.get('sub_categoria3'))
+        categoria4 = sanitize_value(produto.get('categoria4'))
+        sub_categoria4 = sanitize_value(produto.get('sub_categoria4'))
 
         if nome_produto is None:
             print("Nome do produto é None. Não é possível atualizar.")
@@ -68,14 +87,31 @@ def update_product_urls(data):
             id_produto = response.data[0]['id_produto']
             print(f"Atualizando produto {nome_produto} com id {id_produto}")
 
-            # Atualizar as colunas url_produto, url_afiliado, url_final e first_seen_date
+            # Criar dicionário de dados para atualização
             update_data = {
                 "url_produto": url_produto,
                 "url_afiliado": url_afiliado,
-                "url_final": url_final,  # Adicionando a nova coluna
-                "first_see": first_seen_date  # Adicionando a coluna first_see
+                "url_final": url_final,
+                "first_see": first_seen_date,
+                "categoria1": categoria1,
+                "sub_categoria1": sub_categoria1,
+                "categoria2": categoria2,
+                "sub_categoria2": sub_categoria2,
+                "categoria3": categoria3,
+                "sub_categoria3": sub_categoria3,
+                "categoria4": categoria4,
+                "sub_categoria4": sub_categoria4
             }
-            supabase.from_('produtos_fisicos').update(update_data).eq('id_produto', id_produto).execute()
+
+            # Log do que será enviado para o banco
+            print(f"Dados enviados para o produto {nome_produto}: {update_data}")
+
+            # Tentar atualizar no banco de dados
+            try:
+                supabase.from_('produtos_fisicos').update(update_data).eq('id_produto', id_produto).execute()
+                print(f"Produto {nome_produto} atualizado com sucesso.")
+            except Exception as e:
+                print(f"Erro ao atualizar produto {nome_produto}: {e}")
         else:
             print(f"Produto {nome_produto} não encontrado no banco de dados.")
 
